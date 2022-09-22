@@ -1,0 +1,85 @@
+{
+  "menus": {
+    "en-US": {
+      "/components": [
+        {
+          "title": "Components",
+          "path": "/components/foo",
+          "meta": {},
+          "children": [
+            {
+              "path": "/components/foo",
+              "title": "Foo",
+              "meta": {}
+            }
+          ]
+        }
+      ],
+      "/hooks": [
+        {
+          "title": "Hooks",
+          "path": "/hooks/foo",
+          "meta": {},
+          "children": [
+            {
+              "path": "/hooks/foo",
+              "title": "Foo",
+              "meta": {}
+            }
+          ]
+        }
+      ],
+      "/utils": [
+        {
+          "title": "Utils",
+          "path": "/utils/add",
+          "meta": {},
+          "children": [
+            {
+              "path": "/utils/add",
+              "title": "Foo",
+              "meta": {}
+            }
+          ]
+        }
+      ],
+      "*": [
+        {
+          "path": "/",
+          "title": "Hello scioPro!",
+          "meta": {}
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {
+    "en-US": [
+      {
+        "title": "Hooks",
+        "path": "/hooks"
+      },
+      {
+        "title": "Utils",
+        "path": "/utils"
+      },
+      {
+        "title": "Components",
+        "path": "/components"
+      }
+    ]
+  },
+  "title": "scioPro",
+  "logo": "https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png",
+  "mode": "site",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {}
+}

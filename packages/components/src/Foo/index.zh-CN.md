@@ -1,12 +1,12 @@
 ---
-title: Box box container
+title: Box 盒子容器
 order: 1
 nav:
-  title: Components
+  title: 组件库
   path: /components
   order: 2
 group:
-  title: layout component
+  title: 布局组件
   order: 1
 ---
 

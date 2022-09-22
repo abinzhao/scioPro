@@ -3,42 +3,54 @@
     "en-US": {
       "/components": [
         {
-          "title": "Components",
-          "path": "/components/foo",
-          "meta": {},
+          "title": "layout component",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
           "children": [
             {
               "path": "/components/foo",
-              "title": "Foo",
-              "meta": {}
+              "title": "Box box container",
+              "meta": {
+                "order": 1
+              }
             }
           ]
         }
       ],
       "/hooks": [
         {
-          "title": "Hooks",
-          "path": "/hooks/foo",
-          "meta": {},
+          "title": "React related",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
           "children": [
             {
               "path": "/hooks/foo",
-              "title": "Foo",
-              "meta": {}
+              "title": "Foo hooks",
+              "meta": {
+                "order": 1
+              }
             }
           ]
         }
       ],
       "/utils": [
         {
-          "title": "Utils",
-          "path": "/utils/add",
-          "meta": {},
+          "title": "Computational correlation",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
           "children": [
             {
               "path": "/utils/add",
-              "title": "Foo",
-              "meta": {}
+              "title": "Add",
+              "meta": {
+                "order": 1
+              }
             }
           ]
         }
@@ -46,8 +58,107 @@
       "*": [
         {
           "path": "/",
-          "title": "Hello scioPro!",
+          "title": "🖥 Browser Compatibility",
           "meta": {}
+        }
+      ],
+      "/blog/react": [
+        {
+          "title": "React related",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/blog/react/react18",
+              "title": "What's new in React 18",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "zh-CN": {
+      "/zh-CN/components": [
+        {
+          "title": "布局组件",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/zh-CN/components/foo",
+              "title": "Box 盒子容器",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
+        }
+      ],
+      "/zh-CN/hooks": [
+        {
+          "title": "React 相关",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/zh-CN/hooks/foo",
+              "title": "Foo hooks",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
+        }
+      ],
+      "/zh-CN/utils": [
+        {
+          "title": "计算相关",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/zh-CN/utils/add",
+              "title": "Add",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
+        }
+      ],
+      "*": [
+        {
+          "path": "/zh-CN",
+          "title": "🖥 浏览器兼容性",
+          "meta": {}
+        }
+      ],
+      "/zh-CN/blog/react": [
+        {
+          "title": "React相关",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/zh-CN/blog/react/react18",
+              "title": "React 18 新特性",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
         }
       ]
     }
@@ -56,21 +167,71 @@
     {
       "name": "en-US",
       "label": "English"
+    },
+    {
+      "name": "zh-CN",
+      "label": "中文"
     }
   ],
   "navs": {
     "en-US": [
       {
-        "title": "Hooks",
-        "path": "/hooks"
-      },
-      {
-        "title": "Utils",
-        "path": "/utils"
+        "title": "Blog",
+        "path": "/blog/react",
+        "order": 2
       },
       {
         "title": "Components",
-        "path": "/components"
+        "path": "/components",
+        "order": 2
+      },
+      {
+        "title": "Hooks",
+        "path": "/hooks",
+        "order": 3
+      },
+      {
+        "title": "Utils",
+        "path": "/utils",
+        "order": 4
+      },
+      {
+        "title": "Nuggets",
+        "path": "https://juejin.cn/user/2849548342403454"
+      },
+      {
+        "title": "GitHub",
+        "path": "https://github.com/abinzhao/scioPro"
+      }
+    ],
+    "zh-CN": [
+      {
+        "title": "博客",
+        "path": "/zh-CN/blog/react",
+        "order": 2
+      },
+      {
+        "title": "组件库",
+        "path": "/zh-CN/components",
+        "order": 2
+      },
+      {
+        "title": "Hooks",
+        "path": "/zh-CN/hooks",
+        "order": 3
+      },
+      {
+        "title": "工具函数",
+        "path": "/zh-CN/utils",
+        "order": 4
+      },
+      {
+        "title": "掘金",
+        "path": "https://juejin.cn/user/2849548342403454"
+      },
+      {
+        "title": "GitHub",
+        "path": "https://github.com/abinzhao/scioPro"
       }
     ]
   },
@@ -78,8 +239,10 @@
   "logo": "https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png",
   "mode": "site",
   "repository": {
-    "url": "",
-    "branch": "master"
+    "url": "https://github.com/abinzhao/scioPro",
+    "branch": "master",
+    "platform": "github"
   },
-  "theme": {}
+  "theme": {},
+  "exportStatic": {}
 }

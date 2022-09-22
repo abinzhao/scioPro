@@ -1,12 +1,12 @@
 ---
-title: Box box container
+title: Foo hooks
 order: 1
 nav:
-  title: Components
-  path: /components
-  order: 2
+  title: Hooks
+  path: /hooks
+  order: 3
 group:
-  title: layout component
+  title: React 相关
   order: 1
 ---
 
@@ -16,7 +16,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from '@sciopro/components';
+import { Foo } from '@sciopro/hooks';
 
 export default () => <Foo title="First Demo" />;
 ```

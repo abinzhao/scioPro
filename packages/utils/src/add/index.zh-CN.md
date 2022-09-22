@@ -2,11 +2,11 @@
 title: Add
 order: 1
 nav:
-  title: Utils
+  title: 工具函数
   path: /utils
   order: 4
 group:
-  title: Computational correlation
+  title: 计算相关
   order: 1
 ---
 

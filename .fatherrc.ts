@@ -1,6 +1,9 @@
-import { defineConfig } from 'father';
-export default defineConfig({
+export default {
   // more father 4 config: https://github.com/umijs/father-next/blob/master/docs/config.md
-  esm: {},
-  cjs: {},
-});
+  cssModules: true,
+  extractCSS: true,
+  esm: 'babel',
+  cjs: 'babel',
+  umd: {},
+  LessInBabelMode: true,
+};

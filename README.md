@@ -8,12 +8,14 @@
 </div>
 
 <div align="center">
+<div align="center">
 A lightweight React toolchain built through Monorepo multi-package repository, including react component library, hooks library and tool function library
+</div>
 
-<img src="https://img.shields.io/github/stars/fengxinhhh/concis" alt="stars">
+<img src="https://img.shields.io/github/stars/abinzhao/scioPro" alt="stars">
 <img src="https://img.shields.io/badge/react-v18.2.0%2B-%23407fbc" alt="react">
 <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="licence">
-<img src="https://github.com/fengxinhhh/concis/workflows/CI/badge.svg" alt="ci">
+<img src="https://github.com/abinzhao/scioPro/workflows/CI/badge.svg" alt="ci">
 
 </div>
 

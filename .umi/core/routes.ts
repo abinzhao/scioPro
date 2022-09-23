@@ -63,7 +63,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Foo/index.md",
-          "updatedTime": 1663832747000,
+          "updatedTime": 1663840739000,
           "componentName": "Foo",
           "title": "Box box container",
           "order": 1,
@@ -95,7 +95,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Foo/index.zh-CN.md",
-          "updatedTime": 1663840099135,
+          "updatedTime": 1663840739000,
           "componentName": "Foo",
           "title": "Box 盒子容器",
           "order": 1,
@@ -128,7 +128,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/Foo/index.md",
-          "updatedTime": 1663832747000,
+          "updatedTime": 1663840739000,
           "componentName": "Foo",
           "title": "Foo hooks",
           "order": 1,
@@ -160,7 +160,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/Foo/index.zh-CN.md",
-          "updatedTime": 1663840117261,
+          "updatedTime": 1663840739000,
           "componentName": "Foo",
           "title": "Foo hooks",
           "order": 1,
@@ -193,7 +193,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/add/index.md",
-          "updatedTime": 1663832747000,
+          "updatedTime": 1663840739000,
           "title": "Add",
           "order": 1,
           "nav": {
@@ -224,7 +224,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/add/index.zh-CN.md",
-          "updatedTime": 1663840169414,
+          "updatedTime": 1663840739000,
           "title": "Add",
           "order": 1,
           "nav": {
@@ -256,7 +256,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1663832747000,
+          "updatedTime": 1663840739000,
           "hero": {
             "title": "scioPro",
             "desc": "<div class=\"markdown\"><p>scioPro is a React UI component library based on the current popular design system, mainly used for modern and personalized products.</p></div>",
@@ -347,7 +347,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.zh-CN.md",
-          "updatedTime": 1663839862444,
+          "updatedTime": 1663840739000,
           "hero": {
             "title": "scioPro",
             "desc": "<div class=\"markdown\"><p>scioPro 是基于目前流行的设计体系而生的 React UI 组件库，主要用于现代化、个性化的产品。</p></div>",
@@ -439,7 +439,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/blog/react/react18.md",
-          "updatedTime": 1663840301930,
+          "updatedTime": 1663840739000,
           "title": "What's new in React 18",
           "order": 1,
           "nav": {
@@ -469,7 +469,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/blog/react/react18.zh-CN.md",
-          "updatedTime": 1663840305595,
+          "updatedTime": 1663840739000,
           "title": "React 18 新特性",
           "order": 1,
           "nav": {

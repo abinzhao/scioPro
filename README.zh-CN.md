@@ -8,19 +8,18 @@
 </div>
 
 <div align="center">
-
+<div align="center">
 一个轻量级的通过 Monorepo 多包仓库搭建的 react 工具链，其中包括 react 组件库，hooks 库以及工具函数库
-
+</div>
 <img src="https://img.shields.io/github/stars/abinzhao/scioPro" alt="stars">
 <img src="https://img.shields.io/badge/react-v18.2.0%2B-%23407fbc" alt="react">
 <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="licence">
-<img src="https://github.com/abinzhao/scioPro/workflows/CI/badge.svg" alt="ci">
 
 </div>
 
 <div align="center">
 
-English | [简体中文](./README.zh-CN.md)
+[English](./README.md) | 简体中文
 
 </div>
 

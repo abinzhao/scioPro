@@ -1,10 +1,10 @@
 <div align="center">
-  <a href="http://concis.org.cn/#/" target="_blank">
-    <img alt="Concis Logo" width="200" src="http://concis.org.cn/images/concis-logo.png"/>
+  <a href="http://abinzhao.github.io/scioPro" target="_blank">
+    <img alt="scioPro Logo" width="200" src="https://file.iviewui.com/view-ui-logo-new.svg"/>
   </a>
 </div>
 <div align="center">
-  <h1>Concis</h1>
+  <h1>scioPro</h1>
 </div>
 
 <div align="center">
@@ -15,7 +15,6 @@ A lightweight React toolchain built through Monorepo multi-package repository, i
 <img src="https://img.shields.io/github/stars/abinzhao/scioPro" alt="stars">
 <img src="https://img.shields.io/badge/react-v18.2.0%2B-%23407fbc" alt="react">
 <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="licence">
-<img src="https://github.com/abinzhao/scioPro/workflows/CI/badge.svg" alt="ci">
 
 </div>
 

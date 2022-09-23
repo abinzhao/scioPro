@@ -58,13 +58,13 @@ export function getRoutes() {
     "wrappers": [require('../dumi/layout').default, require('/Users/zhaojianbin/Desktop/demo/scioPro/.dumi/theme/layout.tsx').default],
     "routes": [
       {
-        "path": "/components/foo",
-        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Foo/index.md').default,
+        "path": "/components/box",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/index.md').default,
         "exact": true,
         "meta": {
-          "filePath": "packages/components/src/Foo/index.md",
-          "updatedTime": 1663840739000,
-          "componentName": "Foo",
+          "filePath": "packages/components/src/Box/index.md",
+          "updatedTime": 1663927934478,
+          "componentName": "Box",
           "title": "Box box container",
           "order": 1,
           "nav": {
@@ -76,13 +76,33 @@ export function getRoutes() {
             "title": "layout component",
             "order": 1,
             "__fallback": true,
-            "path": "/components/foo"
+            "path": "/components/box"
           },
           "slugs": [
             {
               "depth": 2,
-              "value": "Foo",
-              "heading": "foo"
+              "value": "Box box container",
+              "heading": "box-box-container"
+            },
+            {
+              "depth": 3,
+              "value": "usage example",
+              "heading": "usage-example"
+            },
+            {
+              "depth": 3,
+              "value": "Arranged in different directions",
+              "heading": "arranged-in-different-directions"
+            },
+            {
+              "depth": 3,
+              "value": "Spindle alignment direction",
+              "heading": "spindle-alignment-direction"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
             }
           ],
           "hasPreviewer": true
@@ -90,17 +110,17 @@ export function getRoutes() {
         "title": "Box box container - scioPro"
       },
       {
-        "path": "/zh-CN/components/foo",
-        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Foo/index.zh-CN.md').default,
+        "path": "/zh-CN/components/box",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/index.zh-CN.md').default,
         "exact": true,
         "meta": {
-          "filePath": "packages/components/src/Foo/index.zh-CN.md",
-          "updatedTime": 1663840739000,
-          "componentName": "Foo",
+          "filePath": "packages/components/src/Box/index.zh-CN.md",
+          "updatedTime": 1663927952666,
+          "componentName": "Box",
           "title": "Box 盒子容器",
           "order": 1,
           "nav": {
-            "title": "组件库",
+            "title": "Components",
             "path": "/zh-CN/components",
             "order": 2
           },
@@ -108,19 +128,140 @@ export function getRoutes() {
             "title": "布局组件",
             "order": 1,
             "__fallback": true,
-            "path": "/zh-CN/components/foo"
+            "path": "/zh-CN/components/box"
           },
           "slugs": [
             {
               "depth": 2,
-              "value": "Foo",
-              "heading": "foo"
+              "value": "Box 盒子容器",
+              "heading": "box-盒子容器"
+            },
+            {
+              "depth": 3,
+              "value": "使用示例",
+              "heading": "使用示例"
+            },
+            {
+              "depth": 3,
+              "value": "不同方向排列",
+              "heading": "不同方向排列"
+            },
+            {
+              "depth": 3,
+              "value": "主轴对齐方向",
+              "heading": "主轴对齐方向"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
             }
           ],
           "hasPreviewer": true,
           "locale": "zh-CN"
         },
         "title": "Box 盒子容器 - scioPro"
+      },
+      {
+        "path": "/components/theme",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/theme/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/theme/index.md",
+          "updatedTime": 1663925725174,
+          "title": "Color",
+          "order": 1,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "global basis",
+            "order": 1,
+            "__fallback": true,
+            "path": "/components/theme"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Color",
+              "heading": "color"
+            },
+            {
+              "depth": 2,
+              "value": "Overview",
+              "heading": "overview"
+            },
+            {
+              "depth": 2,
+              "value": "main color",
+              "heading": "main-color"
+            },
+            {
+              "depth": 1,
+              "value": "secondary color",
+              "heading": "secondary-color"
+            },
+            {
+              "depth": 1,
+              "value": "neutral color",
+              "heading": "neutral-color"
+            }
+          ]
+        },
+        "title": "Color - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/theme",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/theme/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/theme/index.zh-CN.md",
+          "updatedTime": 1663925688260,
+          "title": "Color 色彩",
+          "order": 1,
+          "nav": {
+            "title": "Components",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "全局基础",
+            "order": 1,
+            "__fallback": true,
+            "path": "/zh-CN/components/theme"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Color 色彩",
+              "heading": "color-色彩"
+            },
+            {
+              "depth": 2,
+              "value": "概述",
+              "heading": "概述"
+            },
+            {
+              "depth": 2,
+              "value": "主色",
+              "heading": "主色"
+            },
+            {
+              "depth": 1,
+              "value": "辅助色",
+              "heading": "辅助色"
+            },
+            {
+              "depth": 1,
+              "value": "中性色",
+              "heading": "中性色"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "Color 色彩 - scioPro"
       },
       {
         "path": "/hooks/foo",
@@ -500,7 +641,7 @@ export function getRoutes() {
           "order": 2
         },
         "exact": true,
-        "redirect": "/components/foo"
+        "redirect": "/components/box"
       },
       {
         "path": "/zh-CN/components",
@@ -508,7 +649,7 @@ export function getRoutes() {
           "order": 2
         },
         "exact": true,
-        "redirect": "/zh-CN/components/foo"
+        "redirect": "/zh-CN/components/box"
       },
       {
         "path": "/hooks",

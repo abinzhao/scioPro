@@ -3,6 +3,22 @@
     "en-US": {
       "/components": [
         {
+          "title": "global basis",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/components/theme",
+              "title": "Color",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
+        },
+        {
           "title": "layout component",
           "meta": {
             "order": 1,
@@ -10,7 +26,7 @@
           },
           "children": [
             {
-              "path": "/components/foo",
+              "path": "/components/box",
               "title": "Box box container",
               "meta": {
                 "order": 1
@@ -84,6 +100,22 @@
     "zh-CN": {
       "/zh-CN/components": [
         {
+          "title": "全局基础",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/zh-CN/components/theme",
+              "title": "Color 色彩",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
+        },
+        {
           "title": "布局组件",
           "meta": {
             "order": 1,
@@ -91,7 +123,7 @@
           },
           "children": [
             {
-              "path": "/zh-CN/components/foo",
+              "path": "/zh-CN/components/box",
               "title": "Box 盒子容器",
               "meta": {
                 "order": 1
@@ -206,13 +238,13 @@
     ],
     "zh-CN": [
       {
-        "title": "博客",
-        "path": "/zh-CN/blog/react",
+        "title": "Components",
+        "path": "/zh-CN/components",
         "order": 2
       },
       {
-        "title": "组件库",
-        "path": "/zh-CN/components",
+        "title": "博客",
+        "path": "/zh-CN/blog/react",
         "order": 2
       },
       {

@@ -1,1 +1,53 @@
-{}
+{
+  "Box": {
+    "default": [
+      {
+        "identifier": "direction",
+        "description": "排列方式",
+        "type": "\"row\" | \"row-reverse\" | \"column\" | \"column-reverse\"",
+        "required": true
+      },
+      {
+        "identifier": "padding",
+        "description": "内边距\n[0,0,0,0] 上 右 下 左",
+        "type": "number[]"
+      },
+      {
+        "identifier": "margin",
+        "description": "外边距\n[0,0,0,0] 上  右  下  左",
+        "type": "number[]"
+      },
+      {
+        "identifier": "justify",
+        "description": "主轴对齐",
+        "type": "\"flex-start\" | \"flex-end\" | \"center\" | \"space-between\" | \"space-evenly\" | \"space-around\" | \"initial\" | \"inherit\""
+      },
+      {
+        "identifier": "align",
+        "description": "纵轴对齐",
+        "type": "\"flex-start\" | \"flex-end\" | \"center\" | \"initial\" | \"inherit\" | \"stretch\" | \"baseline\""
+      },
+      {
+        "identifier": "className",
+        "description": "按钮样式",
+        "type": "string"
+      },
+      {
+        "identifier": "style",
+        "description": "按钮内联样式",
+        "type": "CSSProperties"
+      },
+      {
+        "identifier": "onClick",
+        "description": "点击事件",
+        "type": "() => void"
+      },
+      {
+        "identifier": "loading",
+        "description": "是否开启loading态",
+        "type": "boolean",
+        "default": "false"
+      }
+    ]
+  }
+}

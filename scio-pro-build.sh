@@ -33,8 +33,9 @@ echo "🚀开始打包文档并部到GitHub Pages";
 yarn deploy
 
 echo "🎉部署已完成";
-echo "🚀开始提交代码到GitHub";
+echo "🚀开始commit代码到GitHub";
 yarn commit
-
+echo "🌲开始push代码到GitHub";
+git push
 echo "🎉自动化部署已完成，请进入线上地址预览";
 echo "线上地址: http://abinzhao.github.io/scioPro/";

@@ -5,6 +5,8 @@ export default defineConfig({
   // extractCSS: true,
   esm: {},
   cjs: {},
-  umd: {},
+  umd: {
+    name: 'scioPro-components',
+  },
   // LessInBabelMode: true,
 });

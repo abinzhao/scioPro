@@ -1,13 +1,14 @@
 import React from 'react';
 // @ts-ignore
-import { Box } from '@sciopro/components';
+import { Space } from '@sciopro/components';
 import './index.less';
 
 export default () => {
   return (
-    <Box direction="row">
-      <div className="demo-style"></div>
-      <div className="demo-style"></div>
-    </Box>
+    <Space>
+      <div className="demo-style">div1</div>
+      <div className="demo-style">div2</div>
+      <div className="demo-style">div3</div>
+    </Space>
   );
 };

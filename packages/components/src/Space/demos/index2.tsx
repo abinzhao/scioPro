@@ -1,29 +1,14 @@
 import React from 'react';
 // @ts-ignore
-import { Box } from '@sciopro/components';
+import { Space } from '@sciopro/components';
 import './index.less';
 
 export default () => {
   return (
-    <div>
-      <Box direction="row">
-        <div className="demo-style2">1</div>
-        <div className="demo-style2">2</div>
-      </Box>
-      <Box direction="column">
-        <div className="demo-style2">1</div>
-        <div className="demo-style2">2</div>
-      </Box>
-      <Box direction="row-reverse">
-        <div className="demo-style2">1</div>
-        <div className="demo-style2">2</div>
-        <div className="demo-style2">3</div>
-      </Box>
-      <Box direction="column-reverse">
-        <div className="demo-style2">1</div>
-        <div className="demo-style2">2</div>
-        <div className="demo-style2">3</div>
-      </Box>
-    </div>
+    <Space direction="vertical">
+      <div className="demo-style">div1</div>
+      <div className="demo-style">div2</div>
+      <div className="demo-style">div3</div>
+    </Space>
   );
 };

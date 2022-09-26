@@ -340,7 +340,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Space/index.zh-CN.md",
-          "updatedTime": 1664162790000,
+          "updatedTime": 1664186002000,
           "componentName": "Space",
           "title": "Space 间距",
           "order": 2,
@@ -380,6 +380,11 @@ export function getRoutes() {
               "depth": 2,
               "value": "尺寸",
               "heading": "尺寸"
+            },
+            {
+              "depth": 2,
+              "value": "Align",
+              "heading": "align"
             },
             {
               "depth": 2,

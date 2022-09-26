@@ -31,6 +31,13 @@
               "meta": {
                 "order": 1
               }
+            },
+            {
+              "path": "/components/space",
+              "title": "Space",
+              "meta": {
+                "order": 2
+              }
             }
           ]
         }
@@ -128,6 +135,13 @@
               "meta": {
                 "order": 1
               }
+            },
+            {
+              "path": "/zh-CN/components/space",
+              "title": "Space 间距",
+              "meta": {
+                "order": 2
+              }
             }
           ]
         }
@@ -210,7 +224,7 @@
       {
         "title": "Blog",
         "path": "/blog/react",
-        "order": 2
+        "order": 1
       },
       {
         "title": "Components",
@@ -238,13 +252,13 @@
     ],
     "zh-CN": [
       {
-        "title": "Components",
-        "path": "/zh-CN/components",
-        "order": 2
-      },
-      {
         "title": "博客",
         "path": "/zh-CN/blog/react",
+        "order": 1
+      },
+      {
+        "title": "组件",
+        "path": "/zh-CN/components",
         "order": 2
       },
       {

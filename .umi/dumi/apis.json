@@ -49,5 +49,38 @@
         "default": "false"
       }
     ]
+  },
+  "Space": {
+    "default": [
+      {
+        "identifier": "className",
+        "description": "类名",
+        "type": "string"
+      },
+      {
+        "identifier": "direction",
+        "description": "方向",
+        "type": "\"horizontal\" | \"vertical\"",
+        "default": "horizontal"
+      },
+      {
+        "identifier": "size",
+        "description": "间距大小",
+        "type": "sizeType | number[]",
+        "default": "small"
+      },
+      {
+        "identifier": "align",
+        "description": "垂直对齐方式",
+        "type": "alignType",
+        "default": "center"
+      },
+      {
+        "identifier": "wrap",
+        "description": "环绕间距",
+        "type": "T",
+        "default": "false"
+      }
+    ]
   }
 }

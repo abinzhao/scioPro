@@ -5,13 +5,25 @@ import rawCode1 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/sci
 import rawCode2 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/demos/index.less?dumi-raw-code';
 import rawCode3 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/demos/index2.tsx?dumi-raw-code';
 import rawCode4 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/demos/index3.tsx?dumi-raw-code';
+import rawCode5 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index1.tsx?dumi-raw-code';
+import rawCode6 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index.less?dumi-raw-code';
+import rawCode7 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index2.tsx?dumi-raw-code';
+import rawCode8 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index3.tsx?dumi-raw-code';
 
 export default {
   'box-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/demos/index1.tsx')).default,
     previewerProps: {"sources":{"_":{"tsx":rawCode1},"index.less":{"import":"./index.less","content":rawCode2}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Box","identifier":"box-index1"},
   },
-  'Box-1-demo': {
+  'box-index2': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/demos/index2.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode3},"index.less":{"import":"./index.less","content":rawCode2}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Box","identifier":"box-index2"},
+  },
+  'box-index3': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/demos/index3.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode4},"index.less":{"import":"./index.less","content":rawCode2}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Box","identifier":"box-index3"},
+  },
+  'Space-demo': {
     component: function DumiDemo() {
   var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
 
@@ -21,24 +33,90 @@ export default {
 
   var _default = function _default() {
     var style = {
-      width: 150,
-      height: 80,
-      background: '#2d8cf0',
-      borderRadius: 18,
-      margin: 12
+      background: '2d8cf0',
+      width: 24,
+      height: 12
     };
-    return /*#__PURE__*/_react["default"].createElement(_components.Box, {
-      direction: "row"
+    return /*#__PURE__*/_react["default"].createElement(_components.Space, null, /*#__PURE__*/_react["default"].createElement("div", {
+      style: style
+    }, "div1"), /*#__PURE__*/_react["default"].createElement("div", {
+      style: style
+    }, "div2"), /*#__PURE__*/_react["default"].createElement("div", {
+      style: style
+    }, "div3"));
+  };
+
+  return _react["default"].createElement(_default);
+},
+    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Space } from '@sciopro/components';\n\nexport default () => {\n  const style = { background: '2d8cf0', width: 24, height: 12 };\n  return (\n    <Space>\n      <div style={style}>div1</div>\n      <div style={style}>div2</div>\n      <div style={style}>div3</div>\n    </Space>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"Space-demo"},
+  },
+  'Space-demo-1': {
+    component: function DumiDemo() {
+  var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
+
+  var _react = _interopRequireDefault(require("react"));
+
+  var _components = require("@sciopro/components");
+
+  var _default = function _default() {
+    var style = {
+      background: '2d8cf0',
+      width: 24,
+      height: 12
+    };
+    return /*#__PURE__*/_react["default"].createElement(_components.Space, {
+      direction: "vertical"
     }, /*#__PURE__*/_react["default"].createElement("div", {
       style: style
-    }), /*#__PURE__*/_react["default"].createElement("div", {
+    }, "div1"), /*#__PURE__*/_react["default"].createElement("div", {
       style: style
+    }, "div2"), /*#__PURE__*/_react["default"].createElement("div", {
+      style: style
+    }, "div3"));
+  };
+
+  return _react["default"].createElement(_default);
+},
+    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Space } from '@sciopro/components';\n\nexport default () => {\n  const style = { background: '2d8cf0', width: 24, height: 12 };\n  return (\n    <Space direction=\"vertical\">\n      <div style={style}>div1</div>\n      <div style={style}>div2</div>\n      <div style={style}>div3</div>\n    </Space>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"Space-demo-1"},
+  },
+  'Space-demo-2': {
+    component: function DumiDemo() {
+  var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
+
+  var _react = _interopRequireDefault(require("react"));
+
+  var _components = require("@sciopro/components");
+
+  var _default = function _default() {
+    return /*#__PURE__*/_react["default"].createElement(_components.Space, {
+      size: [12, 18],
+      wrap: true
+    }, new Array(30).fill('').map(function (item, index) {
+      return /*#__PURE__*/_react["default"].createElement("div", {
+        style: {
+          background: '2d8cf0',
+          width: 24,
+          height: 12
+        }
+      }, "Button", index + 1);
     }));
   };
 
   return _react["default"].createElement(_default);
 },
-    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Box } from '@sciopro/components';\n\nexport default () => {\n  const style = {\n    width: 150,\n    height: 80,\n    background: '#2d8cf0',\n    borderRadius: 18,\n    margin: 12,\n  };\n  return (\n    <Box direction=\"row\">\n      <div style={style}></div>\n      <div style={style}></div>\n    </Box>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Box","title":"基本使用","description":"<div class=\"markdown\"><p>可代替div,作为flex布局的容器</p></div>","identifier":"Box-1-demo"},
+    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Space } from '@sciopro/components';\n\nexport default () => {\n  return (\n    <Space size={[12, 18]} wrap>\n      {new Array(30).fill('').map((item, index) => {\n        return <div style={{ background: '2d8cf0', width: 24, height: 12 }}>Button{index + 1}</div>;\n      })}\n    </Space>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"Space-demo-2"},
+  },
+  'space-index1': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index1.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode5},"index.less":{"import":"./index.less","content":rawCode6}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index1"},
+  },
+  'space-index2': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index2.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode7},"index.less":{"import":"./index.less","content":rawCode6}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index2"},
+  },
+  'space-index3': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index3.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode8},"index.less":{"import":"./index.less","content":rawCode6}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index3"},
   },
   'Foo-demo': {
     component: function DumiDemo() {
@@ -148,12 +226,100 @@ export default {
 },
     previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Add } from '@sciopro/utils';\n\nlet data = 1;\nexport default () => {\n  const [num, setNum] = React.useState(1);\n  React.useEffect(() => {\n    data = Add(num);\n    return () => (data = 1);\n  }, [num]);\n  return (\n    <div>\n      <button onClick={() => setNum(num + 1)}>点我</button>\n      <h2>{data}</h2>\n    </div>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"add.zh-CN-demo"},
   },
-  'box-index2': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/demos/index2.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode3},"index.less":{"import":"./index.less","content":rawCode2}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Box","identifier":"box-index2"},
+  'Space-1-demo': {
+    component: function DumiDemo() {
+  var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
+
+  var _react = _interopRequireDefault(require("react"));
+
+  var _components = require("@sciopro/components");
+
+  var _default = function _default() {
+    var style = {
+      width: 120,
+      height: 60,
+      margin: 12,
+      lineHeight: 60,
+      textAlign: 'center',
+      background: '#2d8cf0',
+      borderRadius: 18
+    };
+    return /*#__PURE__*/_react["default"].createElement(_components.Space, null, /*#__PURE__*/_react["default"].createElement("div", {
+      style: style
+    }, "div1"), /*#__PURE__*/_react["default"].createElement("div", {
+      style: style
+    }, "div2"), /*#__PURE__*/_react["default"].createElement("div", {
+      style: style
+    }, "div3"));
+  };
+
+  return _react["default"].createElement(_default);
+},
+    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Space } from '@sciopro/components';\n\nexport default () => {\n  const style = {\n    width: 120,\n    height: 60,\n    margin: 12,\n    lineHeight: 60,\n    textAlign: 'center',\n    background: '#2d8cf0',\n    borderRadius: 18,\n  };\n  return (\n    <Space>\n      <div style={style}>div1</div>\n      <div style={style}>div2</div>\n      <div style={style}>div3</div>\n    </Space>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"Space-1-demo"},
   },
-  'box-index3': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/demos/index3.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode4},"index.less":{"import":"./index.less","content":rawCode2}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Box","identifier":"box-index3"},
+  'Space-1-demo-1': {
+    component: function DumiDemo() {
+  var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
+
+  var _react = _interopRequireDefault(require("react"));
+
+  var _components = require("@sciopro/components");
+
+  var _default = function _default() {
+    var style = {
+      width: 120,
+      height: 60,
+      margin: 12,
+      lineHeight: 60,
+      textAlign: 'center',
+      background: '#2d8cf0',
+      borderRadius: 18
+    };
+    return /*#__PURE__*/_react["default"].createElement(_components.Space, {
+      direction: "vertical"
+    }, /*#__PURE__*/_react["default"].createElement("div", {
+      style: style
+    }, "div1"), /*#__PURE__*/_react["default"].createElement("div", {
+      style: style
+    }, "div2"), /*#__PURE__*/_react["default"].createElement("div", {
+      style: style
+    }, "div3"));
+  };
+
+  return _react["default"].createElement(_default);
+},
+    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Space } from '@sciopro/components';\n\nexport default () => {\n  const style = {\n    width: 120,\n    height: 60,\n    margin: 12,\n    lineHeight: 60,\n    textAlign: 'center',\n    background: '#2d8cf0',\n    borderRadius: 18,\n  };\n  return (\n    <Space direction=\"vertical\">\n      <div style={style}>div1</div>\n      <div style={style}>div2</div>\n      <div style={style}>div3</div>\n    </Space>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"Space-1-demo-1"},
+  },
+  'Space-1-demo-2': {
+    component: function DumiDemo() {
+  var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
+
+  var _react = _interopRequireDefault(require("react"));
+
+  var _components = require("@sciopro/components");
+
+  var _default = function _default() {
+    var style = {
+      width: 120,
+      height: 60,
+      margin: 12,
+      lineHeight: 60,
+      textAlign: 'center',
+      background: '#2d8cf0',
+      borderRadius: 18
+    };
+    return /*#__PURE__*/_react["default"].createElement(_components.Space, {
+      size: [12, 18],
+      wrap: true
+    }, new Array(12).fill('').map(function (item, index) {
+      return /*#__PURE__*/_react["default"].createElement("div", {
+        style: style
+      }, "Button", index + 1);
+    }));
+  };
+
+  return _react["default"].createElement(_default);
+},
+    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Space } from '@sciopro/components';\n\nexport default () => {\n  const style = {\n    width: 120,\n    height: 60,\n    margin: 12,\n    lineHeight: 60,\n    textAlign: 'center',\n    background: '#2d8cf0',\n    borderRadius: 18,\n  };\n  return (\n    <Space size={[12, 18]} wrap>\n      {new Array(12).fill('').map((item, index) => {\n        return <div style={style}>Button{index + 1}</div>;\n      })}\n    </Space>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"Space-1-demo-2"},
   },
 };

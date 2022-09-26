@@ -63,7 +63,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Box/index.md",
-          "updatedTime": 1663927934478,
+          "updatedTime": 1663928185000,
           "componentName": "Box",
           "title": "Box box container",
           "order": 1,
@@ -115,12 +115,12 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Box/index.zh-CN.md",
-          "updatedTime": 1663927952666,
+          "updatedTime": 1663928185000,
           "componentName": "Box",
           "title": "Box 盒子容器",
           "order": 1,
           "nav": {
-            "title": "Components",
+            "title": "组件",
             "path": "/zh-CN/components",
             "order": 2
           },
@@ -163,12 +163,137 @@ export function getRoutes() {
         "title": "Box 盒子容器 - scioPro"
       },
       {
+        "path": "/components/space",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Space/index.md",
+          "updatedTime": 1664161498958,
+          "componentName": "Space",
+          "title": "Space",
+          "order": 2,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "layout component",
+            "order": 1,
+            "__fallback": true,
+            "path": "/components/space"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Space",
+              "heading": "space"
+            },
+            {
+              "depth": 4,
+              "value": "when to use",
+              "heading": "when-to-use"
+            },
+            {
+              "depth": 2,
+              "value": "basic use",
+              "heading": "basic-use"
+            },
+            {
+              "depth": 2,
+              "value": "vertical spacing",
+              "heading": "vertical-spacing"
+            },
+            {
+              "depth": 2,
+              "value": "Size",
+              "heading": "size"
+            },
+            {
+              "depth": 2,
+              "value": "Surround spacing",
+              "heading": "surround-spacing"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "Space - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/space",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Space/index.zh-CN.md",
+          "updatedTime": 1664161399000,
+          "componentName": "Space",
+          "title": "Space 间距",
+          "order": 2,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "布局组件",
+            "order": 1,
+            "__fallback": true,
+            "path": "/zh-CN/components/space"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Space 间距",
+              "heading": "space-间距"
+            },
+            {
+              "depth": 4,
+              "value": "when to use",
+              "heading": "when-to-use"
+            },
+            {
+              "depth": 2,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "垂直间距",
+              "heading": "垂直间距"
+            },
+            {
+              "depth": 2,
+              "value": "尺寸",
+              "heading": "尺寸"
+            },
+            {
+              "depth": 2,
+              "value": "环绕间距",
+              "heading": "环绕间距"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Space 间距 - scioPro"
+      },
+      {
         "path": "/components/theme",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/theme/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/theme/index.md",
-          "updatedTime": 1663925725174,
+          "updatedTime": 1663928185000,
           "title": "Color",
           "order": 1,
           "nav": {
@@ -218,11 +343,11 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/theme/index.zh-CN.md",
-          "updatedTime": 1663925688260,
+          "updatedTime": 1663928185000,
           "title": "Color 色彩",
           "order": 1,
           "nav": {
-            "title": "Components",
+            "title": "组件",
             "path": "/zh-CN/components",
             "order": 2
           },
@@ -586,7 +711,7 @@ export function getRoutes() {
           "nav": {
             "title": "Blog",
             "path": "/blog/react",
-            "order": 2
+            "order": 1
           },
           "group": {
             "title": "React related",
@@ -616,7 +741,7 @@ export function getRoutes() {
           "nav": {
             "title": "博客",
             "path": "/zh-CN/blog/react",
-            "order": 2
+            "order": 1
           },
           "group": {
             "title": "React相关",

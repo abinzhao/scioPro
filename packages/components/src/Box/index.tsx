@@ -3,7 +3,7 @@ import Type from './type';
 import classNames from 'classnames';
 // import Loading from '../Loading';
 
-const Box: React.FC<Type> = memo((props) => {
+const Box: React.FC<Type> = (props) => {
   const {
     className,
     onClick,
@@ -48,5 +48,5 @@ const Box: React.FC<Type> = memo((props) => {
       {/* {loading && <Loading mask />} */}
     </div>
   );
-});
-export default Box;
+};
+export default memo(Box);

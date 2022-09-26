@@ -1,0 +1,61 @@
+@import url(../theme/index.less);
+.scio-radio {
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  label {
+    display: -webkit-box;
+    display: flex;
+    margin: 8px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  label input {
+    display: none;
+  }
+  label input:checked + span.checked-style {
+    background-color: @scio-primary-color-2;
+    transition: 0.6s;
+  }
+  label input:checked + span:before {
+    box-shadow: inset 0 0 0 0.4375em @scio-primary-color;
+  }
+
+  label input:disabled + span {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+  label span {
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.375em;
+    padding: 0.375em 0.75em 0.375em 0.375em;
+    border-radius: 99em;
+    -webkit-transition: 0.25s ease;
+    transition: 0.25s ease;
+    -webkit-box-align: center;
+  }
+  label span.hover-style:hover {
+    background-color: @scio-primary-color-2;
+  }
+  label span:before {
+    display: -webkit-box;
+    display: flex;
+    flex-shrink: 0;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.375em;
+    background-color: @scio-background-color;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 0.125em @scio-primary-color;
+    -webkit-transition: 0.25s ease;
+    transition: 0.25s ease;
+    content: '';
+  }
+}

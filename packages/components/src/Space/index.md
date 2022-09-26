@@ -148,7 +148,11 @@ export default () => {
   return (
     <Space size={[12, 18]} wrap>
       {new Array(30).fill('').map((item, index) => {
-        return <div style={{ background: '2d8cf0', width: 24, height: 12 }}>Button{index + 1}</div>;
+        return (
+          <div key={index} style={{ background: '2d8cf0', width: 24, height: 12 }}>
+            Button{index + 1}
+          </div>
+        );
       })}
     </Space>
   );

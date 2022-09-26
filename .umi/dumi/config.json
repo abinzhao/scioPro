@@ -33,6 +33,13 @@
               }
             },
             {
+              "path": "/components/radio",
+              "title": "Space",
+              "meta": {
+                "order": 2
+              }
+            },
+            {
               "path": "/components/space",
               "title": "Space",
               "meta": {
@@ -139,6 +146,22 @@
             {
               "path": "/zh-CN/components/space",
               "title": "Space 间距",
+              "meta": {
+                "order": 2
+              }
+            }
+          ]
+        },
+        {
+          "title": "通用组件",
+          "meta": {
+            "order": 2,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/zh-CN/components/radio",
+              "title": "Radio 单选",
               "meta": {
                 "order": 2
               }

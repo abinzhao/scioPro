@@ -181,7 +181,11 @@ export default () => {
   return (
     <Space size={[12, 18]} wrap>
       {new Array(12).fill('').map((item, index) => {
-        return <div style={style}>Button{index + 1}</div>;
+        return (
+          <div key={index} style={style}>
+            Button{index + 1}
+          </div>
+        );
       })}
     </Space>
   );

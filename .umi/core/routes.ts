@@ -163,12 +163,122 @@ export function getRoutes() {
         "title": "Box 盒子容器 - scioPro"
       },
       {
+        "path": "/components/radio",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Radio/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Radio/index.md",
+          "updatedTime": 1664165151814,
+          "componentName": "Radio",
+          "title": "Space",
+          "order": 2,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "layout component",
+            "order": 1,
+            "__fallback": true,
+            "path": "/components/radio"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Space",
+              "heading": "space"
+            },
+            {
+              "depth": 4,
+              "value": "when to use",
+              "heading": "when-to-use"
+            },
+            {
+              "depth": 2,
+              "value": "basic use",
+              "heading": "basic-use"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "Space - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/radio",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Radio/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Radio/index.zh-CN.md",
+          "updatedTime": 1664184126501,
+          "componentName": "Radio",
+          "title": "Radio 单选",
+          "order": 2,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "通用组件",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/components/radio"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Radio 单选",
+              "heading": "radio-单选"
+            },
+            {
+              "depth": 2,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "禁用",
+              "heading": "禁用"
+            },
+            {
+              "depth": 2,
+              "value": "排列方式",
+              "heading": "排列方式"
+            },
+            {
+              "depth": 2,
+              "value": "默认选中与自定义值",
+              "heading": "默认选中与自定义值"
+            },
+            {
+              "depth": 2,
+              "value": "选中背景与鼠标滑过",
+              "heading": "选中背景与鼠标滑过"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Radio 单选 - scioPro"
+      },
+      {
         "path": "/components/space",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Space/index.md",
-          "updatedTime": 1664161498958,
+          "updatedTime": 1664162790000,
           "componentName": "Space",
           "title": "Space",
           "order": 2,
@@ -230,7 +340,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Space/index.zh-CN.md",
-          "updatedTime": 1664161399000,
+          "updatedTime": 1664162790000,
           "componentName": "Space",
           "title": "Space 间距",
           "order": 2,

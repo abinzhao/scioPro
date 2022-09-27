@@ -61,6 +61,13 @@
               "meta": {
                 "order": 3
               }
+            },
+            {
+              "path": "/components/switch",
+              "title": "CheckBox",
+              "meta": {
+                "order": 3
+              }
             }
           ]
         }
@@ -187,6 +194,13 @@
               "title": "CheckBox 多选",
               "meta": {
                 "order": 3
+              }
+            },
+            {
+              "path": "/zh-CN/components/switch",
+              "title": "Switch 开关",
+              "meta": {
+                "order": 4
               }
             }
           ]

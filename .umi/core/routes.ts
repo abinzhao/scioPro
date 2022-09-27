@@ -168,7 +168,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/CheckBox/index.md",
-          "updatedTime": 1664249936636,
+          "updatedTime": 1664257961000,
           "componentName": "CheckBox",
           "title": "CheckBox",
           "order": 3,
@@ -230,7 +230,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/CheckBox/index.zh-CN.md",
-          "updatedTime": 1664249829622,
+          "updatedTime": 1664257961000,
           "componentName": "CheckBox",
           "title": "CheckBox 多选",
           "order": 3,
@@ -293,7 +293,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Radio/index.md",
-          "updatedTime": 1664186002000,
+          "updatedTime": 1664257961000,
           "componentName": "Radio",
           "title": "Radio",
           "order": 2,
@@ -541,6 +541,121 @@ export function getRoutes() {
           "locale": "zh-CN"
         },
         "title": "Space 间距 - scioPro"
+      },
+      {
+        "path": "/components/switch",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Switch/index.md",
+          "updatedTime": 1664270123176,
+          "componentName": "Switch",
+          "title": "CheckBox",
+          "order": 3,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "Common components",
+            "order": 2,
+            "__fallback": true,
+            "path": "/components/switch"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "CheckBox",
+              "heading": "checkbox"
+            },
+            {
+              "depth": 2,
+              "value": "basic use",
+              "heading": "basic-use"
+            },
+            {
+              "depth": 2,
+              "value": "Disabled",
+              "heading": "disabled"
+            },
+            {
+              "depth": 2,
+              "value": "Arrangement",
+              "heading": "arrangement"
+            },
+            {
+              "depth": 2,
+              "value": "Default checked and custom value",
+              "heading": "default-checked-and-custom-value"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "CheckBox - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/switch",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Switch/index.zh-CN.md",
+          "updatedTime": 1664270065221,
+          "componentName": "Switch",
+          "title": "Switch 开关",
+          "order": 4,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "通用组件",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/components/switch"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Switch 开关",
+              "heading": "switch-开关"
+            },
+            {
+              "depth": 2,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "带文本显示",
+              "heading": "带文本显示"
+            },
+            {
+              "depth": 2,
+              "value": "禁用",
+              "heading": "禁用"
+            },
+            {
+              "depth": 2,
+              "value": "不同大小",
+              "heading": "不同大小"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Switch 开关 - scioPro"
       },
       {
         "path": "/components/theme",

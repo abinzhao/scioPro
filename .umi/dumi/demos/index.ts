@@ -21,11 +21,10 @@ import rawCode17 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/sc
 import rawCode18 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index3.tsx?dumi-raw-code';
 import rawCode19 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index4.tsx?dumi-raw-code';
 import rawCode20 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index5.tsx?dumi-raw-code';
-import rawCode21 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox copy/demos/index1.tsx?dumi-raw-code';
-import rawCode22 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox copy/demos/index2.tsx?dumi-raw-code';
-import rawCode23 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox copy/demos/index3.tsx?dumi-raw-code';
-import rawCode24 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox copy/demos/index4.tsx?dumi-raw-code';
-import rawCode25 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox copy/demos/index5.tsx?dumi-raw-code';
+import rawCode21 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index1.tsx?dumi-raw-code';
+import rawCode22 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index2.tsx?dumi-raw-code';
+import rawCode23 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index3.tsx?dumi-raw-code';
+import rawCode24 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index4.tsx?dumi-raw-code';
 
 export default {
   'box-index1': {
@@ -39,22 +38,6 @@ export default {
   'box-index3': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/demos/index3.tsx')).default,
     previewerProps: {"sources":{"_":{"tsx":rawCode4},"index.module.less":{"import":"./index.module.less","content":rawCode2}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Box","identifier":"box-index3"},
-  },
-  'CheckBox-demo': {
-    component: function DumiDemo() {
-  var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
-
-  var _react = _interopRequireDefault(require("react"));
-
-  var _components = require("@sciopro/components");
-
-  var _default = function _default() {
-    return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement(_components.Radio, null));
-  };
-
-  return _react["default"].createElement(_default);
-},
-    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Radio } from '@sciopro/components';\n\nexport default () => {\n  return (\n    <div>\n      <Radio></Radio>\n    </div>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"CheckBox","identifier":"CheckBox-demo"},
   },
   'checkbox-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox/demos/index1.tsx')).default,
@@ -75,22 +58,6 @@ export default {
   'checkbox-index5': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox/demos/index5.tsx')).default,
     previewerProps: {"sources":{"_":{"tsx":rawCode9}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"CheckBox","identifier":"checkbox-index5"},
-  },
-  'Radio-demo': {
-    component: function DumiDemo() {
-  var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
-
-  var _react = _interopRequireDefault(require("react"));
-
-  var _components = require("@sciopro/components");
-
-  var _default = function _default() {
-    return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement(_components.Radio, null));
-  };
-
-  return _react["default"].createElement(_default);
-},
-    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Radio } from '@sciopro/components';\n\nexport default () => {\n  return (\n    <div>\n      <Radio></Radio>\n    </div>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Radio","identifier":"Radio-demo"},
   },
   'radio-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Radio/demos/index1.tsx')).default,
@@ -216,6 +183,18 @@ export default {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index5.tsx')).default,
     previewerProps: {"sources":{"_":{"tsx":rawCode20},"index.module.less":{"import":"./index.module.less","content":rawCode16}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index5"},
   },
+  'switch-index1': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index1.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode21}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index1"},
+  },
+  'switch-index2': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index2.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode22}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index2"},
+  },
+  'switch-index3': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index3.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode23}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index3"},
+  },
   'Foo-demo': {
     component: function DumiDemo() {
   var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
@@ -324,24 +303,8 @@ export default {
 },
     previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Add } from '@sciopro/utils';\n\nlet data = 1;\nexport default () => {\n  const [num, setNum] = React.useState(1);\n  React.useEffect(() => {\n    data = Add(num);\n    return () => (data = 1);\n  }, [num]);\n  return (\n    <div>\n      <button onClick={() => setNum(num + 1)}>点我</button>\n      <h2>{data}</h2>\n    </div>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"add.zh-CN-demo"},
   },
-  'checkbox copy-index1': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox copy/demos/index1.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode21}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"CheckBox copy","identifier":"checkbox copy-index1"},
-  },
-  'checkbox copy-index2': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox copy/demos/index2.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode22}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"CheckBox copy","identifier":"checkbox copy-index2"},
-  },
-  'checkbox copy-index3': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox copy/demos/index3.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode23}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"CheckBox copy","identifier":"checkbox copy-index3"},
-  },
-  'checkbox copy-index4': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox copy/demos/index4.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode24}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"CheckBox copy","identifier":"checkbox copy-index4"},
-  },
-  'checkbox copy-index5': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox copy/demos/index5.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode25}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"CheckBox copy","identifier":"checkbox copy-index5"},
+  'switch-index4': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index4.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode24}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index4"},
   },
 };

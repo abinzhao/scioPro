@@ -1,0 +1,178 @@
+@import url(../theme/index.less);
+.scio-switch {
+  .text-open-small {
+    position: absolute;
+    top: 0.2em;
+    left: 0.6em;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .text-close-small {
+    position: absolute;
+    top: 0.2em;
+    right: -1.5em;
+    color: @scio-text-color;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .text-open-medium {
+    position: absolute;
+    top: 0.3em;
+    left: 0.6em;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .text-close-medium {
+    position: absolute;
+    top: 0.3em;
+    right: -1.5em;
+    color: @scio-text-color;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .text-open-large {
+    position: absolute;
+    top: 0.3em;
+    left: 1.2em;
+    color: #fff;
+    font-size: 18px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .text-close-large {
+    position: absolute;
+    top: 0.3em;
+    right: -1.2em;
+    color: @scio-text-color;
+    font-size: 18px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .disabled-style {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+  input[type='checkbox'].switch_1_small {
+    position: relative;
+    width: 1.65em;
+    height: 0.9em;
+    font-size: 30px;
+    background: #ddd;
+    border-radius: 3em;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  input[type='checkbox'].switch_1_small:checked {
+    background: #0ebeff;
+  }
+
+  input[type='checkbox'].switch_1_small:after {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 0.9em;
+    height: 0.9em;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    content: '';
+  }
+
+  input[type='checkbox'].switch_1_small:checked:after {
+    left: calc(100% - 0.9em);
+  }
+
+  input[type='checkbox'].switch_1_medium {
+    position: relative;
+    width: 2em;
+    height: 1em;
+    font-size: 30px;
+    background: #ddd;
+    border-radius: 3em;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  input[type='checkbox'].switch_1_medium:checked {
+    background: #0ebeff;
+  }
+
+  input[type='checkbox'].switch_1_medium:after {
+    position: absolute;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    content: '';
+  }
+
+  input[type='checkbox'].switch_1_medium:checked:after {
+    left: calc(100% - 1em);
+  }
+
+  input[type='checkbox'].switch_1_large {
+    position: relative;
+    width: 3em;
+    height: 1.3em;
+    font-size: 30px;
+    background: #ddd;
+    border-radius: 3em;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  input[type='checkbox'].switch_1_large:checked {
+    background: #0ebeff;
+  }
+
+  input[type='checkbox'].switch_1_large:after {
+    position: absolute;
+    left: 0;
+    width: 1.3em;
+    height: 1.3em;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    content: '';
+  }
+
+  input[type='checkbox'].switch_1_large:checked:after {
+    left: calc(100% - 1.3em);
+  }
+}

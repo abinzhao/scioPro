@@ -33,17 +33,33 @@
               }
             },
             {
-              "path": "/components/radio",
+              "path": "/components/space",
               "title": "Space",
+              "meta": {
+                "order": 2
+              }
+            }
+          ]
+        },
+        {
+          "title": "Common components",
+          "meta": {
+            "order": 2,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/components/radio",
+              "title": "Radio",
               "meta": {
                 "order": 2
               }
             },
             {
-              "path": "/components/space",
-              "title": "Space",
+              "path": "/components/check-box",
+              "title": "CheckBox",
               "meta": {
-                "order": 2
+                "order": 3
               }
             }
           ]
@@ -164,6 +180,13 @@
               "title": "Radio 单选",
               "meta": {
                 "order": 2
+              }
+            },
+            {
+              "path": "/zh-CN/components/check-box",
+              "title": "CheckBox 多选",
+              "meta": {
+                "order": 3
               }
             }
           ]

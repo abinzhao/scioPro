@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // @ts-ignore
 import { Space, Radio } from '@sciopro/components';
-import './index.less';
+import './index.module.less';
 
 export default () => {
   const [size, setSize] = useState<string>('small');
@@ -21,7 +21,7 @@ export default () => {
   return (
     <>
       <Radio
-        name="scio-radio"
+        name="scio-radio1"
         direction="row"
         value={size || 'small'}
         dataSource={dataSource}

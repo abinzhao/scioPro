@@ -50,36 +50,75 @@
       }
     ]
   },
-  "Space": {
+  "CheckBox": {
     "default": [
+      {
+        "identifier": "name",
+        "description": "单选框名称",
+        "type": "string",
+        "required": true
+      },
+      {
+        "identifier": "direction",
+        "description": "排列方式",
+        "type": "\"row\" | \"column\"",
+        "required": true
+      },
+      {
+        "identifier": "type",
+        "description": "单选类型",
+        "type": "\"card\" | \"radio\"",
+        "required": true
+      },
+      {
+        "identifier": "dataSource",
+        "description": "数据源",
+        "type": "{ label: ReactNode; value: string | number; disabled?: boolean; }[]"
+      },
+      {
+        "identifier": "value",
+        "description": "当前选中值",
+        "type": "string[] | number[]"
+      },
+      {
+        "identifier": "isCheckedBG",
+        "description": "是否开启选中背景色",
+        "type": "boolean"
+      },
+      {
+        "identifier": "disabled",
+        "description": "是否禁用",
+        "type": "boolean"
+      },
+      {
+        "identifier": "defaultChecked",
+        "description": "是否默认选中",
+        "type": "boolean"
+      },
+      {
+        "identifier": "isHoverBG",
+        "description": "是否开启鼠标滑过背景色",
+        "type": "boolean"
+      },
+      {
+        "identifier": "onClick",
+        "description": "点击事件",
+        "type": "(value: any) => void"
+      },
+      {
+        "identifier": "onChange",
+        "description": "选中值发生变化触发事件",
+        "type": "(value: any) => void"
+      },
       {
         "identifier": "className",
         "description": "类名",
         "type": "string"
       },
       {
-        "identifier": "direction",
-        "description": "方向",
-        "type": "\"horizontal\" | \"vertical\"",
-        "default": "horizontal"
-      },
-      {
-        "identifier": "size",
-        "description": "间距大小",
-        "type": "sizeType | number[]",
-        "default": "small"
-      },
-      {
-        "identifier": "align",
-        "description": "垂直对齐方式",
-        "type": "alignType",
-        "default": "center"
-      },
-      {
-        "identifier": "wrap",
-        "description": "环绕间距",
-        "type": "T",
-        "default": "false"
+        "identifier": "style",
+        "description": "内联样式",
+        "type": "CSSProperties"
       }
     ]
   },
@@ -130,7 +169,7 @@
       },
       {
         "identifier": "isHoverBG",
-        "description": "是否开启选中背景色",
+        "description": "是否开启鼠标滑过背景色",
         "type": "boolean"
       },
       {
@@ -152,6 +191,39 @@
         "identifier": "style",
         "description": "内联样式",
         "type": "CSSProperties"
+      }
+    ]
+  },
+  "Space": {
+    "default": [
+      {
+        "identifier": "className",
+        "description": "类名",
+        "type": "string"
+      },
+      {
+        "identifier": "direction",
+        "description": "方向",
+        "type": "\"horizontal\" | \"vertical\"",
+        "default": "horizontal"
+      },
+      {
+        "identifier": "size",
+        "description": "间距大小",
+        "type": "sizeType | number[]",
+        "default": "small"
+      },
+      {
+        "identifier": "align",
+        "description": "垂直对齐方式",
+        "type": "alignType",
+        "default": "center"
+      },
+      {
+        "identifier": "wrap",
+        "description": "环绕间距",
+        "type": "T",
+        "default": "false"
       }
     ]
   }

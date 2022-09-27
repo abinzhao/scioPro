@@ -115,7 +115,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Box/index.zh-CN.md",
-          "updatedTime": 1663928185000,
+          "updatedTime": 1664162790000,
           "componentName": "Box",
           "title": "Box 盒子容器",
           "order": 1,
@@ -163,41 +163,56 @@ export function getRoutes() {
         "title": "Box 盒子容器 - scioPro"
       },
       {
-        "path": "/components/radio",
-        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Radio/index.md').default,
+        "path": "/components/check-box",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox/index.md').default,
         "exact": true,
         "meta": {
-          "filePath": "packages/components/src/Radio/index.md",
-          "updatedTime": 1664165151814,
-          "componentName": "Radio",
-          "title": "Space",
-          "order": 2,
+          "filePath": "packages/components/src/CheckBox/index.md",
+          "updatedTime": 1664249936636,
+          "componentName": "CheckBox",
+          "title": "CheckBox",
+          "order": 3,
           "nav": {
             "title": "Components",
             "path": "/components",
             "order": 2
           },
           "group": {
-            "title": "layout component",
-            "order": 1,
+            "title": "Common components",
+            "order": 2,
             "__fallback": true,
-            "path": "/components/radio"
+            "path": "/components/check-box"
           },
           "slugs": [
             {
               "depth": 1,
-              "value": "Space",
-              "heading": "space"
-            },
-            {
-              "depth": 4,
-              "value": "when to use",
-              "heading": "when-to-use"
+              "value": "CheckBox",
+              "heading": "checkbox"
             },
             {
               "depth": 2,
               "value": "basic use",
               "heading": "basic-use"
+            },
+            {
+              "depth": 2,
+              "value": "Disabled",
+              "heading": "disabled"
+            },
+            {
+              "depth": 2,
+              "value": "Arrangement",
+              "heading": "arrangement"
+            },
+            {
+              "depth": 2,
+              "value": "Default checked and custom value",
+              "heading": "default-checked-and-custom-value"
+            },
+            {
+              "depth": 2,
+              "value": "Select background and mouse over",
+              "heading": "select-background-and-mouse-over"
             },
             {
               "depth": 2,
@@ -207,7 +222,132 @@ export function getRoutes() {
           ],
           "hasPreviewer": true
         },
-        "title": "Space - scioPro"
+        "title": "CheckBox - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/check-box",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/CheckBox/index.zh-CN.md",
+          "updatedTime": 1664249829622,
+          "componentName": "CheckBox",
+          "title": "CheckBox 多选",
+          "order": 3,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "通用组件",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/components/check-box"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "CheckBox 多选框",
+              "heading": "checkbox-多选框"
+            },
+            {
+              "depth": 2,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "禁用",
+              "heading": "禁用"
+            },
+            {
+              "depth": 2,
+              "value": "排列方式",
+              "heading": "排列方式"
+            },
+            {
+              "depth": 2,
+              "value": "默认选中与自定义值",
+              "heading": "默认选中与自定义值"
+            },
+            {
+              "depth": 2,
+              "value": "选中背景与鼠标滑过",
+              "heading": "选中背景与鼠标滑过"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "CheckBox 多选 - scioPro"
+      },
+      {
+        "path": "/components/radio",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Radio/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Radio/index.md",
+          "updatedTime": 1664186002000,
+          "componentName": "Radio",
+          "title": "Radio",
+          "order": 2,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "Common components",
+            "order": 2,
+            "__fallback": true,
+            "path": "/components/radio"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Radio",
+              "heading": "radio"
+            },
+            {
+              "depth": 2,
+              "value": "basic use",
+              "heading": "basic-use"
+            },
+            {
+              "depth": 2,
+              "value": "Disabled",
+              "heading": "disabled"
+            },
+            {
+              "depth": 2,
+              "value": "Arrangement",
+              "heading": "arrangement"
+            },
+            {
+              "depth": 2,
+              "value": "Default checked and custom value",
+              "heading": "default-checked-and-custom-value"
+            },
+            {
+              "depth": 2,
+              "value": "Select background and mouse over",
+              "heading": "select-background-and-mouse-over"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "Radio - scioPro"
       },
       {
         "path": "/zh-CN/components/radio",
@@ -215,7 +355,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Radio/index.zh-CN.md",
-          "updatedTime": 1664184126501,
+          "updatedTime": 1664186002000,
           "componentName": "Radio",
           "title": "Radio 单选",
           "order": 2,
@@ -278,7 +418,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Space/index.md",
-          "updatedTime": 1664162790000,
+          "updatedTime": 1664186002000,
           "componentName": "Space",
           "title": "Space",
           "order": 2,
@@ -340,7 +480,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Space/index.zh-CN.md",
-          "updatedTime": 1664186002000,
+          "updatedTime": 1664187734000,
           "componentName": "Space",
           "title": "Space 间距",
           "order": 2,
@@ -458,7 +598,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/theme/index.zh-CN.md",
-          "updatedTime": 1663928185000,
+          "updatedTime": 1664162790000,
           "title": "Color 色彩",
           "order": 1,
           "nav": {
@@ -820,7 +960,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/blog/react/react18.md",
-          "updatedTime": 1663840739000,
+          "updatedTime": 1664162790000,
           "title": "What's new in React 18",
           "order": 1,
           "nav": {
@@ -850,7 +990,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/blog/react/react18.zh-CN.md",
-          "updatedTime": 1663840739000,
+          "updatedTime": 1664162790000,
           "title": "React 18 新特性",
           "order": 1,
           "nav": {

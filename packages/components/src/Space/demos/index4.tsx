@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // @ts-ignore
 import { Space, Radio } from '@sciopro/components';
-import './index.less';
+import './index.module.less';
 
 export default () => {
   const [align, setAlign] = useState('start');
@@ -21,7 +21,7 @@ export default () => {
   return (
     <>
       <Radio
-        name="scio-radio"
+        name="scio-radio2"
         direction="row"
         value={align}
         dataSource={dataSource}

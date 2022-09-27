@@ -1,43 +1,45 @@
 ---
-title: Space
+title: Radio
 order: 2
 nav:
   title: Components
   path: /components
   order: 2
 group:
-  title: layout component
-  order: 1
+  title: Common components
+  order: 2
 ---
 
-# Space
+# Radio
 
-Sets the spacing between components.
-
-#### when to use
+Used to select a single state among multiple alternatives.
 
 <Alert type="info">
-  Avoid components clinging together, creating a unified space.
 
-- Horizontal spacing to fit inline elements.
+The difference between Radio and Select is that all options of Radio are visible by default, which is convenient for users to choose in comparison, so the options should not be too many.
 
-- Various horizontal alignments can be set. </Alert>
+</Alert>
 
 ## basic use
 
-Basic usage of spacing components.
+Basic usage of the checkbox component.
 
-```tsx
-import React from 'react';
-import { Radio } from '@sciopro/components';
+<code src="./demos/index1.tsx" />
 
-export default () => {
-  return (
-    <div>
-      <Radio></Radio>
-    </div>
-  );
-};
-```
+## Disabled
+
+<code src="./demos/index2.tsx" />
+
+## Arrangement
+
+<code src="./demos/index3.tsx" />
+
+## Default checked and custom value
+
+<code src="./demos/index4.tsx" />
+
+## Select background and mouse over
+
+<code src="./demos/index5.tsx" />
 
 <API />

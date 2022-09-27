@@ -1,7 +1,7 @@
 import React from 'react';
 // @ts-ignore
 import { Box } from '@sciopro/components';
-import './index.less';
+import './index.module.less';
 
 export default () => {
   return (

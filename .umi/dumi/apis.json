@@ -50,6 +50,45 @@
       }
     ]
   },
+  "Button": {
+    "default": [
+      {
+        "identifier": "disabled",
+        "description": "是否禁用",
+        "type": "boolean"
+      },
+      {
+        "identifier": "size",
+        "description": "大小",
+        "type": "\"small\" | \"medium\" | \"large\""
+      },
+      {
+        "identifier": "onClick",
+        "description": "点击事件",
+        "type": "(value: any) => void"
+      },
+      {
+        "identifier": "width",
+        "description": "宽度",
+        "type": "string | number"
+      },
+      {
+        "identifier": "height",
+        "description": "高度",
+        "type": "string | number"
+      },
+      {
+        "identifier": "className",
+        "description": "类名",
+        "type": "string"
+      },
+      {
+        "identifier": "style",
+        "description": "内联样式",
+        "type": "CSSProperties"
+      }
+    ]
+  },
   "CheckBox": {
     "default": [
       {

@@ -56,6 +56,13 @@
               }
             },
             {
+              "path": "/components/button",
+              "title": "CheckBox",
+              "meta": {
+                "order": 3
+              }
+            },
+            {
               "path": "/components/check-box",
               "title": "CheckBox",
               "meta": {
@@ -182,6 +189,13 @@
             "__fallback": true
           },
           "children": [
+            {
+              "path": "/zh-CN/components/button",
+              "title": "Button 按钮",
+              "meta": {
+                "order": 1
+              }
+            },
             {
               "path": "/zh-CN/components/radio",
               "title": "Radio 单选",

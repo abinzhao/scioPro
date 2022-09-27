@@ -14,7 +14,7 @@ group:
 
 设置组件之间的间距。
 
-#### when to use
+#### 何时使用
 
 <Alert type="info">
   避免组件紧贴在一起，拉开统一的空间。
@@ -47,9 +47,9 @@ group:
 
 <code src="./demos/index3.tsx" />
 
-## Align
+## 对齐方式
 
-There are 4 built-in alignment methods, namely start center end baseline, and the default is center in horizontal mode.
+内置对齐方式有 4 种，即 start、center、end、baseline，水平模式默认居中。
 
 <code src="./demos/index4.tsx" />
 

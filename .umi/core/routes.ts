@@ -163,6 +163,121 @@ export function getRoutes() {
         "title": "Box 盒子容器 - scioPro"
       },
       {
+        "path": "/components/button",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Button/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Button/index.md",
+          "updatedTime": 1664272748266,
+          "componentName": "Button",
+          "title": "CheckBox",
+          "order": 3,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "Common components",
+            "order": 2,
+            "__fallback": true,
+            "path": "/components/button"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "CheckBox",
+              "heading": "checkbox"
+            },
+            {
+              "depth": 2,
+              "value": "basic use",
+              "heading": "basic-use"
+            },
+            {
+              "depth": 2,
+              "value": "Disabled",
+              "heading": "disabled"
+            },
+            {
+              "depth": 2,
+              "value": "Arrangement",
+              "heading": "arrangement"
+            },
+            {
+              "depth": 2,
+              "value": "Default checked and custom value",
+              "heading": "default-checked-and-custom-value"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "CheckBox - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/button",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Button/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Button/index.zh-CN.md",
+          "updatedTime": 1664273399759,
+          "componentName": "Button",
+          "title": "Button 按钮",
+          "order": 1,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "通用组件",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/components/button"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Switch 开关",
+              "heading": "switch-开关"
+            },
+            {
+              "depth": 2,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "带文本显示",
+              "heading": "带文本显示"
+            },
+            {
+              "depth": 2,
+              "value": "禁用",
+              "heading": "禁用"
+            },
+            {
+              "depth": 2,
+              "value": "不同大小",
+              "heading": "不同大小"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Button 按钮 - scioPro"
+      },
+      {
         "path": "/components/check-box",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/CheckBox/index.md').default,
         "exact": true,
@@ -461,6 +576,11 @@ export function getRoutes() {
             },
             {
               "depth": 2,
+              "value": "Align",
+              "heading": "align"
+            },
+            {
+              "depth": 2,
               "value": "Surround spacing",
               "heading": "surround-spacing"
             },
@@ -503,8 +623,8 @@ export function getRoutes() {
             },
             {
               "depth": 4,
-              "value": "when to use",
-              "heading": "when-to-use"
+              "value": "何时使用",
+              "heading": "何时使用"
             },
             {
               "depth": 2,
@@ -523,8 +643,8 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "Align",
-              "heading": "align"
+              "value": "对齐方式",
+              "heading": "对齐方式"
             },
             {
               "depth": 2,
@@ -548,7 +668,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Switch/index.md",
-          "updatedTime": 1664270123176,
+          "updatedTime": 1664271394000,
           "componentName": "Switch",
           "title": "CheckBox",
           "order": 3,
@@ -605,7 +725,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Switch/index.zh-CN.md",
-          "updatedTime": 1664270065221,
+          "updatedTime": 1664271394000,
           "componentName": "Switch",
           "title": "Switch 开关",
           "order": 4,

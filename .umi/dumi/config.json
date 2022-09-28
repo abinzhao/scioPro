@@ -49,15 +49,22 @@
           },
           "children": [
             {
-              "path": "/components/radio",
-              "title": "Radio",
+              "path": "/components/icon",
+              "title": "Icon",
+              "meta": {
+                "order": 1
+              }
+            },
+            {
+              "path": "/components/button",
+              "title": "Button",
               "meta": {
                 "order": 2
               }
             },
             {
-              "path": "/components/button",
-              "title": "CheckBox",
+              "path": "/components/radio",
+              "title": "Radio",
               "meta": {
                 "order": 3
               }
@@ -66,14 +73,14 @@
               "path": "/components/check-box",
               "title": "CheckBox",
               "meta": {
-                "order": 3
+                "order": 4
               }
             },
             {
               "path": "/components/switch",
               "title": "CheckBox",
               "meta": {
-                "order": 3
+                "order": 5
               }
             }
           ]
@@ -190,31 +197,38 @@
           },
           "children": [
             {
+              "path": "/zh-CN/components/icon",
+              "title": "Icon 图标",
+              "meta": {
+                "order": 1
+              }
+            },
+            {
               "path": "/zh-CN/components/button",
               "title": "Button 按钮",
               "meta": {
-                "order": 1
+                "order": 2
               }
             },
             {
               "path": "/zh-CN/components/radio",
               "title": "Radio 单选",
               "meta": {
-                "order": 2
+                "order": 3
               }
             },
             {
               "path": "/zh-CN/components/check-box",
               "title": "CheckBox 多选",
               "meta": {
-                "order": 3
+                "order": 4
               }
             },
             {
               "path": "/zh-CN/components/switch",
               "title": "Switch 开关",
               "meta": {
-                "order": 4
+                "order": 5
               }
             }
           ]

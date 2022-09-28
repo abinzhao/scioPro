@@ -1,6 +1,6 @@
 ---
 title: CheckBox 多选
-order: 3
+order: 4
 nav:
   title: 组件
   path: /components

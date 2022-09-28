@@ -5,12 +5,14 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    width: max-content;
+    height: 2.5em;
     margin: 0;
-    padding: 8px 12px;
+    padding: 12px;
     color: #fff;
     font-size: inherit;
     font-family: inherit;
-    background-color: @scio-info-color;
+    background-color: @scio-primary-color;
     border: 0;
     border-radius: 0.75em;
     outline: 0;
@@ -20,5 +22,9 @@
   }
   .button-style:active {
     transform: scale(0.98);
+  }
+  .button-style:hover {
+    opacity: 0.9;
+    transition: transform ease-in 0.2s;
   }
 }

@@ -1,12 +1,25 @@
 import React from 'react';
 // @ts-ignore
-import { Switch } from '@sciopro/components';
+import { Space, Button } from '@sciopro/components';
 
 export default () => {
   return (
     <div>
-      <Switch defaultChecked disabled></Switch>
-      <Switch disabled></Switch>
+      <Space>
+        <Button disabled>Button</Button>
+        <Button type={'success'} disabled>
+          Button
+        </Button>
+        <Button type={'info'} disabled>
+          Button
+        </Button>
+        <Button type={'warning'} disabled>
+          Button
+        </Button>
+        <Button type={'error'} disabled>
+          Button
+        </Button>
+      </Space>
     </div>
   );
 };

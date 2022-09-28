@@ -168,10 +168,10 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Button/index.md",
-          "updatedTime": 1664272748266,
+          "updatedTime": 1664274403000,
           "componentName": "Button",
-          "title": "CheckBox",
-          "order": 3,
+          "title": "Button",
+          "order": 2,
           "nav": {
             "title": "Components",
             "path": "/components",
@@ -186,8 +186,8 @@ export function getRoutes() {
           "slugs": [
             {
               "depth": 1,
-              "value": "CheckBox",
-              "heading": "checkbox"
+              "value": "Button",
+              "heading": "button"
             },
             {
               "depth": 2,
@@ -196,18 +196,38 @@ export function getRoutes() {
             },
             {
               "depth": 2,
+              "value": "buttons of different sizes",
+              "heading": "buttons-of-different-sizes"
+            },
+            {
+              "depth": 2,
               "value": "Disabled",
               "heading": "disabled"
             },
             {
               "depth": 2,
-              "value": "Arrangement",
-              "heading": "arrangement"
+              "value": "Dotted frame button",
+              "heading": "dotted-frame-button"
             },
             {
               "depth": 2,
-              "value": "Default checked and custom value",
-              "heading": "default-checked-and-custom-value"
+              "value": "custom background",
+              "heading": "custom-background"
+            },
+            {
+              "depth": 2,
+              "value": "Icon/Custom Icon Position",
+              "heading": "iconcustom-icon-position"
+            },
+            {
+              "depth": 2,
+              "value": "loading",
+              "heading": "loading"
+            },
+            {
+              "depth": 2,
+              "value": "block-level buttons",
+              "heading": "block-level-buttons"
             },
             {
               "depth": 2,
@@ -217,7 +237,7 @@ export function getRoutes() {
           ],
           "hasPreviewer": true
         },
-        "title": "CheckBox - scioPro"
+        "title": "Button - scioPro"
       },
       {
         "path": "/zh-CN/components/button",
@@ -225,10 +245,10 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Button/index.zh-CN.md",
-          "updatedTime": 1664273399759,
+          "updatedTime": 1664274403000,
           "componentName": "Button",
           "title": "Button 按钮",
-          "order": 1,
+          "order": 2,
           "nav": {
             "title": "组件",
             "path": "/zh-CN/components",
@@ -243,8 +263,8 @@ export function getRoutes() {
           "slugs": [
             {
               "depth": 1,
-              "value": "Switch 开关",
-              "heading": "switch-开关"
+              "value": "Button 按钮",
+              "heading": "button-按钮"
             },
             {
               "depth": 2,
@@ -253,8 +273,8 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "带文本显示",
-              "heading": "带文本显示"
+              "value": "不同大小的按钮",
+              "heading": "不同大小的按钮"
             },
             {
               "depth": 2,
@@ -263,8 +283,28 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "不同大小",
-              "heading": "不同大小"
+              "value": "虚线框按钮",
+              "heading": "虚线框按钮"
+            },
+            {
+              "depth": 2,
+              "value": "自定义背景",
+              "heading": "自定义背景"
+            },
+            {
+              "depth": 2,
+              "value": "图标/自定义图标位置",
+              "heading": "图标自定义图标位置"
+            },
+            {
+              "depth": 2,
+              "value": "loading 加载",
+              "heading": "loading-加载"
+            },
+            {
+              "depth": 2,
+              "value": "块级按钮",
+              "heading": "块级按钮"
             },
             {
               "depth": 2,
@@ -286,7 +326,7 @@ export function getRoutes() {
           "updatedTime": 1664257961000,
           "componentName": "CheckBox",
           "title": "CheckBox",
-          "order": 3,
+          "order": 4,
           "nav": {
             "title": "Components",
             "path": "/components",
@@ -348,7 +388,7 @@ export function getRoutes() {
           "updatedTime": 1664257961000,
           "componentName": "CheckBox",
           "title": "CheckBox 多选",
-          "order": 3,
+          "order": 4,
           "nav": {
             "title": "组件",
             "path": "/zh-CN/components",
@@ -403,6 +443,151 @@ export function getRoutes() {
         "title": "CheckBox 多选 - scioPro"
       },
       {
+        "path": "/components/icon",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Icon/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Icon/index.md",
+          "updatedTime": 1664359342308,
+          "componentName": "Icon",
+          "title": "Icon",
+          "order": 1,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "Common components",
+            "order": 2,
+            "__fallback": true,
+            "path": "/components/icon"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Icon",
+              "heading": "icon"
+            },
+            {
+              "depth": 2,
+              "value": "when to use",
+              "heading": "when-to-use"
+            },
+            {
+              "depth": 3,
+              "value": "basic use",
+              "heading": "basic-use"
+            },
+            {
+              "depth": 3,
+              "value": "Directional icons",
+              "heading": "directional-icons"
+            },
+            {
+              "depth": 3,
+              "value": "prompt suggestion icon",
+              "heading": "prompt-suggestion-icon"
+            },
+            {
+              "depth": 3,
+              "value": "edit icon",
+              "heading": "edit-icon"
+            },
+            {
+              "depth": 3,
+              "value": "data icon",
+              "heading": "data-icon"
+            },
+            {
+              "depth": 3,
+              "value": "Website Universal Icons",
+              "heading": "website-universal-icons"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "Icon - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/icon",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Icon/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Icon/index.zh-CN.md",
+          "updatedTime": 1664359328758,
+          "componentName": "Icon",
+          "title": "Icon 图标",
+          "order": 1,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "通用组件",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/components/icon"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Icon 图标",
+              "heading": "icon-图标"
+            },
+            {
+              "depth": 2,
+              "value": "何时使用",
+              "heading": "何时使用"
+            },
+            {
+              "depth": 3,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 3,
+              "value": "方向性图标",
+              "heading": "方向性图标"
+            },
+            {
+              "depth": 3,
+              "value": "提示建议图标",
+              "heading": "提示建议图标"
+            },
+            {
+              "depth": 3,
+              "value": "编辑类图标",
+              "heading": "编辑类图标"
+            },
+            {
+              "depth": 3,
+              "value": "数据类图标",
+              "heading": "数据类图标"
+            },
+            {
+              "depth": 3,
+              "value": "网站通用图标",
+              "heading": "网站通用图标"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Icon 图标 - scioPro"
+      },
+      {
         "path": "/components/radio",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Radio/index.md').default,
         "exact": true,
@@ -411,7 +596,7 @@ export function getRoutes() {
           "updatedTime": 1664257961000,
           "componentName": "Radio",
           "title": "Radio",
-          "order": 2,
+          "order": 3,
           "nav": {
             "title": "Components",
             "path": "/components",
@@ -473,7 +658,7 @@ export function getRoutes() {
           "updatedTime": 1664186002000,
           "componentName": "Radio",
           "title": "Radio 单选",
-          "order": 2,
+          "order": 3,
           "nav": {
             "title": "组件",
             "path": "/zh-CN/components",
@@ -533,7 +718,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Space/index.md",
-          "updatedTime": 1664186002000,
+          "updatedTime": 1664274403000,
           "componentName": "Space",
           "title": "Space",
           "order": 2,
@@ -600,7 +785,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Space/index.zh-CN.md",
-          "updatedTime": 1664187734000,
+          "updatedTime": 1664274403000,
           "componentName": "Space",
           "title": "Space 间距",
           "order": 2,
@@ -671,7 +856,7 @@ export function getRoutes() {
           "updatedTime": 1664271394000,
           "componentName": "Switch",
           "title": "CheckBox",
-          "order": 3,
+          "order": 5,
           "nav": {
             "title": "Components",
             "path": "/components",
@@ -728,7 +913,7 @@ export function getRoutes() {
           "updatedTime": 1664271394000,
           "componentName": "Switch",
           "title": "Switch 开关",
-          "order": 4,
+          "order": 5,
           "nav": {
             "title": "组件",
             "path": "/zh-CN/components",

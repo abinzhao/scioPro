@@ -10,6 +10,8 @@ const Space = <T,>(props: SpaceProps<T>) => {
     size = 'small',
     align = 'center',
     wrap = false,
+    width,
+    height,
   } = props;
 
   const childrenList = Children.toArray(children);
@@ -97,7 +99,10 @@ const Space = <T,>(props: SpaceProps<T>) => {
   }, [direction, align]);
 
   return (
-    <div className={className} style={spaceStyles}>
+    <div
+      className={className}
+      style={{ ...spaceStyles, width: width ? width : '100%', height: height ? height : '100%' }}
+    >
       {childrenList.map((child: ReactNode, index: number) => {
         return (
           <Fragment key={index}>

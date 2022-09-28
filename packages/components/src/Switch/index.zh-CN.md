@@ -1,6 +1,6 @@
 ---
 title: Switch 开关
-order: 4
+order: 5
 nav:
   title: 组件
   path: /components

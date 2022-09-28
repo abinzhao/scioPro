@@ -1,6 +1,6 @@
 ---
 title: CheckBox
-order: 3
+order: 5
 nav:
   title: Components
   path: /components

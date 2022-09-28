@@ -1,13 +1,17 @@
 import React from 'react';
 // @ts-ignore
-import { Button } from '@sciopro/components';
+import { Button, Space } from '@sciopro/components';
 
 export default () => {
   return (
     <div>
-      <Button>Button</Button>
-      <Button size="medium">Button</Button>
-      <Button size="large">Button</Button>
+      <Space>
+        <Button>Button</Button>
+        <Button type={'success'}>Button</Button>
+        <Button type={'info'}>Button</Button>
+        <Button type={'warning'}>Button</Button>
+        <Button type={'error'}>Button</Button>
+      </Space>
     </div>
   );
 };

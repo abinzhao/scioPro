@@ -53,6 +53,44 @@
   "Button": {
     "default": [
       {
+        "identifier": "type",
+        "description": "按钮类型",
+        "type": "\"primary\" | \"success\" | \"info\" | \"warning\" | \"error\""
+      },
+      {
+        "identifier": "icon",
+        "description": "图标",
+        "type": "ReactNode"
+      },
+      {
+        "identifier": "iconAlign",
+        "description": "图标位置",
+        "type": "\"left\" | \"right\""
+      },
+      {
+        "identifier": "color",
+        "description": "按钮背景颜色",
+        "type": "string"
+      },
+      {
+        "identifier": "block",
+        "description": "块级按钮 以容器宽度为按钮宽度",
+        "type": "boolean",
+        "default": "false"
+      },
+      {
+        "identifier": "dashed",
+        "description": "是否为虚线边框",
+        "type": "boolean",
+        "default": "false"
+      },
+      {
+        "identifier": "loading",
+        "description": "是否加载中",
+        "type": "boolean",
+        "default": "false"
+      },
+      {
         "identifier": "disabled",
         "description": "是否禁用",
         "type": "boolean"
@@ -66,16 +104,6 @@
         "identifier": "onClick",
         "description": "点击事件",
         "type": "(value: any) => void"
-      },
-      {
-        "identifier": "width",
-        "description": "宽度",
-        "type": "string | number"
-      },
-      {
-        "identifier": "height",
-        "description": "高度",
-        "type": "string | number"
       },
       {
         "identifier": "className",
@@ -158,6 +186,41 @@
         "identifier": "style",
         "description": "内联样式",
         "type": "CSSProperties"
+      }
+    ]
+  },
+  "Icon": {
+    "default": [
+      {
+        "identifier": "type",
+        "description": "图标类型",
+        "type": "string"
+      },
+      {
+        "identifier": "className",
+        "description": "设置图标的样式名",
+        "type": "string"
+      },
+      {
+        "identifier": "style",
+        "description": "设置图标的样式\n例如 fontSize 和 color",
+        "type": "CSSProperties"
+      },
+      {
+        "identifier": "rotate",
+        "description": "图标旋转角度（IE9 无效）",
+        "type": "number"
+      },
+      {
+        "identifier": "spin",
+        "description": "是否有旋转动画",
+        "type": "boolean",
+        "default": "false"
+      },
+      {
+        "identifier": "twoToneColor",
+        "description": "仅适用双色图标\n设置双色图标的主要颜色\n(十六进制颜色)",
+        "type": "string"
       }
     ]
   },
@@ -263,6 +326,16 @@
         "description": "环绕间距",
         "type": "T",
         "default": "false"
+      },
+      {
+        "identifier": "width",
+        "description": "宽度",
+        "type": "number"
+      },
+      {
+        "identifier": "height",
+        "description": "高度",
+        "type": "number"
       }
     ]
   },

@@ -1,6 +1,6 @@
 ---
 title: Radio
-order: 2
+order: 3
 nav:
   title: Components
   path: /components

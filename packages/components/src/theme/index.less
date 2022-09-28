@@ -1,6 +1,14 @@
 @import url(./reset.css);
+:root {
+  --scio-primary-color: #2d8cf0;
+  --scio-info-color: #2db7f5;
+  --scio-success-color: #19be6b;
+  --scio-warning-color: #ff9900;
+  --scio-error-color: #ed4014;
+  --scio-text-color: #515a6e;
+}
 // 主色
-@scio-primary-color: #2d8cf0;
+@scio-primary-color: var(--scio-primary-color);
 @scio-light-primary-color: #5cadff;
 @scio-dark-primary-color: #2b85e4;
 @scio-primary-color-4: #79bbff;
@@ -10,10 +18,11 @@
 @scio-primary-color-0: #ecf5ff;
 
 // 辅助色
-@scio-info-color: #2db7f5;
-@scio-success-color: #19be6b;
-@scio-warning-color: #ff9900;
-@scio-error-color: #ed4014;
+@scio-primary-color: var(--scio-primary-color);
+@scio-info-color: var(--scio-info-color);
+@scio-success-color: var(--scio-success-color);
+@scio-warning-color: var(--scio-warning-color);
+@scio-error-color: var(--scio-error-color);
 
 // 中性色
 @scio-title-color: #17233d;

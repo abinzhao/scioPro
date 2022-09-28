@@ -35,6 +35,14 @@ interface SpaceProps<T> {
    * @default false
    */
   wrap?: T;
+  /**
+   * @description 宽度
+   */
+  width?: number;
+  /**
+   * @description 高度
+   */
+  height?: number;
 }
 
 export type { SpaceProps, sizeType, alignType, spaceAlignParams };

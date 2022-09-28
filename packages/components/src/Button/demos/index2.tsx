@@ -1,13 +1,19 @@
 import React from 'react';
 // @ts-ignore
-import { Switch, Space } from '@sciopro/components';
+import { Button, Space } from '@sciopro/components';
 
 export default () => {
   return (
     <div>
-      <Switch text={{ openText: 'on', closeText: 'off' }}></Switch>
-      <Switch text={{ openText: '开', closeText: '关' }}></Switch>
-      <Switch text={{ openText: 'on', closeText: 'off' }}></Switch>
+      <Space>
+        <Button>Button</Button>
+        <Button type={'success'} size="medium">
+          Button
+        </Button>
+        <Button type={'info'} size="large">
+          Button
+        </Button>
+      </Space>
     </div>
   );
 };

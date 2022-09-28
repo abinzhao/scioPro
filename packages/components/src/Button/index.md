@@ -1,6 +1,6 @@
 ---
-title: CheckBox
-order: 3
+title: Button
+order: 2
 nav:
   title: Components
   path: /components
@@ -10,26 +10,40 @@ group:
   order: 2
 ---
 
-# CheckBox
-
-Used to select certain states among multiple alternatives.
+# Button
 
 ## basic use
 
-Basic usage of the checkbox component.
+Basic usage of the `Button` button component.
 
 <code src="./demos/index1.tsx" />
 
-## Disabled
+## buttons of different sizes
 
 <code src="./demos/index2.tsx" />
 
-## Arrangement
+## Disabled
 
 <code src="./demos/index3.tsx" />
 
-## Default checked and custom value
+## Dotted frame button
 
-<code src="./demos/index4.tsx" />
+<code src="./demos/index5.tsx" />
+
+## custom background
+
+<code src="./demos/index6.tsx" />
+
+## Icon/Custom Icon Position
+
+<code src="./demos/index7.tsx" />
+
+## loading
+
+<code src="./demos/index8.tsx" />
+
+## block-level buttons
+
+<code src="./demos/index9.tsx" />
 
 <API />

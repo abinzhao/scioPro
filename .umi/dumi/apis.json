@@ -224,6 +224,50 @@
       }
     ]
   },
+  "Placeholder": {
+    "default": [
+      {
+        "identifier": "type",
+        "description": "文本",
+        "type": "\"403\" | \"404\" | \"500\" | \"error\" | \"no-network\" | \"no-data\" | \"no-result\" | \"no-record\" | \"no-news\" | \"failed-load\""
+      },
+      {
+        "identifier": "title",
+        "description": "标题",
+        "type": "ReactNode"
+      },
+      {
+        "identifier": "description",
+        "description": "副标题",
+        "type": "ReactNode"
+      },
+      {
+        "identifier": "textStyle",
+        "description": "标题文本样式",
+        "type": "{ titleStyle?: CSSProperties; descriptionStyle?: CSSProperties; }"
+      },
+      {
+        "identifier": "onClick",
+        "description": "点击事件",
+        "type": "(value: any) => void"
+      },
+      {
+        "identifier": "className",
+        "description": "类名",
+        "type": "string"
+      },
+      {
+        "identifier": "style",
+        "description": "内联样式",
+        "type": "CSSProperties"
+      },
+      {
+        "identifier": "imageStyle",
+        "description": "插图样式",
+        "type": "CSSProperties"
+      }
+    ]
+  },
   "Radio": {
     "default": [
       {

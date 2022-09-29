@@ -38,6 +38,13 @@
               "meta": {
                 "order": 2
               }
+            },
+            {
+              "path": "/components/placeholder",
+              "title": "Page Placeholder",
+              "meta": {
+                "order": 3
+              }
             }
           ]
         },
@@ -78,7 +85,7 @@
             },
             {
               "path": "/components/switch",
-              "title": "CheckBox",
+              "title": "Switch",
               "meta": {
                 "order": 5
               }
@@ -185,6 +192,13 @@
               "title": "Space 间距",
               "meta": {
                 "order": 2
+              }
+            },
+            {
+              "path": "/zh-CN/components/placeholder",
+              "title": "Placeholder 页面占位",
+              "meta": {
+                "order": 3
               }
             }
           ]

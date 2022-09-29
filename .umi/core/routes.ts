@@ -168,7 +168,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Button/index.md",
-          "updatedTime": 1664274403000,
+          "updatedTime": 1664360875000,
           "componentName": "Button",
           "title": "Button",
           "order": 2,
@@ -245,7 +245,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Button/index.zh-CN.md",
-          "updatedTime": 1664274403000,
+          "updatedTime": 1664360875000,
           "componentName": "Button",
           "title": "Button 按钮",
           "order": 2,
@@ -323,7 +323,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/CheckBox/index.md",
-          "updatedTime": 1664257961000,
+          "updatedTime": 1664360875000,
           "componentName": "CheckBox",
           "title": "CheckBox",
           "order": 4,
@@ -385,7 +385,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/CheckBox/index.zh-CN.md",
-          "updatedTime": 1664257961000,
+          "updatedTime": 1664360875000,
           "componentName": "CheckBox",
           "title": "CheckBox 多选",
           "order": 4,
@@ -448,7 +448,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Icon/index.md",
-          "updatedTime": 1664360875000,
+          "updatedTime": 1664433489000,
           "componentName": "Icon",
           "title": "Icon",
           "order": 1,
@@ -525,7 +525,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Icon/index.zh-CN.md",
-          "updatedTime": 1664360875000,
+          "updatedTime": 1664433489000,
           "componentName": "Icon",
           "title": "Icon 图标",
           "order": 1,
@@ -598,12 +598,117 @@ export function getRoutes() {
         "title": "Icon 图标 - scioPro"
       },
       {
+        "path": "/components/placeholder",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Placeholder/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Placeholder/index.md",
+          "updatedTime": 1664439759887,
+          "componentName": "Placeholder",
+          "title": "Page Placeholder",
+          "order": 3,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "layout component",
+            "order": 1,
+            "__fallback": true,
+            "path": "/components/placeholder"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Page Placeholder",
+              "heading": "page-placeholder"
+            },
+            {
+              "depth": 2,
+              "value": "basic use",
+              "heading": "basic-use"
+            },
+            {
+              "depth": 2,
+              "value": "with copywriting",
+              "heading": "with-copywriting"
+            },
+            {
+              "depth": 2,
+              "value": "different placeholder pages",
+              "heading": "different-placeholder-pages"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "Page Placeholder - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/placeholder",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Placeholder/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Placeholder/index.zh-CN.md",
+          "updatedTime": 1664439738008,
+          "componentName": "Placeholder",
+          "title": "Placeholder 页面占位",
+          "order": 3,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "布局组件",
+            "order": 1,
+            "__fallback": true,
+            "path": "/zh-CN/components/placeholder"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "页面占位",
+              "heading": "页面占位"
+            },
+            {
+              "depth": 2,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "带文案",
+              "heading": "带文案"
+            },
+            {
+              "depth": 2,
+              "value": "不同占位页面",
+              "heading": "不同占位页面"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Placeholder 页面占位 - scioPro"
+      },
+      {
         "path": "/components/radio",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Radio/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Radio/index.md",
-          "updatedTime": 1664257961000,
+          "updatedTime": 1664360875000,
           "componentName": "Radio",
           "title": "Radio",
           "order": 3,
@@ -665,7 +770,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Radio/index.zh-CN.md",
-          "updatedTime": 1664186002000,
+          "updatedTime": 1664360875000,
           "componentName": "Radio",
           "title": "Radio 单选",
           "order": 3,
@@ -863,9 +968,9 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Switch/index.md",
-          "updatedTime": 1664271394000,
+          "updatedTime": 1664360875000,
           "componentName": "Switch",
-          "title": "CheckBox",
+          "title": "Switch",
           "order": 5,
           "nav": {
             "title": "Components",
@@ -881,8 +986,8 @@ export function getRoutes() {
           "slugs": [
             {
               "depth": 1,
-              "value": "CheckBox",
-              "heading": "checkbox"
+              "value": "Switch",
+              "heading": "switch"
             },
             {
               "depth": 2,
@@ -891,18 +996,18 @@ export function getRoutes() {
             },
             {
               "depth": 2,
+              "value": "Display with text",
+              "heading": "display-with-text"
+            },
+            {
+              "depth": 2,
               "value": "Disabled",
               "heading": "disabled"
             },
             {
               "depth": 2,
-              "value": "Arrangement",
-              "heading": "arrangement"
-            },
-            {
-              "depth": 2,
-              "value": "Default checked and custom value",
-              "heading": "default-checked-and-custom-value"
+              "value": "different size",
+              "heading": "different-size"
             },
             {
               "depth": 2,
@@ -912,7 +1017,7 @@ export function getRoutes() {
           ],
           "hasPreviewer": true
         },
-        "title": "CheckBox - scioPro"
+        "title": "Switch - scioPro"
       },
       {
         "path": "/zh-CN/components/switch",
@@ -920,7 +1025,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Switch/index.zh-CN.md",
-          "updatedTime": 1664271394000,
+          "updatedTime": 1664360875000,
           "componentName": "Switch",
           "title": "Switch 开关",
           "order": 5,
@@ -1390,7 +1495,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/blog/react/react18.md",
-          "updatedTime": 1664162790000,
+          "updatedTime": 1664433489000,
           "title": "95% 的算法都是基于这 6 种算法思想",
           "order": 1,
           "nav": {
@@ -1560,7 +1665,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/blog/react/react18.md",
-          "updatedTime": 1664162790000,
+          "updatedTime": 1664433489000,
           "title": "95% 的算法都是基于这 6 种算法思想",
           "order": 1,
           "nav": {

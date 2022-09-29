@@ -1,5 +1,5 @@
 ---
-title: CheckBox
+title: Switch
 order: 5
 nav:
   title: Components
@@ -10,25 +10,25 @@ group:
   order: 2
 ---
 
-# CheckBox
+# Switch
 
-Used to select certain states among multiple alternatives.
+Used to select one of two different states.
 
 ## basic use
 
-Basic usage of the checkbox component.
+Basic usage of the `Switch` switch component.
 
 <code src="./demos/index1.tsx" />
 
-## Disabled
+## Display with text
 
 <code src="./demos/index2.tsx" />
 
-## Arrangement
+## Disabled
 
 <code src="./demos/index3.tsx" />
 
-## Default checked and custom value
+## different size
 
 <code src="./demos/index4.tsx" />
 

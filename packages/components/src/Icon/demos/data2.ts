@@ -1,4 +1,4 @@
-export default [
+export const PromptSuggestionIcon = [
   'QuestionCircleTwoTone',
   'PlusCircleTwoTone',
   'PauseCircleTwoTone',
@@ -14,4 +14,30 @@ export default [
   'ClockCircleTwoTone',
   'WarningTwoTone',
   'StopTwoTone',
+];
+export const LinePromptSuggestionIcon = [
+  'QuestionOutlined',
+  'QuestionCircleOutlined',
+  'PlusOutlined',
+  'PlusCircleOutlined',
+  'PauseOutlined',
+  'PauseCircleOutlined',
+  'MinusOutlined',
+  'MinusCircleOutlined',
+  'PlusSquareOutlined',
+  'MinusSquareOutlined',
+  'InfoOutlined',
+  'InfoCircleOutlined',
+  'ExclamationOutlined',
+  'ExclamationCircleOutlined',
+  'CloseOutlined',
+  'CloseCircleOutlined',
+  'CloseSquareOutlined',
+  'CheckOutlined',
+  'CheckCircleOutlined',
+  'CheckSquareOutlined',
+  'ClockCircleOutlined',
+  'WarningOutlined',
+  'IssuesCloseOutlined',
+  'StopOutlined',
 ];

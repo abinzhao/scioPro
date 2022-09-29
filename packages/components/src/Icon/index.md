@@ -40,6 +40,10 @@ Good-looking icons will make the page more eye-catching and are often used to em
 
 <code src="./demos/index5.tsx" inline />
 
+### Brand and Identity
+
+<code src="./demos/index5.5.tsx" inline />
+
 ### Website Universal Icons
 
 <code src="./demos/index6.tsx" inline />

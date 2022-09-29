@@ -40,6 +40,10 @@ group:
 
 <code src="./demos/index5.tsx" inline />
 
+### 品牌和标识
+
+<code src="./demos/index5.5.tsx" inline />
+
 ### 网站通用图标
 
 <code src="./demos/index6.tsx" inline />

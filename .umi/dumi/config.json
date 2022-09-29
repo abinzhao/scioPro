@@ -131,7 +131,7 @@
       ],
       "/blog/react": [
         {
-          "title": "React related",
+          "title": "算法相关",
           "meta": {
             "order": 1,
             "__fallback": true
@@ -139,7 +139,7 @@
           "children": [
             {
               "path": "/blog/react/react18",
-              "title": "What's new in React 18",
+              "title": "95% 的算法都是基于这 6 种算法思想",
               "meta": {
                 "order": 1
               }
@@ -279,7 +279,7 @@
       ],
       "/zh-CN/blog/react": [
         {
-          "title": "React相关",
+          "title": "算法相关",
           "meta": {
             "order": 1,
             "__fallback": true
@@ -287,7 +287,7 @@
           "children": [
             {
               "path": "/zh-CN/blog/react/react18",
-              "title": "React 18 新特性",
+              "title": "95% 的算法都是基于这 6 种算法思想",
               "meta": {
                 "order": 1
               }
@@ -310,7 +310,7 @@
   "navs": {
     "en-US": [
       {
-        "title": "Blog",
+        "title": "博客",
         "path": "/blog/react",
         "order": 1
       },

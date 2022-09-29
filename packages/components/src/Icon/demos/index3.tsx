@@ -1,22 +1,53 @@
-import React from 'react';
+import React, { useState } from 'react';
 // @ts-ignore
-import { Icon, Space } from '@sciopro/components';
-import PromptSuggestionIcon from './data2';
+import { Icon, Space, Radio } from '@sciopro/components';
+import { PromptSuggestionIcon, LinePromptSuggestionIcon } from './data2';
 import './index.module.less';
 
 export default () => {
+  const [value, setValue] = useState<string>('line');
+  const dataSource = [
+    { label: '线框风格图标', value: 'line' },
+    { label: '双色风格图标', value: 'color' },
+  ];
   return (
-    <Space size={[12, 18]} wrap>
-      {PromptSuggestionIcon?.map((item) => {
-        return (
-          <div key={item} className="demo-icon-style">
-            <div className="icon">
-              <Icon type={item} style={{ fontSize: 32 }} />
-            </div>
-            <div>{item}</div>
-          </div>
-        );
-      })}
-    </Space>
+    <div>
+      <Radio
+        name="scio-radio3"
+        direction="row"
+        dataSource={dataSource}
+        value={value}
+        onClick={(e: any) => {
+          console.log(e);
+          setValue(e);
+        }}
+        isCheckedBG
+        isHoverBG
+      ></Radio>
+      <Space size={[12, 18]} wrap>
+        {value == 'line' &&
+          LinePromptSuggestionIcon?.map((item) => {
+            return (
+              <div key={item} className="demo-icon-style">
+                <div className="icon">
+                  <Icon type={item} style={{ fontSize: 32 }} />
+                </div>
+                <div>{item}</div>
+              </div>
+            );
+          })}
+        {value == 'color' &&
+          PromptSuggestionIcon?.map((item) => {
+            return (
+              <div key={item} className="demo-icon-style">
+                <div className="icon">
+                  <Icon type={item} style={{ fontSize: 32 }} />
+                </div>
+                <div>{item}</div>
+              </div>
+            );
+          })}
+      </Space>
+    </div>
   );
 };

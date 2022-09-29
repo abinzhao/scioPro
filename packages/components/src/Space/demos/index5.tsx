@@ -9,7 +9,7 @@ export default () => {
       {new Array(12).fill('').map((item, index) => {
         return (
           <div key={index} className="demo-style">
-            Button{index + 1}
+            div{index + 1}
           </div>
         );
       })}

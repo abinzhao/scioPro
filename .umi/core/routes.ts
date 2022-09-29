@@ -448,7 +448,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Icon/index.md",
-          "updatedTime": 1664359342308,
+          "updatedTime": 1664360875000,
           "componentName": "Icon",
           "title": "Icon",
           "order": 1,
@@ -501,6 +501,11 @@ export function getRoutes() {
             },
             {
               "depth": 3,
+              "value": "Brand and Identity",
+              "heading": "brand-and-identity"
+            },
+            {
+              "depth": 3,
               "value": "Website Universal Icons",
               "heading": "website-universal-icons"
             },
@@ -520,7 +525,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Icon/index.zh-CN.md",
-          "updatedTime": 1664359328758,
+          "updatedTime": 1664360875000,
           "componentName": "Icon",
           "title": "Icon 图标",
           "order": 1,
@@ -570,6 +575,11 @@ export function getRoutes() {
               "depth": 3,
               "value": "数据类图标",
               "heading": "数据类图标"
+            },
+            {
+              "depth": 3,
+              "value": "品牌和标识",
+              "heading": "品牌和标识"
             },
             {
               "depth": 3,
@@ -1381,37 +1391,177 @@ export function getRoutes() {
         "meta": {
           "filePath": "docs/blog/react/react18.md",
           "updatedTime": 1664162790000,
-          "title": "What's new in React 18",
+          "title": "95% 的算法都是基于这 6 种算法思想",
           "order": 1,
           "nav": {
-            "title": "Blog",
+            "title": "博客",
             "path": "/blog/react",
             "order": 1
           },
           "group": {
-            "title": "React related",
+            "title": "算法相关",
             "order": 1,
             "__fallback": true,
             "path": "/blog/react"
           },
           "slugs": [
             {
+              "depth": 1,
+              "value": "95% 的算法都是基于这 6 种算法思想",
+              "heading": "95-的算法都是基于这-6-种算法思想"
+            },
+            {
+              "depth": 1,
+              "value": "1、递归算法",
+              "heading": "1递归算法"
+            },
+            {
+              "depth": 3,
+              "value": "1.1 算法策略",
+              "heading": "11-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "1.2 适用场景",
+              "heading": "12-适用场景"
+            },
+            {
+              "depth": 3,
+              "value": "1.3 使用递归算法求解的一些经典问题",
+              "heading": "13-使用递归算法求解的一些经典问题"
+            },
+            {
+              "depth": 4,
+              "value": "DOM 树为例",
+              "heading": "dom-树为例"
+            },
+            {
               "depth": 2,
-              "value": "What's new in React 18",
-              "heading": "whats-new-in-react-18"
+              "value": "2 分治算法",
+              "heading": "2-分治算法"
+            },
+            {
+              "depth": 3,
+              "value": "2.1 算法策略",
+              "heading": "21-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "2.2 适用场景",
+              "heading": "22-适用场景"
+            },
+            {
+              "depth": 3,
+              "value": "2.3 使用分治法求解的一些经典问题",
+              "heading": "23使用分治法求解的一些经典问题"
+            },
+            {
+              "depth": 4,
+              "value": "二分查找",
+              "heading": "二分查找"
+            },
+            {
+              "depth": 2,
+              "value": "3 贪心算法",
+              "heading": "3-贪心算法"
+            },
+            {
+              "depth": 3,
+              "value": "3.1 算法策略",
+              "heading": "31-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "3.2 适用场景",
+              "heading": "32-适用场景"
+            },
+            {
+              "depth": 3,
+              "value": "3.3 经典案例：活动选择问题",
+              "heading": "33-经典案例活动选择问题"
+            },
+            {
+              "depth": 2,
+              "value": "4 回溯算法",
+              "heading": "4-回溯算法"
+            },
+            {
+              "depth": 3,
+              "value": "4.1 算法策略",
+              "heading": "41-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "4.2 适用场景",
+              "heading": "42-适用场景"
+            },
+            {
+              "depth": 3,
+              "value": "4.3 使用回溯算法的经典案例",
+              "heading": "43-使用回溯算法的经典案例"
+            },
+            {
+              "depth": 4,
+              "value": "正则表达式匹配",
+              "heading": "正则表达式匹配"
+            },
+            {
+              "depth": 2,
+              "value": "5 动态规划",
+              "heading": "5-动态规划"
+            },
+            {
+              "depth": 3,
+              "value": "5.1 算法策略",
+              "heading": "51-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "5.2 适用场景",
+              "heading": "52-适用场景"
+            },
+            {
+              "depth": 3,
+              "value": "5.3 使用动态规划求解的一些经典问题",
+              "heading": "53-使用动态规划求解的一些经典问题"
+            },
+            {
+              "depth": 4,
+              "value": "爬楼梯问题",
+              "heading": "爬楼梯问题"
+            },
+            {
+              "depth": 2,
+              "value": "6 枚举算法",
+              "heading": "6-枚举算法"
+            },
+            {
+              "depth": 3,
+              "value": "6.1 算法策略",
+              "heading": "61-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "6.2 解题思路",
+              "heading": "62-解题思路"
+            },
+            {
+              "depth": 1,
+              "value": "总结",
+              "heading": "总结"
             }
           ]
         },
-        "title": "What's new in React 18 - scioPro"
+        "title": "95% 的算法都是基于这 6 种算法思想 - scioPro"
       },
       {
         "path": "/zh-CN/blog/react/react18",
-        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/react/react18.zh-CN.md').default,
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/react/react18.md').default,
         "exact": true,
         "meta": {
-          "filePath": "docs/blog/react/react18.zh-CN.md",
+          "filePath": "docs/blog/react/react18.md",
           "updatedTime": 1664162790000,
-          "title": "React 18 新特性",
+          "title": "95% 的算法都是基于这 6 种算法思想",
           "order": 1,
           "nav": {
             "title": "博客",
@@ -1419,21 +1569,161 @@ export function getRoutes() {
             "order": 1
           },
           "group": {
-            "title": "React相关",
+            "title": "算法相关",
             "order": 1,
             "__fallback": true,
             "path": "/zh-CN/blog/react"
           },
           "slugs": [
             {
+              "depth": 1,
+              "value": "95% 的算法都是基于这 6 种算法思想",
+              "heading": "95-的算法都是基于这-6-种算法思想"
+            },
+            {
+              "depth": 1,
+              "value": "1、递归算法",
+              "heading": "1递归算法"
+            },
+            {
+              "depth": 3,
+              "value": "1.1 算法策略",
+              "heading": "11-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "1.2 适用场景",
+              "heading": "12-适用场景"
+            },
+            {
+              "depth": 3,
+              "value": "1.3 使用递归算法求解的一些经典问题",
+              "heading": "13-使用递归算法求解的一些经典问题"
+            },
+            {
+              "depth": 4,
+              "value": "DOM 树为例",
+              "heading": "dom-树为例"
+            },
+            {
               "depth": 2,
-              "value": "React 18 新特性",
-              "heading": "react-18-新特性"
+              "value": "2 分治算法",
+              "heading": "2-分治算法"
+            },
+            {
+              "depth": 3,
+              "value": "2.1 算法策略",
+              "heading": "21-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "2.2 适用场景",
+              "heading": "22-适用场景"
+            },
+            {
+              "depth": 3,
+              "value": "2.3 使用分治法求解的一些经典问题",
+              "heading": "23使用分治法求解的一些经典问题"
+            },
+            {
+              "depth": 4,
+              "value": "二分查找",
+              "heading": "二分查找"
+            },
+            {
+              "depth": 2,
+              "value": "3 贪心算法",
+              "heading": "3-贪心算法"
+            },
+            {
+              "depth": 3,
+              "value": "3.1 算法策略",
+              "heading": "31-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "3.2 适用场景",
+              "heading": "32-适用场景"
+            },
+            {
+              "depth": 3,
+              "value": "3.3 经典案例：活动选择问题",
+              "heading": "33-经典案例活动选择问题"
+            },
+            {
+              "depth": 2,
+              "value": "4 回溯算法",
+              "heading": "4-回溯算法"
+            },
+            {
+              "depth": 3,
+              "value": "4.1 算法策略",
+              "heading": "41-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "4.2 适用场景",
+              "heading": "42-适用场景"
+            },
+            {
+              "depth": 3,
+              "value": "4.3 使用回溯算法的经典案例",
+              "heading": "43-使用回溯算法的经典案例"
+            },
+            {
+              "depth": 4,
+              "value": "正则表达式匹配",
+              "heading": "正则表达式匹配"
+            },
+            {
+              "depth": 2,
+              "value": "5 动态规划",
+              "heading": "5-动态规划"
+            },
+            {
+              "depth": 3,
+              "value": "5.1 算法策略",
+              "heading": "51-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "5.2 适用场景",
+              "heading": "52-适用场景"
+            },
+            {
+              "depth": 3,
+              "value": "5.3 使用动态规划求解的一些经典问题",
+              "heading": "53-使用动态规划求解的一些经典问题"
+            },
+            {
+              "depth": 4,
+              "value": "爬楼梯问题",
+              "heading": "爬楼梯问题"
+            },
+            {
+              "depth": 2,
+              "value": "6 枚举算法",
+              "heading": "6-枚举算法"
+            },
+            {
+              "depth": 3,
+              "value": "6.1 算法策略",
+              "heading": "61-算法策略"
+            },
+            {
+              "depth": 3,
+              "value": "6.2 解题思路",
+              "heading": "62-解题思路"
+            },
+            {
+              "depth": 1,
+              "value": "总结",
+              "heading": "总结"
             }
           ],
           "locale": "zh-CN"
         },
-        "title": "React 18 新特性 - scioPro"
+        "title": "95% 的算法都是基于这 6 种算法思想 - scioPro"
       },
       {
         "path": "/components",

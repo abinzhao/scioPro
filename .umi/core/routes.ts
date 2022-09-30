@@ -603,7 +603,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Placeholder/index.md",
-          "updatedTime": 1664439759887,
+          "updatedTime": 1664441593000,
           "componentName": "Placeholder",
           "title": "Page Placeholder",
           "order": 3,
@@ -655,7 +655,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Placeholder/index.zh-CN.md",
-          "updatedTime": 1664439738008,
+          "updatedTime": 1664441593000,
           "componentName": "Placeholder",
           "title": "Placeholder 页面占位",
           "order": 3,
@@ -828,6 +828,111 @@ export function getRoutes() {
         "title": "Radio 单选 - scioPro"
       },
       {
+        "path": "/components/signature",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Signature/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Signature/index.md",
+          "updatedTime": 1664530149407,
+          "componentName": "Signature",
+          "title": "Signature",
+          "order": 6,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "Common components",
+            "order": 2,
+            "__fallback": true,
+            "path": "/components/signature"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Switch",
+              "heading": "switch"
+            },
+            {
+              "depth": 2,
+              "value": "basic use",
+              "heading": "basic-use"
+            },
+            {
+              "depth": 2,
+              "value": "Display with text",
+              "heading": "display-with-text"
+            },
+            {
+              "depth": 2,
+              "value": "Disabled",
+              "heading": "disabled"
+            },
+            {
+              "depth": 2,
+              "value": "different size",
+              "heading": "different-size"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "Signature - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/signature",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Signature/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Signature/index.zh-CN.md",
+          "updatedTime": 1664530140164,
+          "componentName": "Signature",
+          "title": "Signature",
+          "order": 6,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "通用组件",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/components/signature"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Switch 开关",
+              "heading": "switch-开关"
+            },
+            {
+              "depth": 2,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "带文本显示",
+              "heading": "带文本显示"
+            },
+            {
+              "depth": 2,
+              "value": "禁用",
+              "heading": "禁用"
+            },
+            {
+              "depth": 2,
+              "value": "不同大小",
+              "heading": "不同大小"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Signature - scioPro"
+      },
+      {
         "path": "/components/space",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/index.md').default,
         "exact": true,
@@ -968,7 +1073,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Switch/index.md",
-          "updatedTime": 1664360875000,
+          "updatedTime": 1664441593000,
           "componentName": "Switch",
           "title": "Switch",
           "order": 5,
@@ -1244,12 +1349,12 @@ export function getRoutes() {
         "title": "Foo hooks - scioPro"
       },
       {
-        "path": "/utils/add",
-        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/add/index.md').default,
+        "path": "/utils/debounce",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Debounce/index.md').default,
         "exact": true,
         "meta": {
-          "filePath": "packages/utils/src/add/index.md",
-          "updatedTime": 1663840739000,
+          "filePath": "packages/utils/src/Debounce/index.md",
+          "updatedTime": 1663840176489,
           "title": "Add",
           "order": 1,
           "nav": {
@@ -1261,7 +1366,7 @@ export function getRoutes() {
             "title": "Computational correlation",
             "order": 1,
             "__fallback": true,
-            "path": "/utils/add"
+            "path": "/utils/debounce"
           },
           "slugs": [
             {
@@ -1275,13 +1380,13 @@ export function getRoutes() {
         "title": "Add - scioPro"
       },
       {
-        "path": "/zh-CN/utils/add",
-        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/add/index.zh-CN.md').default,
+        "path": "/zh-CN/utils/debounce",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Debounce/index.zh-CN.md').default,
         "exact": true,
         "meta": {
-          "filePath": "packages/utils/src/add/index.zh-CN.md",
-          "updatedTime": 1663840739000,
-          "title": "Add",
+          "filePath": "packages/utils/src/Debounce/index.zh-CN.md",
+          "updatedTime": 1664518881935,
+          "title": "TimeTop 防抖",
           "order": 1,
           "nav": {
             "title": "工具函数",
@@ -1289,10 +1394,10 @@ export function getRoutes() {
             "order": 4
           },
           "group": {
-            "title": "计算相关",
+            "title": "性能相关",
             "order": 1,
             "__fallback": true,
-            "path": "/zh-CN/utils/add"
+            "path": "/zh-CN/utils/debounce"
           },
           "slugs": [
             {
@@ -1304,7 +1409,7 @@ export function getRoutes() {
           "hasPreviewer": true,
           "locale": "zh-CN"
         },
-        "title": "Add - scioPro"
+        "title": "TimeTop 防抖 - scioPro"
       },
       {
         "path": "/",
@@ -1868,7 +1973,7 @@ export function getRoutes() {
           "order": 4
         },
         "exact": true,
-        "redirect": "/utils/add"
+        "redirect": "/utils/debounce"
       },
       {
         "path": "/zh-CN/utils",
@@ -1876,7 +1981,7 @@ export function getRoutes() {
           "order": 4
         },
         "exact": true,
-        "redirect": "/zh-CN/utils/add"
+        "redirect": "/zh-CN/utils/debounce"
       },
       {
         "path": "/blog/react",

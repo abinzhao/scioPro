@@ -6,3 +6,4 @@ export { default as Switch } from './Switch';
 export { default as Button } from './Button';
 export { default as Icon } from './Icon';
 export { default as Placeholder } from './Placeholder';
+export { default as Signature } from './Signature';

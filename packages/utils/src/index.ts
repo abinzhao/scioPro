@@ -1,3 +1,3 @@
-import Add from './add';
+import Debounce from './Debounce';
 
-export { Add };
+export { Debounce };

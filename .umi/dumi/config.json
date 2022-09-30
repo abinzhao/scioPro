@@ -89,6 +89,13 @@
               "meta": {
                 "order": 5
               }
+            },
+            {
+              "path": "/components/signature",
+              "title": "Signature",
+              "meta": {
+                "order": 6
+              }
             }
           ]
         }
@@ -120,7 +127,7 @@
           },
           "children": [
             {
-              "path": "/utils/add",
+              "path": "/utils/debounce",
               "title": "Add",
               "meta": {
                 "order": 1
@@ -244,6 +251,13 @@
               "meta": {
                 "order": 5
               }
+            },
+            {
+              "path": "/zh-CN/components/signature",
+              "title": "Signature",
+              "meta": {
+                "order": 6
+              }
             }
           ]
         }
@@ -268,15 +282,15 @@
       ],
       "/zh-CN/utils": [
         {
-          "title": "计算相关",
+          "title": "性能相关",
           "meta": {
             "order": 1,
             "__fallback": true
           },
           "children": [
             {
-              "path": "/zh-CN/utils/add",
-              "title": "Add",
+              "path": "/zh-CN/utils/debounce",
+              "title": "TimeTop 防抖",
               "meta": {
                 "order": 1
               }

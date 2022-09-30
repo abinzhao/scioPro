@@ -7,13 +7,19 @@ export default () => {
     <div>
       <Space>
         <Button icon={<Icon type="GithubOutlined" />}>Button</Button>
-        <Button type={'success'} dashed circle icon={<Icon type="WechatOutlined" />}>
+        <Button
+          type={'success'}
+          dashed
+          circle
+          icon={<Icon type="WechatOutlined" />}
+          iconAlign={'right'}
+        >
           Button
         </Button>
         <Button type={'info'} icon={<Icon type="QqOutlined" />}>
           Button
         </Button>
-        <Button type={'warning'} dashed icon={<Icon type="WeiboOutlined" />}>
+        <Button type={'warning'} dashed icon={<Icon type="WeiboOutlined" />} iconAlign={'right'}>
           Button
         </Button>
         <Button type={'error'} circle icon={<Icon type="IeOutlined" />}>

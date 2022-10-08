@@ -29,18 +29,19 @@ import rawCode25 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/sc
 import rawCode26 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Radio/demos/index5.tsx?dumi-raw-code';
 import rawCode27 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Signature/demos/index1.tsx?dumi-raw-code';
 import rawCode28 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Signature/demos/index2.tsx?dumi-raw-code';
-import rawCode29 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Signature/demos/index3.tsx?dumi-raw-code';
-import rawCode30 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Signature/demos/index4.tsx?dumi-raw-code';
-import rawCode31 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index1.tsx?dumi-raw-code';
-import rawCode32 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index.module.less?dumi-raw-code';
-import rawCode33 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index2.tsx?dumi-raw-code';
-import rawCode34 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index3.tsx?dumi-raw-code';
-import rawCode35 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index4.tsx?dumi-raw-code';
-import rawCode36 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index5.tsx?dumi-raw-code';
-import rawCode37 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index1.tsx?dumi-raw-code';
-import rawCode38 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index2.tsx?dumi-raw-code';
-import rawCode39 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index3.tsx?dumi-raw-code';
-import rawCode40 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index4.tsx?dumi-raw-code';
+import rawCode29 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index1.tsx?dumi-raw-code';
+import rawCode30 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index.module.less?dumi-raw-code';
+import rawCode31 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index2.tsx?dumi-raw-code';
+import rawCode32 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index3.tsx?dumi-raw-code';
+import rawCode33 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index4.tsx?dumi-raw-code';
+import rawCode34 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index5.tsx?dumi-raw-code';
+import rawCode35 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index1.tsx?dumi-raw-code';
+import rawCode36 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index2.tsx?dumi-raw-code';
+import rawCode37 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index3.tsx?dumi-raw-code';
+import rawCode38 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index4.tsx?dumi-raw-code';
+import rawCode39 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Debounce/demos/index1.tsx?dumi-raw-code';
+import rawCode40 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/demos/index1.tsx?dumi-raw-code';
+import rawCode41 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetTimeInterval/demos/index.tsx?dumi-raw-code';
 
 export default {
   'box-index1': {
@@ -149,51 +150,43 @@ export default {
   },
   'signature-index2': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Signature/demos/index2.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode28}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Signature","identifier":"signature-index2"},
-  },
-  'signature-index3': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Signature/demos/index3.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode29}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Signature","identifier":"signature-index3"},
-  },
-  'signature-index4': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Signature/demos/index4.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode30}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Signature","identifier":"signature-index4"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode28}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"},"@sciopro/utils":{"version":"0.0.1"}},"componentName":"Signature","identifier":"signature-index2"},
   },
   'space-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index1.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode31},"index.module.less":{"import":"./index.module.less","content":rawCode32}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index1"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode29},"index.module.less":{"import":"./index.module.less","content":rawCode30}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index1"},
   },
   'space-index2': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index2.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode33},"index.module.less":{"import":"./index.module.less","content":rawCode32}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index2"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode31},"index.module.less":{"import":"./index.module.less","content":rawCode30}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index2"},
   },
   'space-index3': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index3.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode34},"index.module.less":{"import":"./index.module.less","content":rawCode32}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index3"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode32},"index.module.less":{"import":"./index.module.less","content":rawCode30}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index3"},
   },
   'space-index4': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index4.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode35},"index.module.less":{"import":"./index.module.less","content":rawCode32}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index4"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode33},"index.module.less":{"import":"./index.module.less","content":rawCode30}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index4"},
   },
   'space-index5': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Space/demos/index5.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode36},"index.module.less":{"import":"./index.module.less","content":rawCode32}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index5"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode34},"index.module.less":{"import":"./index.module.less","content":rawCode30}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Space","identifier":"space-index5"},
   },
   'switch-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index1.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode37}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index1"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode35}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index1"},
   },
   'switch-index2': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index2.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode38}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index2"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode36}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index2"},
   },
   'switch-index3': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index3.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode39}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index3"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode37}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index3"},
   },
   'switch-index4': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index4.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode40}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index4"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode38}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index4"},
   },
   'Foo-demo': {
     component: function DumiDemo() {
@@ -231,60 +224,16 @@ export default {
 },
     previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Foo } from '@sciopro/hooks';\n\nexport default () => <Foo title=\"First Demo\" />;"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/hooks":{"version":"0.0.1"}},"componentName":"Foo","identifier":"Foo-1-demo"},
   },
-  'Debounce-demo': {
-    component: function DumiDemo() {
-  var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
-
-  var _slicedToArray2 = _interopRequireDefault(require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray.js"));
-
-  var _react = _interopRequireDefault(require("react"));
-
-  var _utils = require("@sciopro/utils");
-
-  var data = 1;
-
-  var _default = function _default() {
-    var _React$useState = _react["default"].useState(1),
-        _React$useState2 = (0, _slicedToArray2["default"])(_React$useState, 2),
-        num = _React$useState2[0],
-        setNum = _React$useState2[1];
-
-    _react["default"].useEffect(function () {
-      data = (0, _utils.Add)(num);
-      return function () {
-        return data = 1;
-      };
-    }, [num]);
-
-    return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("button", {
-      onClick: function onClick() {
-        return setNum(num + 1);
-      }
-    }, "\u70B9\u6211"), /*#__PURE__*/_react["default"].createElement("h2", null, data));
-  };
-
-  return _react["default"].createElement(_default);
-},
-    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Add } from '@sciopro/utils';\n\nlet data = 1;\nexport default () => {\n  const [num, setNum] = React.useState(1);\n  React.useEffect(() => {\n    data = Add(num);\n    return () => (data = 1);\n  }, [num]);\n  return (\n    <div>\n      <button onClick={() => setNum(num + 1)}>点我</button>\n      <h2>{data}</h2>\n    </div>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"Debounce-demo"},
+  'debounce-index1': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Debounce/demos/index1.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode39}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"},"@sciopro/components":{"version":"0.0.1"}},"identifier":"debounce-index1"},
   },
-  'Debounce.zh-CN-demo': {
-    component: function DumiDemo() {
-  var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
-
-  var _react = _interopRequireDefault(require("react"));
-
-  var _utils = require("@sciopro/utils");
-
-  var _components = require("@sciopro/components");
-
-  var _default = function _default() {
-    return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement(_components.Button, {
-      onClick: _utils.Debounce
-    }, "\u9632\u6296"));
-  };
-
-  return _react["default"].createElement(_default);
-},
-    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Debounce } from '@sciopro/utils';\nimport { Button } from '@sciopro/components';\n\nexport default () => {\n  return (\n    <div>\n      <Button onClick={Debounce}>防抖</Button>\n    </div>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"},"@sciopro/components":{"version":"0.0.1"}},"identifier":"Debounce.zh-CN-demo"},
+  'randomcolor-index1': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/demos/index1.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode40}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"},"@sciopro/components":{"version":"0.0.1"}},"identifier":"randomcolor-index1"},
+  },
+  'gettimeinterval-demos': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetTimeInterval/demos/index.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode41}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"gettimeinterval-demos"},
   },
 };

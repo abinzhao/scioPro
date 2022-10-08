@@ -833,7 +833,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Signature/index.md",
-          "updatedTime": 1664530149407,
+          "updatedTime": 1664532835000,
           "componentName": "Signature",
           "title": "Signature",
           "order": 6,
@@ -851,8 +851,8 @@ export function getRoutes() {
           "slugs": [
             {
               "depth": 1,
-              "value": "Switch",
-              "heading": "switch"
+              "value": "Signature",
+              "heading": "signature"
             },
             {
               "depth": 2,
@@ -861,18 +861,8 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "Display with text",
-              "heading": "display-with-text"
-            },
-            {
-              "depth": 2,
-              "value": "Disabled",
-              "heading": "disabled"
-            },
-            {
-              "depth": 2,
-              "value": "different size",
-              "heading": "different-size"
+              "value": "basic method",
+              "heading": "basic-method"
             }
           ],
           "hasPreviewer": true
@@ -885,9 +875,9 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Signature/index.zh-CN.md",
-          "updatedTime": 1664530140164,
+          "updatedTime": 1664532835000,
           "componentName": "Signature",
-          "title": "Signature",
+          "title": "Signature 电子签名",
           "order": 6,
           "nav": {
             "title": "组件",
@@ -903,8 +893,8 @@ export function getRoutes() {
           "slugs": [
             {
               "depth": 1,
-              "value": "Switch 开关",
-              "heading": "switch-开关"
+              "value": "Signature 电子签名",
+              "heading": "signature-电子签名"
             },
             {
               "depth": 2,
@@ -913,24 +903,14 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "带文本显示",
-              "heading": "带文本显示"
-            },
-            {
-              "depth": 2,
-              "value": "禁用",
-              "heading": "禁用"
-            },
-            {
-              "depth": 2,
-              "value": "不同大小",
-              "heading": "不同大小"
+              "value": "基础方法",
+              "heading": "基础方法"
             }
           ],
           "hasPreviewer": true,
           "locale": "zh-CN"
         },
-        "title": "Signature - scioPro"
+        "title": "Signature 电子签名 - scioPro"
       },
       {
         "path": "/components/space",
@@ -1354,16 +1334,16 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/Debounce/index.md",
-          "updatedTime": 1663840176489,
-          "title": "Add",
-          "order": 1,
+          "updatedTime": 1664532835000,
+          "title": "Debounce",
+          "order": 2,
           "nav": {
-            "title": "Utils",
+            "title": "Utility function",
             "path": "/utils",
             "order": 4
           },
           "group": {
-            "title": "Computational correlation",
+            "title": "Base Function",
             "order": 1,
             "__fallback": true,
             "path": "/utils/debounce"
@@ -1371,13 +1351,17 @@ export function getRoutes() {
           "slugs": [
             {
               "depth": 2,
-              "value": "Foo",
-              "heading": "foo"
+              "value": "Debounce",
+              "heading": "debounce"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
             }
-          ],
-          "hasPreviewer": true
+          ]
         },
-        "title": "Add - scioPro"
+        "title": "Debounce - scioPro"
       },
       {
         "path": "/zh-CN/utils/debounce",
@@ -1385,16 +1369,16 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/Debounce/index.zh-CN.md",
-          "updatedTime": 1664518881935,
-          "title": "TimeTop 防抖",
-          "order": 1,
+          "updatedTime": 1664532835000,
+          "title": "Debounce 防抖",
+          "order": 2,
           "nav": {
             "title": "工具函数",
             "path": "/zh-CN/utils",
             "order": 4
           },
           "group": {
-            "title": "性能相关",
+            "title": "基础函数",
             "order": 1,
             "__fallback": true,
             "path": "/zh-CN/utils/debounce"
@@ -1402,14 +1386,235 @@ export function getRoutes() {
           "slugs": [
             {
               "depth": 2,
-              "value": "Foo",
-              "heading": "foo"
+              "value": "Debounce 防抖",
+              "heading": "debounce-防抖"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "Debounce 防抖 - scioPro"
+      },
+      {
+        "path": "/utils/get-time-interval",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetTimeInterval/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/GetTimeInterval/index.md",
+          "updatedTime": 1665217942534,
+          "title": "GetTimeInterval",
+          "order": 1,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "time dependent",
+            "order": 2,
+            "__fallback": true,
+            "path": "/utils/get-time-interval"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "GetTimeInterval",
+              "heading": "gettimeinterval"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "GetTimeInterval - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/get-time-interval",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetTimeInterval/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/GetTimeInterval/index.zh-CN.md",
+          "updatedTime": 1665218107886,
+          "title": "GetTimeInterval 时间戳间隔",
+          "order": 1,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "时间相关",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/utils/get-time-interval"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "GetTimeInterval 时间戳间隔",
+              "heading": "gettimeinterval-时间戳间隔"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
             }
           ],
           "hasPreviewer": true,
           "locale": "zh-CN"
         },
-        "title": "TimeTop 防抖 - scioPro"
+        "title": "GetTimeInterval 时间戳间隔 - scioPro"
+      },
+      {
+        "path": "/utils/random-color",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/RandomColor/index.md",
+          "updatedTime": 1665212369961,
+          "title": "RandomColor",
+          "order": 1,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "Base Function",
+            "order": 1,
+            "__fallback": true,
+            "path": "/utils/random-color"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "RandomColor",
+              "heading": "randomcolor"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "RandomColor - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/random-color",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/RandomColor/index.zh-CN.md",
+          "updatedTime": 1665212362365,
+          "title": "RandomColor 随机颜色",
+          "order": 1,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "基础函数",
+            "order": 1,
+            "__fallback": true,
+            "path": "/zh-CN/utils/random-color"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "RandomColor 随机颜色",
+              "heading": "randomcolor-随机颜色"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "RandomColor 随机颜色 - scioPro"
+      },
+      {
+        "path": "/utils/throttle",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Throttle/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/Throttle/index.md",
+          "updatedTime": 1665215755268,
+          "title": "FormatDate",
+          "order": 3,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "Base Function",
+            "order": 1,
+            "__fallback": true,
+            "path": "/utils/throttle"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "FormatDate",
+              "heading": "formatdate"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ]
+        },
+        "title": "FormatDate - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/throttle",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Throttle/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/Throttle/index.zh-CN.md",
+          "updatedTime": 1665215266709,
+          "title": "Throttle 节流",
+          "order": 3,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "基础函数",
+            "order": 1,
+            "__fallback": true,
+            "path": "/zh-CN/utils/throttle"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Throttle 节流",
+              "heading": "throttle-节流"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "Throttle 节流 - scioPro"
       },
       {
         "path": "/",

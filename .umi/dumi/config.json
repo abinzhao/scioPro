@@ -120,15 +120,45 @@
       ],
       "/utils": [
         {
-          "title": "Computational correlation",
+          "title": "Base Function",
           "meta": {
             "order": 1,
             "__fallback": true
           },
           "children": [
             {
+              "path": "/utils/random-color",
+              "title": "RandomColor",
+              "meta": {
+                "order": 1
+              }
+            },
+            {
               "path": "/utils/debounce",
-              "title": "Add",
+              "title": "Debounce",
+              "meta": {
+                "order": 2
+              }
+            },
+            {
+              "path": "/utils/throttle",
+              "title": "FormatDate",
+              "meta": {
+                "order": 3
+              }
+            }
+          ]
+        },
+        {
+          "title": "time dependent",
+          "meta": {
+            "order": 2,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/utils/get-time-interval",
+              "title": "GetTimeInterval",
               "meta": {
                 "order": 1
               }
@@ -254,7 +284,7 @@
             },
             {
               "path": "/zh-CN/components/signature",
-              "title": "Signature",
+              "title": "Signature 电子签名",
               "meta": {
                 "order": 6
               }
@@ -282,15 +312,45 @@
       ],
       "/zh-CN/utils": [
         {
-          "title": "性能相关",
+          "title": "基础函数",
           "meta": {
             "order": 1,
             "__fallback": true
           },
           "children": [
             {
+              "path": "/zh-CN/utils/random-color",
+              "title": "RandomColor 随机颜色",
+              "meta": {
+                "order": 1
+              }
+            },
+            {
               "path": "/zh-CN/utils/debounce",
-              "title": "TimeTop 防抖",
+              "title": "Debounce 防抖",
+              "meta": {
+                "order": 2
+              }
+            },
+            {
+              "path": "/zh-CN/utils/throttle",
+              "title": "Throttle 节流",
+              "meta": {
+                "order": 3
+              }
+            }
+          ]
+        },
+        {
+          "title": "时间相关",
+          "meta": {
+            "order": 2,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/zh-CN/utils/get-time-interval",
+              "title": "GetTimeInterval 时间戳间隔",
               "meta": {
                 "order": 1
               }
@@ -353,7 +413,7 @@
         "order": 3
       },
       {
-        "title": "Utils",
+        "title": "Utility function",
         "path": "/utils",
         "order": 4
       },

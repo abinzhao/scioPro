@@ -39,9 +39,9 @@ import rawCode35 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/sc
 import rawCode36 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index2.tsx?dumi-raw-code';
 import rawCode37 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index3.tsx?dumi-raw-code';
 import rawCode38 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index4.tsx?dumi-raw-code';
-import rawCode39 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Debounce/demos/index1.tsx?dumi-raw-code';
-import rawCode40 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/demos/index1.tsx?dumi-raw-code';
-import rawCode41 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetTimeInterval/demos/index.tsx?dumi-raw-code';
+import rawCode39 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetTimeInterval/demos/index.tsx?dumi-raw-code';
+import rawCode40 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetdataTimeSec/demos/index.tsx?dumi-raw-code';
+import rawCode41 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/demos/index1.tsx?dumi-raw-code';
 
 export default {
   'box-index1': {
@@ -224,16 +224,16 @@ export default {
 },
     previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport { Foo } from '@sciopro/hooks';\n\nexport default () => <Foo title=\"First Demo\" />;"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/hooks":{"version":"0.0.1"}},"componentName":"Foo","identifier":"Foo-1-demo"},
   },
-  'debounce-index1': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Debounce/demos/index1.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode39}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"},"@sciopro/components":{"version":"0.0.1"}},"identifier":"debounce-index1"},
+  'gettimeinterval-demos': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetTimeInterval/demos/index.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode39}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"gettimeinterval-demos"},
+  },
+  'getdatatimesec-demos': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetdataTimeSec/demos/index.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode40}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"getdatatimesec-demos"},
   },
   'randomcolor-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/demos/index1.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode40}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"},"@sciopro/components":{"version":"0.0.1"}},"identifier":"randomcolor-index1"},
-  },
-  'gettimeinterval-demos': {
-    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetTimeInterval/demos/index.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode41}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"gettimeinterval-demos"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode41}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"},"@sciopro/components":{"version":"0.0.1"}},"identifier":"randomcolor-index1"},
   },
 };

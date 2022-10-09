@@ -1334,7 +1334,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/Debounce/index.md",
-          "updatedTime": 1664532835000,
+          "updatedTime": 1665218631000,
           "title": "Debounce",
           "order": 2,
           "nav": {
@@ -1369,7 +1369,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/Debounce/index.zh-CN.md",
-          "updatedTime": 1664532835000,
+          "updatedTime": 1665218631000,
           "title": "Debounce 防抖",
           "order": 2,
           "nav": {
@@ -1405,7 +1405,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/GetTimeInterval/index.md",
-          "updatedTime": 1665217942534,
+          "updatedTime": 1665218631000,
           "title": "GetTimeInterval",
           "order": 1,
           "nav": {
@@ -1441,7 +1441,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/GetTimeInterval/index.zh-CN.md",
-          "updatedTime": 1665218107886,
+          "updatedTime": 1665218631000,
           "title": "GetTimeInterval 时间戳间隔",
           "order": 1,
           "nav": {
@@ -1473,12 +1473,85 @@ export function getRoutes() {
         "title": "GetTimeInterval 时间戳间隔 - scioPro"
       },
       {
+        "path": "/utils/getdata-time-sec",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetdataTimeSec/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/GetdataTimeSec/index.md",
+          "updatedTime": 1665221146006,
+          "title": "GetdataTimeSec",
+          "order": 2,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "time dependent",
+            "order": 2,
+            "__fallback": true,
+            "path": "/utils/getdata-time-sec"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "GetdataTimeSec",
+              "heading": "getdatatimesec"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "GetdataTimeSec - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/getdata-time-sec",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetdataTimeSec/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/GetdataTimeSec/index.zh-CN.md",
+          "updatedTime": 1665221138034,
+          "title": "GetdataTimeSec 当前时间格式化",
+          "order": 2,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "时间相关",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/utils/getdata-time-sec"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "GetdataTimeSec 当前时间格式化",
+              "heading": "getdatatimesec-当前时间格式化"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "GetdataTimeSec 当前时间格式化 - scioPro"
+      },
+      {
         "path": "/utils/random-color",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/RandomColor/index.md",
-          "updatedTime": 1665212369961,
+          "updatedTime": 1665218631000,
           "title": "RandomColor",
           "order": 1,
           "nav": {
@@ -1514,7 +1587,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/RandomColor/index.zh-CN.md",
-          "updatedTime": 1665212362365,
+          "updatedTime": 1665218631000,
           "title": "RandomColor 随机颜色",
           "order": 1,
           "nav": {
@@ -1551,7 +1624,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/Throttle/index.md",
-          "updatedTime": 1665215755268,
+          "updatedTime": 1665218631000,
           "title": "FormatDate",
           "order": 3,
           "nav": {
@@ -1586,7 +1659,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/Throttle/index.zh-CN.md",
-          "updatedTime": 1665215266709,
+          "updatedTime": 1665218631000,
           "title": "Throttle 节流",
           "order": 3,
           "nav": {

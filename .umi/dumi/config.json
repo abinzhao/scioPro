@@ -162,6 +162,13 @@
               "meta": {
                 "order": 1
               }
+            },
+            {
+              "path": "/utils/getdata-time-sec",
+              "title": "GetdataTimeSec",
+              "meta": {
+                "order": 2
+              }
             }
           ]
         }
@@ -353,6 +360,13 @@
               "title": "GetTimeInterval 时间戳间隔",
               "meta": {
                 "order": 1
+              }
+            },
+            {
+              "path": "/zh-CN/utils/getdata-time-sec",
+              "title": "GetdataTimeSec 当前时间格式化",
+              "meta": {
+                "order": 2
               }
             }
           ]

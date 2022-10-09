@@ -1329,6 +1329,87 @@ export function getRoutes() {
         "title": "Foo hooks - scioPro"
       },
       {
+        "path": "/utils/cookie-storage",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/CookieStorage/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/CookieStorage/index.md",
+          "updatedTime": 1665296707389,
+          "title": "Cookie Storage",
+          "order": 3,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "Browser storage related",
+            "order": 3,
+            "__fallback": true,
+            "path": "/utils/cookie-storage"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Cookie Storage",
+              "heading": "cookie-storage"
+            },
+            {
+              "depth": 2,
+              "value": "Instructions",
+              "heading": "instructions"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ]
+        },
+        "title": "Cookie Storage - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/cookie-storage",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/CookieStorage/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/CookieStorage/index.zh-CN.md",
+          "updatedTime": 1665296729125,
+          "title": "Cookie 存储",
+          "order": 2,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "浏览器存储相关",
+            "order": 3,
+            "__fallback": true,
+            "path": "/zh-CN/utils/cookie-storage"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Cookie 存储",
+              "heading": "cookie-存储"
+            },
+            {
+              "depth": 2,
+              "value": "使用方法",
+              "heading": "使用方法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "Cookie 存储 - scioPro"
+      },
+      {
         "path": "/utils/debounce",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Debounce/index.md').default,
         "exact": true,
@@ -1398,6 +1479,89 @@ export function getRoutes() {
           "locale": "zh-CN"
         },
         "title": "Debounce 防抖 - scioPro"
+      },
+      {
+        "path": "/utils/file-to-base64",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/FileToBase64/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/FileToBase64/index.md",
+          "updatedTime": 1665300137589,
+          "title": "FileToBase64",
+          "order": 1,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "File related",
+            "order": 4,
+            "__fallback": true,
+            "path": "/utils/file-to-base64"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "FileToBase64",
+              "heading": "filetobase64"
+            },
+            {
+              "depth": 2,
+              "value": "Instructions",
+              "heading": "instructions"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "FileToBase64 - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/file-to-base64",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/FileToBase64/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/FileToBase64/index.zh-CN.md",
+          "updatedTime": 1665300183159,
+          "title": "FileToBase64 获取Base64编码",
+          "order": 1,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "文件相关",
+            "order": 4,
+            "__fallback": true,
+            "path": "/zh-CN/utils/file-to-base64"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "FileToBase64 获取 Base64 编码",
+              "heading": "filetobase64-获取-base64-编码"
+            },
+            {
+              "depth": 2,
+              "value": "使用方法",
+              "heading": "使用方法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "FileToBase64 获取Base64编码 - scioPro"
       },
       {
         "path": "/utils/get-time-interval",
@@ -1698,6 +1862,87 @@ export function getRoutes() {
           "locale": "zh-CN"
         },
         "title": "RandomColor 随机颜色 - scioPro"
+      },
+      {
+        "path": "/utils/session-storage",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/SessionStorage/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/SessionStorage/index.md",
+          "updatedTime": 1665295638871,
+          "title": "Session Storage",
+          "order": 2,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "Browser storage related",
+            "order": 3,
+            "__fallback": true,
+            "path": "/utils/session-storage"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Session Storage",
+              "heading": "session-storage"
+            },
+            {
+              "depth": 2,
+              "value": "Instructions",
+              "heading": "instructions"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ]
+        },
+        "title": "Session Storage - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/session-storage",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/SessionStorage/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/SessionStorage/index.zh-CN.md",
+          "updatedTime": 1665295569685,
+          "title": "Session 存储",
+          "order": 2,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "浏览器存储相关",
+            "order": 3,
+            "__fallback": true,
+            "path": "/zh-CN/utils/session-storage"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Session 存储",
+              "heading": "session-存储"
+            },
+            {
+              "depth": 2,
+              "value": "使用方法",
+              "heading": "使用方法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "Session 存储 - scioPro"
       },
       {
         "path": "/utils/throttle",

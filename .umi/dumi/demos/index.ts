@@ -43,6 +43,7 @@ import rawCode39 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/sc
 import rawCode40 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/GetdataTimeSec/demos/index.tsx?dumi-raw-code';
 import rawCode41 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/LocalStorageStorage/demos/index.tsx?dumi-raw-code';
 import rawCode42 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/demos/index1.tsx?dumi-raw-code';
+import rawCode43 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/FileToBase64/demos/index.tsx?dumi-raw-code';
 
 export default {
   'box-index1': {
@@ -240,5 +241,77 @@ export default {
   'randomcolor-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/demos/index1.tsx')).default,
     previewerProps: {"sources":{"_":{"tsx":rawCode42}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"},"@sciopro/components":{"version":"0.0.1"}},"identifier":"randomcolor-index1"},
+  },
+  'FileToBase64.zh-CN-demo': {
+    component: function DumiDemo() {
+  var _interopRequireWildcard = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireWildcard.js")["default"];
+
+  var _interopRequireDefault = require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/interopRequireDefault.js")["default"];
+
+  var _regeneratorRuntime2 = _interopRequireDefault(require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js"));
+
+  var _asyncToGenerator2 = _interopRequireDefault(require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js"));
+
+  var _slicedToArray2 = _interopRequireDefault(require("/Users/zhaojianbin/Desktop/demo/scioPro/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray.js"));
+
+  var _react = _interopRequireWildcard(require("react"));
+
+  var _utils = require("@sciopro/utils");
+
+  var _default = function _default() {
+    var _useState = (0, _react.useState)({}),
+        _useState2 = (0, _slicedToArray2["default"])(_useState, 2),
+        base64 = _useState2[0],
+        setBase64 = _useState2[1];
+
+    return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("input", {
+      id: "upload",
+      type: "file",
+      onChange: /*#__PURE__*/function () {
+        var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/(0, _regeneratorRuntime2["default"])().mark(function _callee(e) {
+          var data;
+          return (0, _regeneratorRuntime2["default"])().wrap(function _callee$(_context) {
+            while (1) {
+              switch (_context.prev = _context.next) {
+                case 0:
+                  _context.next = 2;
+                  return (0, _utils.FileToBase64)({
+                    file: e.target.files[0]
+                  });
+
+                case 2:
+                  data = _context.sent;
+                  setBase64(data);
+
+                case 4:
+                case "end":
+                  return _context.stop();
+              }
+            }
+          }, _callee);
+        }));
+
+        return function (_x) {
+          return _ref.apply(this, arguments);
+        };
+      }()
+    }), /*#__PURE__*/_react["default"].createElement("h4", null, "\u6587\u4EF6\u683C\u5F0F:", /*#__PURE__*/_react["default"].createElement("span", {
+      style: {
+        color: '#f00'
+      }
+    }, base64 === null || base64 === void 0 ? void 0 : base64.suffix)), /*#__PURE__*/_react["default"].createElement("h4", null, "Base64:", /*#__PURE__*/_react["default"].createElement("span", {
+      style: {
+        color: '#00f'
+      }
+    }, base64 === null || base64 === void 0 ? void 0 : base64.base64String)));
+  };
+
+  return _react["default"].createElement(_default);
+},
+    previewerProps: {"sources":{"_":{"tsx":"import React, { useState } from 'react';\nimport { FileToBase64 } from '@sciopro/utils';\n\nexport default () => {\n  const [base64, setBase64] = useState({});\n  return (\n    <div>\n      <input\n        id=\"upload\"\n        type=\"file\"\n        onChange={async (e) => {\n          const data = await FileToBase64({ file: e.target.files[0] });\n          setBase64(data);\n        }}\n      />\n      <h4>\n        文件格式:<span style={{ color: '#f00' }}>{base64?.suffix}</span>\n      </h4>\n      <h4>\n        Base64:<span style={{ color: '#00f' }}>{base64?.base64String}</span>\n      </h4>\n    </div>\n  );\n};"}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"FileToBase64.zh-CN-demo"},
+  },
+  'filetobase64-demos': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/FileToBase64/demos/index.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode43}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"filetobase64-demos"},
   },
 };

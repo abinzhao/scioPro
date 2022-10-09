@@ -185,6 +185,36 @@
               "meta": {
                 "order": 1
               }
+            },
+            {
+              "path": "/utils/session-storage",
+              "title": "Session Storage",
+              "meta": {
+                "order": 2
+              }
+            },
+            {
+              "path": "/utils/cookie-storage",
+              "title": "Cookie Storage",
+              "meta": {
+                "order": 3
+              }
+            }
+          ]
+        },
+        {
+          "title": "File related",
+          "meta": {
+            "order": 4,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/utils/file-to-base64",
+              "title": "FileToBase64",
+              "meta": {
+                "order": 1
+              }
             }
           ]
         }
@@ -397,6 +427,36 @@
             {
               "path": "/zh-CN/utils/local-storage-storage",
               "title": "LocalStorage 存储",
+              "meta": {
+                "order": 1
+              }
+            },
+            {
+              "path": "/zh-CN/utils/cookie-storage",
+              "title": "Cookie 存储",
+              "meta": {
+                "order": 2
+              }
+            },
+            {
+              "path": "/zh-CN/utils/session-storage",
+              "title": "Session 存储",
+              "meta": {
+                "order": 2
+              }
+            }
+          ]
+        },
+        {
+          "title": "文件相关",
+          "meta": {
+            "order": 4,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/zh-CN/utils/file-to-base64",
+              "title": "FileToBase64 获取Base64编码",
               "meta": {
                 "order": 1
               }

@@ -1,8 +1,17 @@
+interface PropsType {
+  date?: string | number | Date;
+  type?: 'yyyy-mm-dd' | 'yyyy/mm/dd' | 'yyyy-mm-dd hh:mm:ss' | 'yyyy/mm/dd hh:mm:ss';
+  isWeekDay?: boolean;
+}
 /**
- *  @return {string} timeText 返回系统时间字符串
+ * @param {string | number | Date} date 需要格式化的时间，不传参时默认为当前系统时间
+ * @param {'yyyy-mm-dd'|'yyyy/mm/dd'|'yyyy-mm-dd hh:mm:ss'|'yyyy/mm/dd hh:mm:ss'} type 格式化类型
+ * @param {boolean} isWeekDay 是否显示星期 默认显示
+ * @return {string} timeText 返回系统时间字符串
  */
-const GetdataTimeSec = () => {
-  let time = new Date();
+const GetdataTimeSec = (props: PropsType = {}) => {
+  const { date, type, isWeekDay = true } = props;
+  let time = date ? new Date(date) : new Date();
   let weekDay;
   let year = time.getFullYear();
   let month = time.getMonth() + 1;
@@ -60,6 +69,15 @@ const GetdataTimeSec = () => {
   }
   let timeText =
     year + '年' + month + '月' + day + '日  ' + ' ' + weekDay + ' ' + h + ':' + m + ':' + s;
+  if (type == 'yyyy-mm-dd') {
+    return `${year}-${month}-${day} ${isWeekDay ? weekDay : ''}`;
+  } else if (type == 'yyyy/mm/dd') {
+    return `${year}/${month}/${day} ${isWeekDay ? weekDay : ''}`;
+  } else if (type == 'yyyy-mm-dd hh:mm:ss') {
+    return `${year}-${month}-${day} ${h}:${m}:${s} ${isWeekDay ? weekDay : ''}`;
+  } else if (type == 'yyyy/mm/dd hh:mm:ss') {
+    return `${year}/${month}/${day} ${h}:${m}:${s} ${isWeekDay ? weekDay : ''}`;
+  }
 
   return timeText;
 };

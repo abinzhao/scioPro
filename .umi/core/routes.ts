@@ -1478,7 +1478,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/GetdataTimeSec/index.md",
-          "updatedTime": 1665221146006,
+          "updatedTime": 1665280491000,
           "title": "GetdataTimeSec",
           "order": 2,
           "nav": {
@@ -1514,7 +1514,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/GetdataTimeSec/index.zh-CN.md",
-          "updatedTime": 1665221138034,
+          "updatedTime": 1665280491000,
           "title": "GetdataTimeSec 当前时间格式化",
           "order": 2,
           "nav": {
@@ -1544,6 +1544,87 @@ export function getRoutes() {
           "locale": "zh-CN"
         },
         "title": "GetdataTimeSec 当前时间格式化 - scioPro"
+      },
+      {
+        "path": "/utils/local-storage-storage",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/LocalStorageStorage/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/LocalStorageStorage/index.md",
+          "updatedTime": 1665285189235,
+          "title": "LocalStorage Storage",
+          "order": 1,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "Browser storage related",
+            "order": 3,
+            "__fallback": true,
+            "path": "/utils/local-storage-storage"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "LocalStorage Storage",
+              "heading": "localstorage-storage"
+            },
+            {
+              "depth": 2,
+              "value": "Instructions",
+              "heading": "instructions"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ]
+        },
+        "title": "LocalStorage Storage - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/local-storage-storage",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/LocalStorageStorage/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/LocalStorageStorage/index.zh-CN.md",
+          "updatedTime": 1665285166811,
+          "title": "LocalStorage 存储",
+          "order": 1,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "浏览器存储相关",
+            "order": 3,
+            "__fallback": true,
+            "path": "/zh-CN/utils/local-storage-storage"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "LocalStorage 存储",
+              "heading": "localstorage-存储"
+            },
+            {
+              "depth": 2,
+              "value": "使用方法",
+              "heading": "使用方法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "LocalStorage 存储 - scioPro"
       },
       {
         "path": "/utils/random-color",

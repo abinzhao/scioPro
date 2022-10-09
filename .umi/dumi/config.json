@@ -171,6 +171,22 @@
               }
             }
           ]
+        },
+        {
+          "title": "Browser storage related",
+          "meta": {
+            "order": 3,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/utils/local-storage-storage",
+              "title": "LocalStorage Storage",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
         }
       ],
       "*": [
@@ -367,6 +383,22 @@
               "title": "GetdataTimeSec 当前时间格式化",
               "meta": {
                 "order": 2
+              }
+            }
+          ]
+        },
+        {
+          "title": "浏览器存储相关",
+          "meta": {
+            "order": 3,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/zh-CN/utils/local-storage-storage",
+              "title": "LocalStorage 存储",
+              "meta": {
+                "order": 1
               }
             }
           ]

@@ -1334,7 +1334,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/CookieStorage/index.md",
-          "updatedTime": 1665296707389,
+          "updatedTime": 1665300332000,
           "title": "Cookie Storage",
           "order": 3,
           "nav": {
@@ -1374,7 +1374,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/CookieStorage/index.zh-CN.md",
-          "updatedTime": 1665296729125,
+          "updatedTime": 1665300332000,
           "title": "Cookie 存储",
           "order": 2,
           "nav": {
@@ -1481,12 +1481,158 @@ export function getRoutes() {
         "title": "Debounce 防抖 - scioPro"
       },
       {
+        "path": "/utils/detect-device-type",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/DetectDeviceType/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/DetectDeviceType/index.md",
+          "updatedTime": 1665304311442,
+          "title": "DetectDeviceType",
+          "order": 7,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "Base Function",
+            "order": 1,
+            "__fallback": true,
+            "path": "/utils/detect-device-type"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "DetectDeviceType",
+              "heading": "detectdevicetype"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "DetectDeviceType - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/detect-device-type",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/DetectDeviceType/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/DetectDeviceType/index.zh-CN.md",
+          "updatedTime": 1665304308193,
+          "title": "DetectDeviceType 检测移动/PC设备",
+          "order": 7,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "基础函数",
+            "order": 1,
+            "__fallback": true,
+            "path": "/zh-CN/utils/detect-device-type"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "DetectDeviceType 检测移动/PC 设备",
+              "heading": "detectdevicetype-检测移动pc-设备"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "DetectDeviceType 检测移动/PC设备 - scioPro"
+      },
+      {
+        "path": "/utils/escape-html",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/EscapeHTML/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/EscapeHTML/index.md",
+          "updatedTime": 1665304086871,
+          "title": "EscapeHTML",
+          "order": 6,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "Base Function",
+            "order": 1,
+            "__fallback": true,
+            "path": "/utils/escape-html"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "EscapeHTML",
+              "heading": "escapehtml"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "EscapeHTML - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/escape-html",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/EscapeHTML/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/EscapeHTML/index.zh-CN.md",
+          "updatedTime": 1665304079726,
+          "title": "EscapeHTML 转义HTML(防XSS攻击)",
+          "order": 6,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "基础函数",
+            "order": 1,
+            "__fallback": true,
+            "path": "/zh-CN/utils/escape-html"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "EscapeHTML 转义 HTML(防 XSS 攻击)",
+              "heading": "escapehtml-转义-html防-xss-攻击"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "EscapeHTML 转义HTML(防XSS攻击) - scioPro"
+      },
+      {
         "path": "/utils/file-to-base64",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/FileToBase64/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/FileToBase64/index.md",
-          "updatedTime": 1665300137589,
+          "updatedTime": 1665300332000,
           "title": "FileToBase64",
           "order": 1,
           "nav": {
@@ -1527,7 +1673,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/FileToBase64/index.zh-CN.md",
-          "updatedTime": 1665300183159,
+          "updatedTime": 1665300332000,
           "title": "FileToBase64 获取Base64编码",
           "order": 1,
           "nav": {
@@ -1642,7 +1788,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/GetdataTimeSec/index.md",
-          "updatedTime": 1665280491000,
+          "updatedTime": 1665285445000,
           "title": "GetdataTimeSec",
           "order": 2,
           "nav": {
@@ -1678,7 +1824,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/GetdataTimeSec/index.zh-CN.md",
-          "updatedTime": 1665280491000,
+          "updatedTime": 1665285445000,
           "title": "GetdataTimeSec 当前时间格式化",
           "order": 2,
           "nav": {
@@ -1715,7 +1861,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/LocalStorageStorage/index.md",
-          "updatedTime": 1665285189235,
+          "updatedTime": 1665285445000,
           "title": "LocalStorage Storage",
           "order": 1,
           "nav": {
@@ -1755,7 +1901,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/LocalStorageStorage/index.zh-CN.md",
-          "updatedTime": 1665285166811,
+          "updatedTime": 1665285445000,
           "title": "LocalStorage 存储",
           "order": 1,
           "nav": {
@@ -1869,7 +2015,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/SessionStorage/index.md",
-          "updatedTime": 1665295638871,
+          "updatedTime": 1665300332000,
           "title": "Session Storage",
           "order": 2,
           "nav": {
@@ -1909,7 +2055,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/SessionStorage/index.zh-CN.md",
-          "updatedTime": 1665295569685,
+          "updatedTime": 1665300332000,
           "title": "Session 存储",
           "order": 2,
           "nav": {
@@ -2014,6 +2160,152 @@ export function getRoutes() {
           "locale": "zh-CN"
         },
         "title": "Throttle 节流 - scioPro"
+      },
+      {
+        "path": "/utils/trim",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Trim/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/Trim/index.md",
+          "updatedTime": 1665301170754,
+          "title": "Trim",
+          "order": 4,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "Base Function",
+            "order": 1,
+            "__fallback": true,
+            "path": "/utils/trim"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Trim",
+              "heading": "trim"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "Trim - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/trim",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Trim/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/Trim/index.zh-CN.md",
+          "updatedTime": 1665301162312,
+          "title": "Trim 去除空格",
+          "order": 3,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "基础函数",
+            "order": 1,
+            "__fallback": true,
+            "path": "/zh-CN/utils/trim"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "Trim 去除空格",
+              "heading": "trim-去除空格"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Trim 去除空格 - scioPro"
+      },
+      {
+        "path": "/utils/turn-case",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/TurnCase/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/TurnCase/index.md",
+          "updatedTime": 1665301546937,
+          "title": "TurnCase",
+          "order": 5,
+          "nav": {
+            "title": "Utility function",
+            "path": "/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "Base Function",
+            "order": 1,
+            "__fallback": true,
+            "path": "/utils/turn-case"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "TurnCase",
+              "heading": "turncase"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "TurnCase - scioPro"
+      },
+      {
+        "path": "/zh-CN/utils/turn-case",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/TurnCase/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/utils/src/TurnCase/index.zh-CN.md",
+          "updatedTime": 1665301663825,
+          "title": "TurnCase 大小写转换",
+          "order": 5,
+          "nav": {
+            "title": "工具函数",
+            "path": "/zh-CN/utils",
+            "order": 4
+          },
+          "group": {
+            "title": "基础函数",
+            "order": 1,
+            "__fallback": true,
+            "path": "/zh-CN/utils/turn-case"
+          },
+          "slugs": [
+            {
+              "depth": 2,
+              "value": "TurnCase 大小写转换",
+              "heading": "turncase-大小写转换"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "TurnCase 大小写转换 - scioPro"
       },
       {
         "path": "/",

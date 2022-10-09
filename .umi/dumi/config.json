@@ -146,6 +146,34 @@
               "meta": {
                 "order": 3
               }
+            },
+            {
+              "path": "/utils/trim",
+              "title": "Trim",
+              "meta": {
+                "order": 4
+              }
+            },
+            {
+              "path": "/utils/turn-case",
+              "title": "TurnCase",
+              "meta": {
+                "order": 5
+              }
+            },
+            {
+              "path": "/utils/escape-html",
+              "title": "EscapeHTML",
+              "meta": {
+                "order": 6
+              }
+            },
+            {
+              "path": "/utils/detect-device-type",
+              "title": "DetectDeviceType",
+              "meta": {
+                "order": 7
+              }
             }
           ]
         },
@@ -390,6 +418,34 @@
               "title": "Throttle 节流",
               "meta": {
                 "order": 3
+              }
+            },
+            {
+              "path": "/zh-CN/utils/trim",
+              "title": "Trim 去除空格",
+              "meta": {
+                "order": 3
+              }
+            },
+            {
+              "path": "/zh-CN/utils/turn-case",
+              "title": "TurnCase 大小写转换",
+              "meta": {
+                "order": 5
+              }
+            },
+            {
+              "path": "/zh-CN/utils/escape-html",
+              "title": "EscapeHTML 转义HTML(防XSS攻击)",
+              "meta": {
+                "order": 6
+              }
+            },
+            {
+              "path": "/zh-CN/utils/detect-device-type",
+              "title": "DetectDeviceType 检测移动/PC设备",
+              "meta": {
+                "order": 7
               }
             }
           ]

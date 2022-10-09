@@ -1,13 +1,13 @@
 ---
 title: Signature
-order: 6
+order: 1
 nav:
   title: Components
   path: /components
   order: 2
 group:
-  title: Common components
-  order: 2
+  title: Complex components
+  order: 3
 ---
 
 # Signature

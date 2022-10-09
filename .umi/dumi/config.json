@@ -91,10 +91,26 @@
               }
             },
             {
+              "path": "/components/input",
+              "title": "Input",
+              "meta": {
+                "order": 6
+              }
+            }
+          ]
+        },
+        {
+          "title": "Complex components",
+          "meta": {
+            "order": 3,
+            "__fallback": true
+          },
+          "children": [
+            {
               "path": "/components/signature",
               "title": "Signature",
               "meta": {
-                "order": 6
+                "order": 1
               }
             }
           ]
@@ -364,10 +380,26 @@
               }
             },
             {
+              "path": "/zh-CN/components/input",
+              "title": "Input 输入框",
+              "meta": {
+                "order": 6
+              }
+            }
+          ]
+        },
+        {
+          "title": "复杂组件",
+          "meta": {
+            "order": 3,
+            "__fallback": true
+          },
+          "children": [
+            {
               "path": "/zh-CN/components/signature",
               "title": "Signature 电子签名",
               "meta": {
-                "order": 6
+                "order": 1
               }
             }
           ]

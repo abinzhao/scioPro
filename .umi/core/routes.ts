@@ -598,6 +598,96 @@ export function getRoutes() {
         "title": "Icon 图标 - scioPro"
       },
       {
+        "path": "/components/input",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Input/index.md",
+          "updatedTime": 1665308864839,
+          "componentName": "Input",
+          "title": "Input",
+          "order": 6,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "Common components",
+            "order": 2,
+            "__fallback": true,
+            "path": "/components/input"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Input input box",
+              "heading": "input-input-box"
+            },
+            {
+              "depth": 2,
+              "value": "When to use",
+              "heading": "when-to-use"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "Input - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/input",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Input/index.zh-CN.md",
+          "updatedTime": 1665308820895,
+          "componentName": "Input",
+          "title": "Input 输入框",
+          "order": 6,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "通用组件",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/components/input"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Input 输入框",
+              "heading": "input-输入框"
+            },
+            {
+              "depth": 2,
+              "value": "何时使用",
+              "heading": "何时使用"
+            },
+            {
+              "depth": 2,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Input 输入框 - scioPro"
+      },
+      {
         "path": "/components/placeholder",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Placeholder/index.md').default,
         "exact": true,
@@ -836,15 +926,15 @@ export function getRoutes() {
           "updatedTime": 1664532835000,
           "componentName": "Signature",
           "title": "Signature",
-          "order": 6,
+          "order": 1,
           "nav": {
             "title": "Components",
             "path": "/components",
             "order": 2
           },
           "group": {
-            "title": "Common components",
-            "order": 2,
+            "title": "Complex components",
+            "order": 3,
             "__fallback": true,
             "path": "/components/signature"
           },
@@ -878,15 +968,15 @@ export function getRoutes() {
           "updatedTime": 1664532835000,
           "componentName": "Signature",
           "title": "Signature 电子签名",
-          "order": 6,
+          "order": 1,
           "nav": {
             "title": "组件",
             "path": "/zh-CN/components",
             "order": 2
           },
           "group": {
-            "title": "通用组件",
-            "order": 2,
+            "title": "复杂组件",
+            "order": 3,
             "__fallback": true,
             "path": "/zh-CN/components/signature"
           },
@@ -1486,7 +1576,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/DetectDeviceType/index.md",
-          "updatedTime": 1665304311442,
+          "updatedTime": 1665306493000,
           "title": "DetectDeviceType",
           "order": 7,
           "nav": {
@@ -1522,7 +1612,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/DetectDeviceType/index.zh-CN.md",
-          "updatedTime": 1665304308193,
+          "updatedTime": 1665306493000,
           "title": "DetectDeviceType 检测移动/PC设备",
           "order": 7,
           "nav": {
@@ -1559,7 +1649,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/EscapeHTML/index.md",
-          "updatedTime": 1665304086871,
+          "updatedTime": 1665306493000,
           "title": "EscapeHTML",
           "order": 6,
           "nav": {
@@ -1595,7 +1685,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/EscapeHTML/index.zh-CN.md",
-          "updatedTime": 1665304079726,
+          "updatedTime": 1665306493000,
           "title": "EscapeHTML 转义HTML(防XSS攻击)",
           "order": 6,
           "nav": {
@@ -2167,7 +2257,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/Trim/index.md",
-          "updatedTime": 1665301170754,
+          "updatedTime": 1665306493000,
           "title": "Trim",
           "order": 4,
           "nav": {
@@ -2203,7 +2293,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/Trim/index.zh-CN.md",
-          "updatedTime": 1665301162312,
+          "updatedTime": 1665306493000,
           "title": "Trim 去除空格",
           "order": 3,
           "nav": {
@@ -2240,7 +2330,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/TurnCase/index.md",
-          "updatedTime": 1665301546937,
+          "updatedTime": 1665306493000,
           "title": "TurnCase",
           "order": 5,
           "nav": {
@@ -2276,7 +2366,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/utils/src/TurnCase/index.zh-CN.md",
-          "updatedTime": 1665301663825,
+          "updatedTime": 1665306493000,
           "title": "TurnCase 大小写转换",
           "order": 5,
           "nav": {

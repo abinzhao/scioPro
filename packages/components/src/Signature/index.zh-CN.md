@@ -1,13 +1,13 @@
 ---
 title: Signature 电子签名
-order: 6
+order: 1
 nav:
   title: 组件
   path: /components
   order: 2
 group:
-  title: 通用组件
-  order: 2
+  title: 复杂组件
+  order: 3
 ---
 
 # Signature 电子签名

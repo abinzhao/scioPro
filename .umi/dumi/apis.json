@@ -224,6 +224,51 @@
       }
     ]
   },
+  "Input": {
+    "default": [
+      {
+        "identifier": "text",
+        "description": "文本",
+        "type": "{ openText?: string; closeText?: string; }"
+      },
+      {
+        "identifier": "disabled",
+        "description": "是否禁用",
+        "type": "boolean"
+      },
+      {
+        "identifier": "size",
+        "description": "大小",
+        "type": "\"small\" | \"medium\" | \"large\""
+      },
+      {
+        "identifier": "defaultChecked",
+        "description": "默认选中",
+        "type": "boolean",
+        "default": "false"
+      },
+      {
+        "identifier": "onClick",
+        "description": "点击事件",
+        "type": "(value: any) => void"
+      },
+      {
+        "identifier": "onChange",
+        "description": "选中值发生变化触发事件",
+        "type": "(value: any) => void"
+      },
+      {
+        "identifier": "className",
+        "description": "类名",
+        "type": "string"
+      },
+      {
+        "identifier": "style",
+        "description": "内联样式",
+        "type": "CSSProperties"
+      }
+    ]
+  },
   "Placeholder": {
     "default": [
       {

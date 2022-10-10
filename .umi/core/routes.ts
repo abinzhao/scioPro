@@ -603,7 +603,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Input/index.md",
-          "updatedTime": 1665308864839,
+          "updatedTime": 1665309152000,
           "componentName": "Input",
           "title": "Input",
           "order": 6,
@@ -631,6 +631,21 @@ export function getRoutes() {
             },
             {
               "depth": 2,
+              "value": "Custom size",
+              "heading": "custom-size"
+            },
+            {
+              "depth": 2,
+              "value": "Custom state",
+              "heading": "custom-state"
+            },
+            {
+              "depth": 2,
+              "value": "Search bar",
+              "heading": "search-bar"
+            },
+            {
+              "depth": 2,
               "value": "API",
               "heading": "api"
             }
@@ -645,7 +660,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Input/index.zh-CN.md",
-          "updatedTime": 1665309152000,
+          "updatedTime": 1665395984000,
           "componentName": "Input",
           "title": "Input 输入框",
           "order": 6,

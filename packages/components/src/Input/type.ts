@@ -23,28 +23,13 @@ interface InputProps {
    */
   size?: 'small' | 'medium' | 'large';
   /**
-   * @description 选中值发生变化触发事件
+   * @description 输入值发生变化触发事件
    */
   onChange?: (value: any) => void;
   /**
    * @description 搜索配置
    */
-  Search?: {
-    /**
-     * @description 搜索点击事件
-     */
-    onSearch?: (value: any) => void;
-    /**
-     * @description 搜索按钮类型
-     * @default 'primary'
-     */
-    btnType?: 'success' | 'warning' | 'error' | 'primary' | 'info';
-    /**
-     * @description 搜索按钮文案
-     * @default '搜索'
-     */
-    text?: string | ReactNode;
-  };
+  Search?: SearchProps;
   /**
    * @description 类名
    */
@@ -53,5 +38,21 @@ interface InputProps {
    * @description 内联样式
    */
   style?: React.CSSProperties;
+}
+interface SearchProps {
+  /**
+   * @description 搜索点击事件
+   */
+  onSearch?: (value: any) => void;
+  /**
+   * @description 搜索按钮类型
+   * @default 'primary'
+   */
+  btnType?: 'success' | 'warning' | 'error' | 'primary' | 'info';
+  /**
+   * @description 搜索按钮文案
+   * @default '搜索'
+   */
+  text?: string | ReactNode;
 }
 export type { InputProps };

@@ -1,28 +1,16 @@
-import React, { memo, useEffect, useState } from 'react';
-import { SwitchProps } from './type';
-import classnames from 'classnames';
-import './index.module.less';
+import React from 'react';
+import { InputProps } from './type';
+import InputComp from './comm/input';
+import SearchComp from './comm/search';
 
-const Input: React.FC<SwitchProps> = (props) => {
-  const {
-    className,
-    style,
-    onChange = () => {},
-    onClick = () => {},
-    disabled = false,
-    text = undefined,
-    defaultChecked = false,
-    size = 'small',
-    ...rest
-  } = props;
-  const [value, setValue] = useState<boolean>(defaultChecked);
+/**
+ *
+ * Input 输入框
+ * @param Search 搜索
+ * @returns React.Component
+ */
+const Input = (props: InputProps) => <InputComp {...props} />;
 
-  useEffect(() => {
-    onChange?.(value);
-    onClick?.(value);
-  }, [value]);
+Input.Search = (props: InputProps) => <SearchComp {...props} />;
 
-  return <div className="scio-input"></div>;
-};
-
-export default memo(Input);
+export default Input;

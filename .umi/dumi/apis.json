@@ -227,9 +227,14 @@
   "Input": {
     "default": [
       {
-        "identifier": "text",
-        "description": "文本",
-        "type": "{ openText?: string; closeText?: string; }"
+        "identifier": "defaultValue",
+        "description": "默认值",
+        "type": "any"
+      },
+      {
+        "identifier": "status",
+        "description": "状态\n'success'|'warning'|'error'",
+        "type": "\"success\" | \"warning\" | \"error\""
       },
       {
         "identifier": "disabled",
@@ -237,20 +242,14 @@
         "type": "boolean"
       },
       {
+        "identifier": "placeholder",
+        "description": "提示占位",
+        "type": "string"
+      },
+      {
         "identifier": "size",
         "description": "大小",
         "type": "\"small\" | \"medium\" | \"large\""
-      },
-      {
-        "identifier": "defaultChecked",
-        "description": "默认选中",
-        "type": "boolean",
-        "default": "false"
-      },
-      {
-        "identifier": "onClick",
-        "description": "点击事件",
-        "type": "(value: any) => void"
       },
       {
         "identifier": "onChange",

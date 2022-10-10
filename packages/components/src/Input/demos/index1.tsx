@@ -1,7 +1,11 @@
 import React from 'react';
 // @ts-ignore
-import { Switch } from '@sciopro/components';
+import { Input } from '@sciopro/components';
 
 export default () => {
-  return <div>123</div>;
+  return (
+    <div style={{ width: 300 }}>
+      <Input placeholder="scio input placeholder" />
+    </div>
+  );
 };

@@ -48,6 +48,9 @@ import rawCode44 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/sc
 import rawCode45 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/demos/index1.tsx?dumi-raw-code';
 import rawCode46 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Trim/demos/index.tsx?dumi-raw-code';
 import rawCode47 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/TurnCase/demos/index.tsx?dumi-raw-code';
+import rawCode48 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index2.tsx?dumi-raw-code';
+import rawCode49 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index3.tsx?dumi-raw-code';
+import rawCode50 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index4.tsx?dumi-raw-code';
 
 export default {
   'box-index1': {
@@ -120,7 +123,7 @@ export default {
   },
   'input-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index1.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode19}},"dependencies":{"react":{"version":"18.2.0"}},"componentName":"Input","identifier":"input-index1"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode19}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"基本使用","description":"<div class=\"markdown\"><p>基本使用</p></div>","identifier":"input-index1"},
   },
   'placeholder-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Placeholder/demos/index1.tsx')).default,
@@ -265,5 +268,17 @@ export default {
   'turncase-demos': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/TurnCase/demos/index.tsx')).default,
     previewerProps: {"sources":{"_":{"tsx":rawCode47}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"turncase-demos"},
+  },
+  'input-index2': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index2.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode48}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"自定义大小","description":"<div class=\"markdown\"><p>输入框定义了三种尺寸（大、默认、小），高度分别为 40px、32px 和 24px。</p></div>","identifier":"input-index2"},
+  },
+  'input-index3': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index3.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode49}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"自定义状态","description":"<div class=\"markdown\"><p>使用 <code>status</code> 为 <code>Input</code> 添加状态，可选 <code>error</code> 或者 <code>warning</code></p></div>","identifier":"input-index3"},
+  },
+  'input-index4': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index4.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode50}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"搜索框","description":"<div class=\"markdown\"><p>带有搜索按钮的输入框</p></div>","identifier":"input-index4"},
   },
 };

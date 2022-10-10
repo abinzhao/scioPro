@@ -645,7 +645,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Input/index.zh-CN.md",
-          "updatedTime": 1665308820895,
+          "updatedTime": 1665309152000,
           "componentName": "Input",
           "title": "Input 输入框",
           "order": 6,
@@ -675,6 +675,21 @@ export function getRoutes() {
               "depth": 2,
               "value": "基本使用",
               "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "自定义大小",
+              "heading": "自定义大小"
+            },
+            {
+              "depth": 2,
+              "value": "自定义状态",
+              "heading": "自定义状态"
+            },
+            {
+              "depth": 2,
+              "value": "搜索框",
+              "heading": "搜索框"
             },
             {
               "depth": 2,

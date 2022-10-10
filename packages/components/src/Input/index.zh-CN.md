@@ -22,6 +22,18 @@ group:
 
 ## 基本使用
 
-<code src="./demos/index1.tsx" />
+<code src="./demos/index1.tsx" title="基本使用" desc="基本使用" />
+
+## 自定义大小
+
+<code src="./demos/index2.tsx" title="自定义大小" desc="输入框定义了三种尺寸（大、默认、小），高度分别为 40px、32px 和 24px。" />
+
+## 自定义状态
+
+<code src="./demos/index3.tsx" title="自定义状态" desc="使用 `status` 为 `Input` 添加状态，可选 `error` 或者 `warning`" />
+
+## 搜索框
+
+<code src="./demos/index4.tsx" title="搜索框" desc="带有搜索按钮的输入框" />
 
 <API />

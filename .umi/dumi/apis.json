@@ -253,8 +253,24 @@
       },
       {
         "identifier": "onChange",
-        "description": "选中值发生变化触发事件",
+        "description": "输入值发生变化触发事件",
         "type": "(value: any) => void"
+      },
+      {
+        "identifier": "icon",
+        "description": "Icon图标",
+        "type": "ReactNode"
+      },
+      {
+        "identifier": "iconAlign",
+        "description": "Icon图标显示位置",
+        "type": "\"left\" | \"right\"",
+        "default": "left"
+      },
+      {
+        "identifier": "search",
+        "description": "搜索配置:\nonSearch  搜索点击事件\nbtnType  搜索按钮类型\ntext  搜索按钮文案",
+        "type": "SearchProps"
       },
       {
         "identifier": "className",

@@ -7,7 +7,7 @@ nav:
   order: 1
 group:
   title: 算法相关
-  order: 1
+  order: 2
 ---
 
 # 95% 的算法都是基于这 6 种算法思想

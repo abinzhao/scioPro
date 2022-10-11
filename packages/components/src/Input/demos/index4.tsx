@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // @ts-ignore
-import { Input, Space } from '@sciopro/components';
+import { Input, Space, Icon } from '@sciopro/components';
 
 export default () => {
   const [InputValue, setInputValue] = useState<string>();
@@ -9,14 +9,17 @@ export default () => {
       <Space direction="vertical">
         <Input.Search
           placeholder="input search"
-          Search={{
+          search={{
             onSearch: (v: string) => setInputValue(v),
           }}
         />
         <Input.Search
           placeholder="input search"
           status="warning"
-          Search={{
+          icon={<Icon type="GithubOutlined" />}
+          iconAlign="right"
+          clear
+          search={{
             onSearch: (v: string) => setInputValue(v),
             btnType: 'warning',
             text: '搜索🔍',
@@ -25,10 +28,13 @@ export default () => {
         <Input.Search
           placeholder="input search"
           status="error"
-          Search={{
+          clear
+          icon={<Icon type="GithubOutlined" />}
+          search={{
             onSearch: (v: string) => setInputValue(v),
             btnType: 'error',
             text: '🔍搜索',
+            loading: true,
           }}
         />
 

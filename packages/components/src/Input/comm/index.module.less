@@ -1,8 +1,9 @@
 @import url(../../theme/index.less);
 .scio-input {
+  position: relative;
   margin: 2px;
+  textarea,
   input {
-    position: relative;
     display: inline-block;
     box-sizing: border-box;
     width: 100%;
@@ -27,28 +28,34 @@
     opacity: 0.5;
   }
 
+  textarea[data-status='success'],
   input[data-status='success'] {
     border-color: @scio-primary-color;
   }
+  textarea[data-status='warning'],
   input[data-status='warning'] {
     border-color: @scio-warning-color;
   }
+  textarea[data-status='error'],
   input[data-status='error'] {
     border-color: @scio-error-color;
   }
 
+  textarea:focus[data-status='success'],
   input:focus[data-status='success'] {
     border-color: @scio-primary-color;
     border-right-width: 1px;
     outline: 0;
     box-shadow: 0 0 0 2px var(--scio-primary-color-40);
   }
+  textarea:focus[data-status='warning'],
   input:focus[data-status='warning'] {
     border-color: @scio-warning-color;
     border-right-width: 1px;
     outline: 0;
     box-shadow: 0 0 0 2px var(--scio-warning-color-40);
   }
+  textarea:focus[data-status='error'],
   input:focus[data-status='error'] {
     border-color: @scio-error-color;
     border-right-width: 1px;
@@ -58,4 +65,31 @@
 }
 .scio-search {
   display: flex;
+}
+.scio-textarea {
+  position: relative;
+  .textarea-span {
+    position: absolute;
+    right: 6px;
+    bottom: 8px;
+    cursor: pointer;
+  }
+}
+.input-clear-icon {
+  position: absolute;
+  top: 25%;
+  right: 6px;
+  cursor: pointer;
+}
+.search-clear-icon {
+  position: absolute;
+  top: 28%;
+  right: 28%;
+  cursor: pointer;
+}
+.clear-icon {
+  position: absolute;
+  top: 8px;
+  right: 6px;
+  cursor: pointer;
 }

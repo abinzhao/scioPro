@@ -274,7 +274,7 @@
         {
           "title": "算法相关",
           "meta": {
-            "order": 1,
+            "order": 2,
             "__fallback": true
           },
           "children": [
@@ -563,7 +563,7 @@
         {
           "title": "算法相关",
           "meta": {
-            "order": 1,
+            "order": 2,
             "__fallback": true
           },
           "children": [

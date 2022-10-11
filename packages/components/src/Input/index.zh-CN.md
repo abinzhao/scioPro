@@ -36,4 +36,8 @@ group:
 
 <code src="./demos/index4.tsx" title="搜索框" desc="带有搜索按钮的输入框" />
 
+## 文本域
+
+<code src="./demos/index5.tsx" title="文本域" desc="文本域输入框" />
+
 <API />

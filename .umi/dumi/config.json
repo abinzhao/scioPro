@@ -270,19 +270,77 @@
           "meta": {}
         }
       ],
-      "/blog/react": [
+      "/blog": [
         {
-          "title": "算法相关",
+          "title": "手写面试题相关",
+          "path": "/blog/audition",
           "meta": {
-            "order": 2,
-            "__fallback": true
+            "order": 2
           },
           "children": [
             {
-              "path": "/blog/react/react18",
+              "path": "/blog/audition/handwriting",
+              "title": "发布订阅模式",
+              "meta": {
+                "order": 1
+              }
+            },
+            {
+              "path": "/blog/audition/promise",
+              "title": "Promise",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
+        },
+        {
+          "title": "算法相关",
+          "path": "/blog/algorithm",
+          "meta": {
+            "order": 3
+          },
+          "children": [
+            {
+              "path": "/blog/algorithm/algorithm",
               "title": "95% 的算法都是基于这 6 种算法思想",
               "meta": {
                 "order": 1
+              }
+            },
+            {
+              "path": "/blog/algorithm/bubble-sort",
+              "title": "冒泡排序",
+              "meta": {
+                "order": 2
+              }
+            },
+            {
+              "path": "/blog/algorithm/selection-sort",
+              "title": "选择排序",
+              "meta": {
+                "order": 3
+              }
+            },
+            {
+              "path": "/blog/algorithm/insertion-sort",
+              "title": "插入排序",
+              "meta": {
+                "order": 4
+              }
+            },
+            {
+              "path": "/blog/algorithm/merge-sort",
+              "title": "归并排序",
+              "meta": {
+                "order": 4
+              }
+            },
+            {
+              "path": "/blog/algorithm/quick-sort",
+              "title": "快速排序",
+              "meta": {
+                "order": 4
               }
             }
           ]
@@ -559,19 +617,77 @@
           "meta": {}
         }
       ],
-      "/zh-CN/blog/react": [
+      "/zh-CN/blog": [
         {
-          "title": "算法相关",
+          "title": "手写面试题相关",
+          "path": "/zh-CN/blog/audition",
           "meta": {
-            "order": 2,
-            "__fallback": true
+            "order": 2
           },
           "children": [
             {
-              "path": "/zh-CN/blog/react/react18",
+              "path": "/zh-CN/blog/audition/handwriting",
+              "title": "发布订阅模式",
+              "meta": {
+                "order": 1
+              }
+            },
+            {
+              "path": "/zh-CN/blog/audition/promise",
+              "title": "Promise",
+              "meta": {
+                "order": 1
+              }
+            }
+          ]
+        },
+        {
+          "title": "算法相关",
+          "path": "/zh-CN/blog/algorithm",
+          "meta": {
+            "order": 3
+          },
+          "children": [
+            {
+              "path": "/zh-CN/blog/algorithm/algorithm",
               "title": "95% 的算法都是基于这 6 种算法思想",
               "meta": {
                 "order": 1
+              }
+            },
+            {
+              "path": "/zh-CN/blog/algorithm/bubble-sort",
+              "title": "冒泡排序",
+              "meta": {
+                "order": 2
+              }
+            },
+            {
+              "path": "/zh-CN/blog/algorithm/selection-sort",
+              "title": "选择排序",
+              "meta": {
+                "order": 3
+              }
+            },
+            {
+              "path": "/zh-CN/blog/algorithm/insertion-sort",
+              "title": "插入排序",
+              "meta": {
+                "order": 4
+              }
+            },
+            {
+              "path": "/zh-CN/blog/algorithm/merge-sort",
+              "title": "归并排序",
+              "meta": {
+                "order": 4
+              }
+            },
+            {
+              "path": "/zh-CN/blog/algorithm/quick-sort",
+              "title": "快速排序",
+              "meta": {
+                "order": 4
               }
             }
           ]
@@ -593,7 +709,7 @@
     "en-US": [
       {
         "title": "博客",
-        "path": "/blog/react",
+        "path": "/blog",
         "order": 1
       },
       {
@@ -623,7 +739,7 @@
     "zh-CN": [
       {
         "title": "博客",
-        "path": "/zh-CN/blog/react",
+        "path": "/zh-CN/blog",
         "order": 1
       },
       {

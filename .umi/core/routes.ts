@@ -2616,24 +2616,23 @@ export function getRoutes() {
         "title": "🖥 浏览器兼容性 - scioPro"
       },
       {
-        "path": "/blog/react/react18",
-        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/react/react18.md').default,
+        "path": "/blog/algorithm/algorithm",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/algorithm.md').default,
         "exact": true,
         "meta": {
-          "filePath": "docs/blog/react/react18.md",
-          "updatedTime": 1664433489000,
+          "filePath": "docs/blog/algorithm/algorithm.md",
+          "updatedTime": 1665562713168,
           "title": "95% 的算法都是基于这 6 种算法思想",
           "order": 1,
           "nav": {
             "title": "博客",
-            "path": "/blog/react",
+            "path": "/blog",
             "order": 1
           },
           "group": {
             "title": "算法相关",
             "order": 2,
-            "__fallback": true,
-            "path": "/blog/react"
+            "path": "/blog/algorithm"
           },
           "slugs": [
             {
@@ -2786,24 +2785,256 @@ export function getRoutes() {
         "title": "95% 的算法都是基于这 6 种算法思想 - scioPro"
       },
       {
-        "path": "/zh-CN/blog/react/react18",
-        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/react/react18.md').default,
+        "path": "/blog/algorithm/bubble-sort",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/bubbleSort.md').default,
         "exact": true,
         "meta": {
-          "filePath": "docs/blog/react/react18.md",
-          "updatedTime": 1664433489000,
+          "filePath": "docs/blog/algorithm/bubbleSort.md",
+          "updatedTime": 1665562739971,
+          "title": "冒泡排序",
+          "order": 2,
+          "nav": {
+            "title": "博客",
+            "path": "/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "算法相关",
+            "order": 3,
+            "path": "/blog/algorithm"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "冒泡排序--时间复杂度 n^2",
+              "heading": "冒泡排序--时间复杂度-n2"
+            },
+            {
+              "depth": 1,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ]
+        },
+        "title": "冒泡排序 - scioPro"
+      },
+      {
+        "path": "/blog/algorithm/insertion-sort",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/insertionSort.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/algorithm/insertionSort.md",
+          "updatedTime": 1665563143369,
+          "title": "插入排序",
+          "order": 4,
+          "nav": {
+            "title": "博客",
+            "path": "/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "算法相关",
+            "order": 3,
+            "path": "/blog/algorithm"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "插入排序--时间复杂度 n^2",
+              "heading": "插入排序--时间复杂度-n2"
+            },
+            {
+              "depth": 1,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ]
+        },
+        "title": "插入排序 - scioPro"
+      },
+      {
+        "path": "/blog/algorithm/merge-sort",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/mergeSort.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/algorithm/mergeSort.md",
+          "updatedTime": 1665563290836,
+          "title": "归并排序",
+          "order": 4,
+          "nav": {
+            "title": "博客",
+            "path": "/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "算法相关",
+            "order": 3,
+            "path": "/blog/algorithm"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "归并排序--时间复杂度 nlog(n)",
+              "heading": "归并排序--时间复杂度-nlogn"
+            },
+            {
+              "depth": 1,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ]
+        },
+        "title": "归并排序 - scioPro"
+      },
+      {
+        "path": "/blog/algorithm/quick-sort",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/quickSort.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/algorithm/quickSort.md",
+          "updatedTime": 1665563223690,
+          "title": "快速排序",
+          "order": 4,
+          "nav": {
+            "title": "博客",
+            "path": "/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "算法相关",
+            "order": 3,
+            "path": "/blog/algorithm"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "快速排序--时间复杂度 nlogn~ n^2 之间",
+              "heading": "快速排序--时间复杂度-nlogn-n2-之间"
+            },
+            {
+              "depth": 1,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ]
+        },
+        "title": "快速排序 - scioPro"
+      },
+      {
+        "path": "/blog/algorithm/selection-sort",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/selectionSort.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/algorithm/selectionSort.md",
+          "updatedTime": 1665563215140,
+          "title": "选择排序",
+          "order": 3,
+          "nav": {
+            "title": "博客",
+            "path": "/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "算法相关",
+            "order": 3,
+            "path": "/blog/algorithm"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "冒泡排序--时间复杂度 n^2",
+              "heading": "冒泡排序--时间复杂度-n2"
+            },
+            {
+              "depth": 1,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ]
+        },
+        "title": "选择排序 - scioPro"
+      },
+      {
+        "path": "/blog/audition/handwriting",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/audition/handwriting.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/audition/handwriting.md",
+          "updatedTime": 1665562627756,
+          "title": "发布订阅模式",
+          "order": 1,
+          "nav": {
+            "title": "博客",
+            "path": "/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "手写面试题相关",
+            "order": 2,
+            "path": "/blog/audition"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "发布订阅模式",
+              "heading": "发布订阅模式"
+            },
+            {
+              "depth": 2,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ]
+        },
+        "title": "发布订阅模式 - scioPro"
+      },
+      {
+        "path": "/blog/audition/promise",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/audition/promise.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/audition/promise.md",
+          "updatedTime": 1665564692377,
+          "title": "Promise",
+          "order": 1,
+          "nav": {
+            "title": "博客",
+            "path": "/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "手写面试题相关",
+            "order": 2,
+            "path": "/blog/audition"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Promise",
+              "heading": "promise"
+            }
+          ]
+        },
+        "title": "Promise - scioPro"
+      },
+      {
+        "path": "/zh-CN/blog/algorithm/algorithm",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/algorithm.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/algorithm/algorithm.md",
+          "updatedTime": 1665562713168,
           "title": "95% 的算法都是基于这 6 种算法思想",
           "order": 1,
           "nav": {
             "title": "博客",
-            "path": "/zh-CN/blog/react",
+            "path": "/zh-CN/blog",
             "order": 1
           },
           "group": {
             "title": "算法相关",
             "order": 2,
-            "__fallback": true,
-            "path": "/zh-CN/blog/react"
+            "path": "/zh-CN/blog/algorithm"
           },
           "slugs": [
             {
@@ -2957,6 +3188,246 @@ export function getRoutes() {
         "title": "95% 的算法都是基于这 6 种算法思想 - scioPro"
       },
       {
+        "path": "/zh-CN/blog/algorithm/bubble-sort",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/bubbleSort.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/algorithm/bubbleSort.md",
+          "updatedTime": 1665562739971,
+          "title": "冒泡排序",
+          "order": 2,
+          "nav": {
+            "title": "博客",
+            "path": "/zh-CN/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "算法相关",
+            "order": 3,
+            "path": "/zh-CN/blog/algorithm"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "冒泡排序--时间复杂度 n^2",
+              "heading": "冒泡排序--时间复杂度-n2"
+            },
+            {
+              "depth": 1,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "冒泡排序 - scioPro"
+      },
+      {
+        "path": "/zh-CN/blog/algorithm/insertion-sort",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/insertionSort.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/algorithm/insertionSort.md",
+          "updatedTime": 1665563143369,
+          "title": "插入排序",
+          "order": 4,
+          "nav": {
+            "title": "博客",
+            "path": "/zh-CN/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "算法相关",
+            "order": 3,
+            "path": "/zh-CN/blog/algorithm"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "插入排序--时间复杂度 n^2",
+              "heading": "插入排序--时间复杂度-n2"
+            },
+            {
+              "depth": 1,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "插入排序 - scioPro"
+      },
+      {
+        "path": "/zh-CN/blog/algorithm/merge-sort",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/mergeSort.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/algorithm/mergeSort.md",
+          "updatedTime": 1665563290836,
+          "title": "归并排序",
+          "order": 4,
+          "nav": {
+            "title": "博客",
+            "path": "/zh-CN/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "算法相关",
+            "order": 3,
+            "path": "/zh-CN/blog/algorithm"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "归并排序--时间复杂度 nlog(n)",
+              "heading": "归并排序--时间复杂度-nlogn"
+            },
+            {
+              "depth": 1,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "归并排序 - scioPro"
+      },
+      {
+        "path": "/zh-CN/blog/algorithm/quick-sort",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/quickSort.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/algorithm/quickSort.md",
+          "updatedTime": 1665563223690,
+          "title": "快速排序",
+          "order": 4,
+          "nav": {
+            "title": "博客",
+            "path": "/zh-CN/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "算法相关",
+            "order": 3,
+            "path": "/zh-CN/blog/algorithm"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "快速排序--时间复杂度 nlogn~ n^2 之间",
+              "heading": "快速排序--时间复杂度-nlogn-n2-之间"
+            },
+            {
+              "depth": 1,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "快速排序 - scioPro"
+      },
+      {
+        "path": "/zh-CN/blog/algorithm/selection-sort",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/algorithm/selectionSort.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/algorithm/selectionSort.md",
+          "updatedTime": 1665563215140,
+          "title": "选择排序",
+          "order": 3,
+          "nav": {
+            "title": "博客",
+            "path": "/zh-CN/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "算法相关",
+            "order": 3,
+            "path": "/zh-CN/blog/algorithm"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "冒泡排序--时间复杂度 n^2",
+              "heading": "冒泡排序--时间复杂度-n2"
+            },
+            {
+              "depth": 1,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "选择排序 - scioPro"
+      },
+      {
+        "path": "/zh-CN/blog/audition/handwriting",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/audition/handwriting.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/audition/handwriting.md",
+          "updatedTime": 1665562627756,
+          "title": "发布订阅模式",
+          "order": 1,
+          "nav": {
+            "title": "博客",
+            "path": "/zh-CN/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "手写面试题相关",
+            "order": 2,
+            "path": "/zh-CN/blog/audition"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "发布订阅模式",
+              "heading": "发布订阅模式"
+            },
+            {
+              "depth": 2,
+              "value": "使用方法",
+              "heading": "使用方法"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "发布订阅模式 - scioPro"
+      },
+      {
+        "path": "/zh-CN/blog/audition/promise",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/docs/blog/audition/promise.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/blog/audition/promise.md",
+          "updatedTime": 1665564692377,
+          "title": "Promise",
+          "order": 1,
+          "nav": {
+            "title": "博客",
+            "path": "/zh-CN/blog",
+            "order": 1
+          },
+          "group": {
+            "title": "手写面试题相关",
+            "order": 2,
+            "path": "/zh-CN/blog/audition"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Promise",
+              "heading": "promise"
+            }
+          ],
+          "locale": "zh-CN"
+        },
+        "title": "Promise - scioPro"
+      },
+      {
         "path": "/components",
         "meta": {
           "order": 2
@@ -3005,22 +3476,52 @@ export function getRoutes() {
         "redirect": "/zh-CN/utils/debounce"
       },
       {
-        "path": "/blog/react",
+        "path": "/blog/algorithm",
         "meta": {
-          "order": 2,
-          "__fallback": true
+          "order": 2
         },
         "exact": true,
-        "redirect": "/blog/react/react18"
+        "redirect": "/blog/algorithm/algorithm"
       },
       {
-        "path": "/zh-CN/blog/react",
+        "path": "/blog",
         "meta": {
-          "order": 2,
-          "__fallback": true
+          "order": 1
         },
         "exact": true,
-        "redirect": "/zh-CN/blog/react/react18"
+        "redirect": "/blog/algorithm/algorithm"
+      },
+      {
+        "path": "/blog/audition",
+        "meta": {
+          "order": 2
+        },
+        "exact": true,
+        "redirect": "/blog/audition/handwriting"
+      },
+      {
+        "path": "/zh-CN/blog/algorithm",
+        "meta": {
+          "order": 2
+        },
+        "exact": true,
+        "redirect": "/zh-CN/blog/algorithm/algorithm"
+      },
+      {
+        "path": "/zh-CN/blog",
+        "meta": {
+          "order": 1
+        },
+        "exact": true,
+        "redirect": "/zh-CN/blog/algorithm/algorithm"
+      },
+      {
+        "path": "/zh-CN/blog/audition",
+        "meta": {
+          "order": 2
+        },
+        "exact": true,
+        "redirect": "/zh-CN/blog/audition/handwriting"
       }
     ],
     "title": "scioPro",

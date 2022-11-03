@@ -64,7 +64,7 @@ export default {
   },
   'box-index3': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/demos/index3.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode4},"index.module.less":{"import":"./index.module.less","content":rawCode2}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Box","identifier":"box-index3"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode4}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Box","identifier":"box-index3"},
   },
   'button-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Button/demos/index1.tsx')).default,

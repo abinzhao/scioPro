@@ -9,7 +9,7 @@ export default () => {
         <Input
           status="success"
           placeholder="success--"
-          iconAlign
+          iconAlign="left"
           icon={<Icon type="GithubOutlined" />}
         />
         <Input

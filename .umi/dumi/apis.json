@@ -257,6 +257,45 @@
         "type": "(value: any) => void"
       },
       {
+        "identifier": "readOnly",
+        "description": "只读",
+        "type": "boolean",
+        "default": "false"
+      },
+      {
+        "identifier": "required",
+        "description": "必填项",
+        "type": "boolean",
+        "default": "false"
+      },
+      {
+        "identifier": "clear",
+        "description": "是否可清空",
+        "type": "boolean",
+        "default": "false"
+      },
+      {
+        "identifier": "autoFocus",
+        "description": "自动聚焦",
+        "type": "boolean",
+        "default": "false"
+      },
+      {
+        "identifier": "maxLength",
+        "description": "允许用户输入的最大字符长度",
+        "type": "number"
+      },
+      {
+        "identifier": "minLength",
+        "description": "允许用户输入的最小字符长度",
+        "type": "number"
+      },
+      {
+        "identifier": "autoComplete",
+        "description": "是否使用浏览器的记忆功能自动填充文本",
+        "type": "\"off\" | \"on\""
+      },
+      {
         "identifier": "icon",
         "description": "Icon图标",
         "type": "ReactNode"
@@ -269,8 +308,13 @@
       },
       {
         "identifier": "search",
-        "description": "搜索配置:\nonSearch  搜索点击事件\nbtnType  搜索按钮类型\ntext  搜索按钮文案",
+        "description": "搜索配置:\n@param onSearch 搜索点击事件\n@param btnType 搜索按钮类型\n@param text 搜索按钮文案\n@param loading 搜索按钮加载态",
         "type": "SearchProps"
+      },
+      {
+        "identifier": "textArea",
+        "description": "文本域配置:\n@param autoCapitalize 'none'|'sentences'|'words'|'characters' 文本是否首字母大写\n@param cols 文本域的可视宽度。必须为正数,默认为 20 (HTML5)\n@param rows 元素的输入文本的行数（显示的高度）\n@param wrap 'hard'|'soft'  元素的名称",
+        "type": "textAreaProps"
       },
       {
         "identifier": "className",

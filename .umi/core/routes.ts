@@ -646,6 +646,11 @@ export function getRoutes() {
             },
             {
               "depth": 2,
+              "value": "Text Field",
+              "heading": "text-field"
+            },
+            {
+              "depth": 2,
               "value": "API",
               "heading": "api"
             }
@@ -1286,6 +1291,131 @@ export function getRoutes() {
           "locale": "zh-CN"
         },
         "title": "Switch 开关 - scioPro"
+      },
+      {
+        "path": "/components/tag",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Tag/index.md",
+          "updatedTime": 1667805766111,
+          "componentName": "Tag",
+          "title": "Tag",
+          "order": 6,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "Common components",
+            "order": 2,
+            "__fallback": true,
+            "path": "/components/tag"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Tag Tags",
+              "heading": "tag-tags"
+            },
+            {
+              "depth": 2,
+              "value": "When to use",
+              "heading": "when-to-use"
+            },
+            {
+              "depth": 2,
+              "value": "When to use",
+              "heading": "when-to-use-1"
+            },
+            {
+              "depth": 2,
+              "value": "custom size",
+              "heading": "custom-size"
+            },
+            {
+              "depth": 2,
+              "value": "with icon",
+              "heading": "with-icon"
+            },
+            {
+              "depth": 2,
+              "value": "custom color",
+              "heading": "custom-color"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "Tag - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/tag",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Tag/index.zh-CN.md",
+          "updatedTime": 1667805769567,
+          "componentName": "Tag",
+          "title": "Tag 标签",
+          "order": 7,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "通用组件",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/components/tag"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Tag 标签",
+              "heading": "tag-标签"
+            },
+            {
+              "depth": 2,
+              "value": "何时使用",
+              "heading": "何时使用"
+            },
+            {
+              "depth": 2,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "自定义大小",
+              "heading": "自定义大小"
+            },
+            {
+              "depth": 2,
+              "value": "带有图标",
+              "heading": "带有图标"
+            },
+            {
+              "depth": 2,
+              "value": "自定义颜色",
+              "heading": "自定义颜色"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Tag 标签 - scioPro"
       },
       {
         "path": "/components/theme",

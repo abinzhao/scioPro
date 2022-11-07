@@ -34,4 +34,8 @@ Entering content through the mouse or keyboard is the most basic form field wrap
 
 <code src="./demos/index4.tsx" title="Search bar" desc="Input box with search button." />
 
+## Text Field
+
+<code src="./demos/index5.tsx" title="Text Field" desc="Text Field Input Box" />
+
 <API />

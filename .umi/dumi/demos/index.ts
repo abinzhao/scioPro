@@ -52,6 +52,11 @@ import rawCode48 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/sc
 import rawCode49 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/RandomColor/demos/index1.tsx?dumi-raw-code';
 import rawCode50 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/Trim/demos/index.tsx?dumi-raw-code';
 import rawCode51 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/TurnCase/demos/index.tsx?dumi-raw-code';
+import rawCode52 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/demos/index1.tsx?dumi-raw-code';
+import rawCode53 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/demos/index2.tsx?dumi-raw-code';
+import rawCode54 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/demos/index3.tsx?dumi-raw-code';
+import rawCode55 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/demos/index4.tsx?dumi-raw-code';
+import rawCode56 from '!!dumi-raw-code-loader!/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/demos/index5.tsx?dumi-raw-code';
 
 export default {
   'box-index1': {
@@ -124,23 +129,23 @@ export default {
   },
   'input-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index1.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode19}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"基本使用","description":"<div class=\"markdown\"><p>基本使用</p></div>","identifier":"input-index1"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode19}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"When to use","description":"<div class=\"markdown\"><p>When to use</p></div>","identifier":"input-index1"},
   },
   'input-index2': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index2.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode20}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"自定义大小","description":"<div class=\"markdown\"><p>输入框定义了三种尺寸（大、默认、小），高度分别为 40px、32px 和 24px。</p></div>","identifier":"input-index2"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode20}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"Custom size","description":"<div class=\"markdown\"><p>The input box defines three sizes (large, default, small) with heights of 40px, 32px and 24px respectively.</p></div>","identifier":"input-index2"},
   },
   'input-index3': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index3.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode21}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"自定义状态","description":"<div class=\"markdown\"><p>使用 <code>status</code> 为 <code>Input</code> 添加状态，可选 <code>error</code> 或者 <code>warning</code></p></div>","identifier":"input-index3"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode21}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"Custom state","description":"<div class=\"markdown\"><p>Add status to <code>Input</code> using <code>status</code>, optional <code>error</code> or <code>warning</code>.</p></div>","identifier":"input-index3"},
   },
   'input-index4': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index4.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode22}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"搜索框","description":"<div class=\"markdown\"><p>带有搜索按钮的输入框</p></div>","identifier":"input-index4"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode22}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"Search bar","description":"<div class=\"markdown\"><p>Input box with search button.</p></div>","identifier":"input-index4"},
   },
   'input-index5': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Input/demos/index5.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode23}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"文本域","description":"<div class=\"markdown\"><p>文本域输入框</p></div>","identifier":"input-index5"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode23}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Input","title":"Text Field","description":"<div class=\"markdown\"><p>Text Field Input Box</p></div>","identifier":"input-index5"},
   },
   'placeholder-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Placeholder/demos/index1.tsx')).default,
@@ -204,11 +209,11 @@ export default {
   },
   'switch-index1': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index1.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode40}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index1"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode40}},"dependencies":{},"componentName":"Switch","identifier":"switch-index1"},
   },
   'switch-index2': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index2.tsx')).default,
-    previewerProps: {"sources":{"_":{"tsx":rawCode41}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Switch","identifier":"switch-index2"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode41}},"dependencies":{},"componentName":"Switch","identifier":"switch-index2"},
   },
   'switch-index3': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Switch/demos/index3.tsx')).default,
@@ -285,5 +290,25 @@ export default {
   'turncase-demos': {
     component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/utils/src/TurnCase/demos/index.tsx')).default,
     previewerProps: {"sources":{"_":{"tsx":rawCode51}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/utils":{"version":"0.0.1"}},"identifier":"turncase-demos"},
+  },
+  'tag-index1': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/demos/index1.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode52}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Tag","title":"基本使用","description":"<div class=\"markdown\"><p>基本的标签</p></div>","identifier":"tag-index1"},
+  },
+  'tag-index2': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/demos/index2.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode53}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Tag","title":"自定义大小","description":"<div class=\"markdown\"><p>三种尺寸的 <code>Tag</code></p></div>","identifier":"tag-index2"},
+  },
+  'tag-index3': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/demos/index3.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode54}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Tag","title":"带有图标","description":"<div class=\"markdown\"><p>根据自身需要设置 <code>icon</code></p></div>","identifier":"tag-index3"},
+  },
+  'tag-index4': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/demos/index4.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode55}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Tag","title":"自定义颜色","description":"<div class=\"markdown\"><p>带颜色的标签，如果颜色不能满足，可以自定义颜色</p></div>","identifier":"tag-index4"},
+  },
+  'tag-index5': {
+    component: (require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Tag/demos/index5.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode56}},"dependencies":{"react":{"version":"18.2.0"},"@sciopro/components":{"version":"0.0.1"}},"componentName":"Tag","title":"文本域","description":"<div class=\"markdown\"><p>文本域输入框</p></div>","identifier":"tag-index5"},
   },
 };

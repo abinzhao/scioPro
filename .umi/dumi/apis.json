@@ -532,5 +532,49 @@
         "type": "CSSProperties"
       }
     ]
+  },
+  "Tag": {
+    "default": [
+      {
+        "identifier": "className",
+        "description": "样式类名",
+        "type": "string"
+      },
+      {
+        "identifier": "style",
+        "description": "内联样式",
+        "type": "CSSProperties"
+      },
+      {
+        "identifier": "textStyle",
+        "description": "文案样式",
+        "type": "CSSProperties"
+      },
+      {
+        "identifier": "size",
+        "description": "标签大小",
+        "type": "\"small\" | \"medium\" | \"large\""
+      },
+      {
+        "identifier": "type",
+        "description": "标签类型",
+        "type": "\"normal\" | \"primary\""
+      },
+      {
+        "identifier": "text",
+        "description": "标签文案",
+        "type": "string"
+      },
+      {
+        "identifier": "color",
+        "description": "标签颜色\n目前支持：blue、 green、 orange、red、 turquoise、 yellow以及16进制颜色代码",
+        "type": "string"
+      },
+      {
+        "identifier": "icon",
+        "description": "图标",
+        "type": "ReactNode"
+      }
+    ]
   }
 }

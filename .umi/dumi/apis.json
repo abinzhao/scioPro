@@ -1,4 +1,55 @@
 {
+  "Badge": {
+    "default": [
+      {
+        "identifier": "children",
+        "description": "徽标依托的内容，一般显示在其右上方",
+        "type": "ReactNode"
+      },
+      {
+        "identifier": "count",
+        "description": "展示的数字，大于 overflowCount 时显示为 ${overflowCount}+，为 0 时默认隐藏",
+        "type": "string | number"
+      },
+      {
+        "identifier": "showZero",
+        "description": "当count为0时，是否显示count",
+        "type": "boolean",
+        "default": "false"
+      },
+      {
+        "identifier": "content",
+        "description": "自定义徽标中的内容",
+        "type": "ReactNode"
+      },
+      {
+        "identifier": "overflowCount",
+        "description": "展示的封顶的数字",
+        "type": "string | number",
+        "default": "99"
+      },
+      {
+        "identifier": "dot",
+        "description": "不展示数字，只展示一个小红点",
+        "type": "boolean"
+      },
+      {
+        "identifier": "style",
+        "description": "自定义样式",
+        "type": "CSSProperties"
+      },
+      {
+        "identifier": "onClick",
+        "description": "点击事件",
+        "type": "() => void"
+      },
+      {
+        "identifier": "className",
+        "description": "样式类名",
+        "type": "string"
+      }
+    ]
+  },
   "Box": {
     "default": [
       {
@@ -574,6 +625,11 @@
         "identifier": "icon",
         "description": "图标",
         "type": "ReactNode"
+      },
+      {
+        "identifier": "onClick",
+        "description": "点击事件",
+        "type": "() => void"
       }
     ]
   }

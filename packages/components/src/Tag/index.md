@@ -1,6 +1,6 @@
 ---
 title: Tag
-order: 6
+order: 7
 nav:
   title: Components
   path: /components

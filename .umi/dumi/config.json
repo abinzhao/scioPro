@@ -101,7 +101,14 @@
               "path": "/components/tag",
               "title": "Tag",
               "meta": {
-                "order": 6
+                "order": 7
+              }
+            },
+            {
+              "path": "/components/badge",
+              "title": "Badge",
+              "meta": {
+                "order": 8
               }
             }
           ]
@@ -456,6 +463,13 @@
               "title": "Tag 标签",
               "meta": {
                 "order": 7
+              }
+            },
+            {
+              "path": "/zh-CN/components/badge",
+              "title": "Badge 徽标",
+              "meta": {
+                "order": 8
               }
             }
           ]

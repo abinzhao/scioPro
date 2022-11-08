@@ -58,6 +58,151 @@ export function getRoutes() {
     "wrappers": [require('../dumi/layout').default, require('/Users/zhaojianbin/Desktop/demo/scioPro/.dumi/theme/layout.tsx').default],
     "routes": [
       {
+        "path": "/components/badge",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Badge/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Badge/index.md",
+          "updatedTime": 1667815149448,
+          "componentName": "Badge",
+          "title": "Badge",
+          "order": 8,
+          "nav": {
+            "title": "Components",
+            "path": "/components",
+            "order": 2
+          },
+          "group": {
+            "title": "Common components",
+            "order": 2,
+            "__fallback": true,
+            "path": "/components/badge"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Badge logo",
+              "heading": "badge-logo"
+            },
+            {
+              "depth": 2,
+              "value": "When to use",
+              "heading": "when-to-use"
+            },
+            {
+              "depth": 2,
+              "value": "When to use",
+              "heading": "when-to-use-1"
+            },
+            {
+              "depth": 2,
+              "value": "capped figures",
+              "heading": "capped-figures"
+            },
+            {
+              "depth": 2,
+              "value": "nasty little red dot",
+              "heading": "nasty-little-red-dot"
+            },
+            {
+              "depth": 2,
+              "value": "Customize icons, colors, and more",
+              "heading": "customize-icons-colors-and-more"
+            },
+            {
+              "depth": 2,
+              "value": "Standalone use",
+              "heading": "standalone-use"
+            },
+            {
+              "depth": 2,
+              "value": "Logo click",
+              "heading": "logo-click"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true
+        },
+        "title": "Badge - scioPro"
+      },
+      {
+        "path": "/zh-CN/components/badge",
+        "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Badge/index.zh-CN.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/components/src/Badge/index.zh-CN.md",
+          "updatedTime": 1667815153809,
+          "componentName": "Badge",
+          "title": "Badge 徽标",
+          "order": 8,
+          "nav": {
+            "title": "组件",
+            "path": "/zh-CN/components",
+            "order": 2
+          },
+          "group": {
+            "title": "通用组件",
+            "order": 2,
+            "__fallback": true,
+            "path": "/zh-CN/components/badge"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Badge 徽标",
+              "heading": "badge-徽标"
+            },
+            {
+              "depth": 2,
+              "value": "何时使用",
+              "heading": "何时使用"
+            },
+            {
+              "depth": 2,
+              "value": "基本使用",
+              "heading": "基本使用"
+            },
+            {
+              "depth": 2,
+              "value": "封顶数字",
+              "heading": "封顶数字"
+            },
+            {
+              "depth": 2,
+              "value": "讨嫌的小红点",
+              "heading": "讨嫌的小红点"
+            },
+            {
+              "depth": 2,
+              "value": "自定义图标、颜色等",
+              "heading": "自定义图标颜色等"
+            },
+            {
+              "depth": 2,
+              "value": "独立使用",
+              "heading": "独立使用"
+            },
+            {
+              "depth": 2,
+              "value": "徽标点击",
+              "heading": "徽标点击"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "hasPreviewer": true,
+          "locale": "zh-CN"
+        },
+        "title": "Badge 徽标 - scioPro"
+      },
+      {
         "path": "/components/box",
         "component": require('/Users/zhaojianbin/Desktop/demo/scioPro/packages/components/src/Box/index.md').default,
         "exact": true,
@@ -603,7 +748,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Input/index.md",
-          "updatedTime": 1665396749000,
+          "updatedTime": 1667807575000,
           "componentName": "Input",
           "title": "Input",
           "order": 6,
@@ -1298,10 +1443,10 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Tag/index.md",
-          "updatedTime": 1667805766111,
+          "updatedTime": 1667807575000,
           "componentName": "Tag",
           "title": "Tag",
-          "order": 6,
+          "order": 7,
           "nav": {
             "title": "Components",
             "path": "/components",
@@ -1360,7 +1505,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/components/src/Tag/index.zh-CN.md",
-          "updatedTime": 1667805769567,
+          "updatedTime": 1667807575000,
           "componentName": "Tag",
           "title": "Tag 标签",
           "order": 7,

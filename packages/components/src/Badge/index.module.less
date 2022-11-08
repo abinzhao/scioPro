@@ -1,0 +1,36 @@
+.scio-badge {
+  position: relative;
+  display: inline-block;
+  min-width: 16px;
+  margin: 5px;
+  padding: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  &-item {
+    position: absolute;
+    top: 2px;
+    right: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    min-height: 16px;
+    padding: 0 5.5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: red;
+    border-radius: 20px;
+    transform: scale(0.8);
+  }
+  &-item-dot {
+    position: absolute;
+    top: 8px;
+    right: -3.5px;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    transform: scale(0.8);
+  }
+}

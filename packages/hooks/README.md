@@ -7,5 +7,5 @@
 ```
 const hooks = require('@scioPro/hooks');
 
-// TODO: DEMONSTRATE API
+// TODO: DEMONSTRATE API...
 ```
